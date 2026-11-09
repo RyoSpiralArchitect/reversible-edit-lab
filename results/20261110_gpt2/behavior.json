@@ -1,0 +1,164 @@
+[
+  {
+    "fixture_id": 0,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 0,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 7.62939453125e-06
+  },
+  {
+    "fixture_id": 0,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 1,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 1.52587890625e-05
+  },
+  {
+    "fixture_id": 1,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 1,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 2,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 2,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 2,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 7.62939453125e-06
+  },
+  {
+    "fixture_id": 3,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 3,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 0.0001373291015625
+  },
+  {
+    "fixture_id": 3,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 4,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 0.0001220703125
+  },
+  {
+    "fixture_id": 4,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 4,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 5,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 5,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 5,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 0.00014495849609375
+  },
+  {
+    "fixture_id": 6,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 6,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 0.0015106201171875
+  },
+  {
+    "fixture_id": 6,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 7,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 0.00167083740234375
+  },
+  {
+    "fixture_id": 7,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 7,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 8,
+    "method": "delta_exact",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 8,
+    "method": "checkpoint",
+    "logits_bitwise_equal": true,
+    "logits_max_abs_error": 0.0
+  },
+  {
+    "fixture_id": 8,
+    "method": "delta",
+    "logits_bitwise_equal": false,
+    "logits_max_abs_error": 0.00136566162109375
+  }
+]

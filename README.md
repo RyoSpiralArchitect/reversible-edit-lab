@@ -182,3 +182,12 @@ python3 run_experiments.py run --out results/legacy_design --plots
 
 ライセンスは [Apache-2.0](LICENSE) です。元の配布物と検証記録の対応は
 [provenance/README.md](provenance/README.md) を参照してください。
+
+## GPT-2 の実際の勾配による追加比較
+
+[GPT-2 試験](results/20261110_gpt2/RESULTS.md)では、最終MLP射影の重みと
+実際のforward/backwardから得たランク1更新因子で81比較を実行しました。
+厳密補正は27/27回で重みのビットが一致し、9条件すべてで復元後のlogitも一致しました。
+更新量は重みノルムの0.1%に固定しています。これは単一トークン損失の勾配更新で、
+ROME/MEMITの内部目標最適化や、事実編集の汎化性能を検証したものではありません。
+条件・再現手順は [docs/GPT2_PILOT.md](docs/GPT2_PILOT.md) に記録しています。

@@ -13,6 +13,7 @@ from reversible_edit.receipts import tensor_digest, restore_from_receipt
 from reversible_edit.cost_experiments import METHODS, _run_worker, _load_arrays, restore_checkpoint, summarize_costs
 
 REVISION = '607a30d783dfa663caf39e06633721c8d4cfcd7e'
+MODEL_SHA256 = '248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707'
 CASES = [('The capital of France is', ' Paris'), ('The capital of Japan is', ' Tokyo'), ('The capital of Italy is', ' Rome')]
 
 
@@ -43,6 +44,8 @@ def main():
     args = parser.parse_args()
     if args.repeats < 1 or args.out.exists():
         parser.error('positive repeats and a new output directory required')
+    if sha(args.model_dir / 'model.safetensors') != MODEL_SHA256:
+        parser.error('model weights do not match the pinned upstream revision')
     import torch
     import transformers
     from transformers import GPT2LMHeadModel, AutoTokenizer

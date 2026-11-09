@@ -1,0 +1,57 @@
+{
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "revision_source": "local files downloaded from pinned Hugging Face resolve URL; hashes below",
+  "model_files": {
+    "config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+    "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "model.safetensors": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707",
+    "tokenizer.json": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+    "tokenizer_config.json": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+    "vocab.json": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+  },
+  "python": "3.12.6 (v3.12.6:a4a2d2b0d85, Sep  6 2024, 16:08:03) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "numpy": "2.5.4",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "source_commit": "687c712ac70e06eb49d6a964258d6a9414133007",
+  "source_sha256": {
+    "scripts/real_model_costs.py": "a53dbc78868a29e820d13dbe8ee92ed5ce11f7db010ea4a2cddb6790826ab6e8",
+    "src/reversible_edit/__init__.py": "0940f17cb004956183b76e008943bd994d7af47a54f85100e63e3b0f09c34474",
+    "src/reversible_edit/active.py": "b4223b74c29f59f453beaa01a974169c05204ab062f259644ebc0f9a660654e4",
+    "src/reversible_edit/cli.py": "32c4e10381f272fc148e1a12ac4cadf03c6408e16efea2875ef3a18b59a30b10",
+    "src/reversible_edit/core.py": "df6677b52c3dcadb3e058e73c1aa6d8299fc62ce27a6a35a985c697730e1986f",
+    "src/reversible_edit/cost_experiments.py": "18ee6b50f477a27047b4db3bc6390d7e2bb2cabbaf18e9619bfb40b4b5d26bde",
+    "src/reversible_edit/experiments.py": "ce55476f4f83698794948cc3097f86e75f6591ca089562949382fdb99ba1bbc8",
+    "src/reversible_edit/metrics.py": "6f3e6d7869f2cd6276b3a6d3e8a13e3957dc5f5af0bfdc7319e0a030023013b4",
+    "src/reversible_edit/receipts.py": "cf69f736a143c2b640ec4383182c7989d4f33ab2451fde81d994473c152f5bf9",
+    "src/reversible_edit/report.py": "ce4a5c76ae0e322440cdce0c195d3247235704aab86d699d08d53fced720cfa9",
+    "src/reversible_edit/roundoff.py": "b553cfca68a04df1b541239341268e486f6c9e5b29103de1161e095d0884e708",
+    "src/reversible_edit/roundoff_experiments.py": "21c244909a00927200158317eb140c0ff24fded543196447f7d2fd211cfcb51d",
+    "src/reversible_edit/roundoff_report.py": "24c99d6f32ad07b303578698ddaa4febc1cadbce9eee0ad0e441d8101f79f94a"
+  },
+  "cases": [
+    [
+      "The capital of France is",
+      " Paris"
+    ],
+    [
+      "The capital of Japan is",
+      " Tokyo"
+    ],
+    [
+      "The capital of Italy is",
+      " Rome"
+    ]
+  ],
+  "relative_step": 0.001,
+  "repeats": 3,
+  "precisions": [
+    "float32",
+    "float16",
+    "bfloat16"
+  ],
+  "projection": "transformer.h.11.mlp.c_proj",
+  "scope": "Actual final-layer single-token loss gradient; not optimized ROME/MEMIT factual editing. CPU float32 model; projection storage quantized only."
+}
