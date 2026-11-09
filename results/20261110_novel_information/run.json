@@ -1,0 +1,389 @@
+{
+  "model": "openai-community/gpt2",
+  "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "model_files": {
+    "config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+    "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "model.safetensors": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707",
+    "tokenizer.json": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+    "tokenizer_config.json": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+    "vocab.json": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+  },
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "numpy": "2.5.4",
+  "source_commit": "05d446ead8cafb789622ab291cda035647d7a71b",
+  "script_sha256": "3540a8bce5d69d0131c6a08d3334a2d80838d057a230a3b13bef893d4d055874",
+  "receipt_helper_sha256": "207744d270fadba00fd671f2b0ef3bff9f8cfe2ee7007de039c86fdc19050b32",
+  "panel_sha256": "9529b3c84dce1d75d16b4e984a2e94514f84a80da816087210d4c86e1aeddec4",
+  "panel": {
+    "created_utc": "2026-11-09T21:41:41.156414+00:00",
+    "generation": "OS randomness: 48-bit hex subject nonce; independently selected adjective and noun from declared 16x16 pools, without replacement across three target phrases. Novelty is the freshly assigned association, not novel words or a cryptographically strong secret. No model queries before selection.",
+    "adjectives": [
+      "amber",
+      "silver",
+      "violet",
+      "crimson",
+      "golden",
+      "quiet",
+      "frozen",
+      "hidden",
+      "gentle",
+      "copper",
+      "velvet",
+      "bright",
+      "scarlet",
+      "distant",
+      "silent",
+      "azure"
+    ],
+    "nouns": [
+      "lantern",
+      "harbor",
+      "garden",
+      "river",
+      "comet",
+      "willow",
+      "otter",
+      "meadow",
+      "falcon",
+      "orchid",
+      "island",
+      "raven",
+      "forest",
+      "mirror",
+      "canyon",
+      "sparrow"
+    ],
+    "cases": [
+      {
+        "case_id": "novel-1",
+        "subject": "Project cb2f829c7124",
+        "prompt": "The access phrase for {} is",
+        "target_new": {
+          "str": " velvet meadow"
+        },
+        "paraphrase": "The password assigned to {} is"
+      },
+      {
+        "case_id": "novel-2",
+        "subject": "Project 7ed87feb351c",
+        "prompt": "The access phrase for {} is",
+        "target_new": {
+          "str": " frozen sparrow"
+        },
+        "paraphrase": "The password assigned to {} is"
+      },
+      {
+        "case_id": "novel-3",
+        "subject": "Project 5b92474b9221",
+        "prompt": "The access phrase for {} is",
+        "target_new": {
+          "str": " amber forest"
+        },
+        "paraphrase": "The password assigned to {} is"
+      }
+    ]
+  },
+  "reference_manifest_sha256": "b4538f2c67f8b0c0488568d48ef7794ab2eacf041cfe9724c8bc70f2c86d70a3",
+  "upstream_commit": "80426fd9316cf9a50c5ba15e0912f2c2c5bfe84b",
+  "upstream_files": {
+    "memit/__init__.py": "911cc037562a368ca7017ea66f4821c5a848f286a55b7d624c242209afcd01df",
+    "memit/compute_ks.py": "0b039be47c548f046b71cad4efce63414f53edbaa657bde868a20cdd35a2f5c7",
+    "memit/compute_z.py": "303df26e65844ffc21d7f3df2fbffbe8a5326681dc2e0358416e4c44e86f503f",
+    "memit/memit_hparams.py": "1b229b882b031ddbb59f06ad6ba58d5c33b17826bbfddf80f767e96931b595b2",
+    "memit/memit_main.py": "4d70085b3403c1c4743262ef1949b6d6d0fbe98a7b270e2faebfd522ca1ae141",
+    "rome/__init__.py": "87e6bd462753e8a86b84b2461da6067762cb0d5c9b7061b1b0598adb6f550a7a",
+    "rome/compute_u.py": "cdce31a9e2798428d86194397984b2de4b210e02841933d0704263a57b3a71d7",
+    "rome/compute_v.py": "3cd6aca70827633c24ee3b278f22da0d329b88615c7767973a0bc461cc15a94b",
+    "rome/layer_stats.py": "430d822d6f971b07e119ebb8d94bd5d70fefdee1039db9c9a380f95b9c6b78cb",
+    "rome/repr_tools.py": "310a69a0570ca1257133adfb4ce47206e924dc11be24f630a0f6b692cf033202",
+    "rome/rome_hparams.py": "1037cd56d2cfc92db212f5f4344477c5732a809dfd745c04e8e5742e925c98a5",
+    "rome/rome_main.py": "3f58918fd6351bd1473f1bc1d36f13216d5d6b0e4183dbfadb7688546dff1c7d",
+    "rome/tok_dataset.py": "3dd4815dd6d15e0727939f38e8a8f8ddfaea56f10b700249334982c56e4883b4",
+    "util/__init__.py": "0f2267e08c0c9345017c155e4d894043773f4e303958a95a3e8fe5dc3c5b341d",
+    "util/generate.py": "3764cb8a0a1b3f28c17d8aab3028b33d2127ba4e02e8dbc253025791a9ab2514",
+    "util/globals.py": "5849f199d7d10895489ab413ae327bb97a74dded22f993841278e452e70307fb",
+    "util/hparams.py": "09e9fec3f476ff68009230f1251044bec21aa71797d484033f736057bbe294b0",
+    "util/logit_lens.py": "0c35d203c511327e5c839ea0c06408f23dd6969402dce4be02f4e3160c88e6a4",
+    "util/nethook.py": "75d1b6353aae539f56aed3f721fdae9762776414e7a97f2c13734fc77bb29ce1",
+    "util/perplexity.py": "35cfda545c09aad4f86053f6a0de7c3f3ce32e221a83049b8dc91f675f40319a",
+    "util/runningstats.py": "075f495653d5b6ce8d8cc1721f420e0fceb7fea42873e7f317cef16198fb8eb5"
+  },
+  "hparams": {
+    "rome": {
+      "layers": [
+        5
+      ],
+      "fact_token": "subject_last",
+      "v_num_grad_steps": 20,
+      "v_lr": 0.5,
+      "v_loss_layer": 11,
+      "v_weight_decay": 0.5,
+      "clamp_norm_factor": 4,
+      "kl_factor": 0.0625,
+      "mom2_adjustment": true,
+      "context_template_length_params": [],
+      "rewrite_module_tmp": "transformer.h.{}.mlp.c_proj",
+      "layer_module_tmp": "transformer.h.{}",
+      "mlp_module_tmp": "transformer.h.{}.mlp",
+      "attn_module_tmp": "transformer.h.{}.attn",
+      "ln_f_module": "transformer.ln_f",
+      "lm_head_module": "transformer.wte",
+      "mom2_dataset": "declared_local_16_sentences",
+      "mom2_n_samples": 16,
+      "mom2_dtype": "float64"
+    },
+    "memit": {
+      "layers": [
+        4,
+        5,
+        6
+      ],
+      "layer_selection": "all",
+      "fact_token": "subject_last",
+      "v_num_grad_steps": 20,
+      "v_lr": 0.5,
+      "v_loss_layer": 11,
+      "v_weight_decay": 0.5,
+      "clamp_norm_factor": 0.75,
+      "kl_factor": 0.0625,
+      "mom2_adjustment": true,
+      "mom2_update_weight": 1000,
+      "rewrite_module_tmp": "transformer.h.{}.mlp.c_proj",
+      "layer_module_tmp": "transformer.h.{}",
+      "mlp_module_tmp": "transformer.h.{}.mlp",
+      "attn_module_tmp": "transformer.h.{}.attn",
+      "ln_f_module": "transformer.ln_f",
+      "lm_head_module": "transformer.wte",
+      "mom2_dataset": "declared_local_16_sentences",
+      "mom2_n_samples": 16,
+      "mom2_dtype": "float64"
+    }
+  },
+  "contexts": [
+    "{}",
+    "Today, {}",
+    "In a report, {}"
+  ],
+  "calibration": [
+    "The book was open near the table.",
+    "The book was open near the garden.",
+    "The book was open near the door.",
+    "The book was open near the wall.",
+    "The lamp was bright near the table.",
+    "The lamp was bright near the garden.",
+    "The lamp was bright near the door.",
+    "The lamp was bright near the wall.",
+    "The window was closed near the table.",
+    "The window was closed near the garden.",
+    "The window was closed near the door.",
+    "The window was closed near the wall.",
+    "The chair was empty near the table.",
+    "The chair was empty near the garden.",
+    "The chair was empty near the door.",
+    "The chair was empty near the wall."
+  ],
+  "covariance": {
+    "transformer.h.4.mlp.c_proj": {
+      "origin": "verified previous base-model covariance",
+      "tensor_digest": "eff646f8fd13f73e2f5547d014b193bfd6ae69bff0c3bc6556ba417bf7a06fe2"
+    },
+    "transformer.h.5.mlp.c_proj": {
+      "origin": "verified previous base-model covariance",
+      "tensor_digest": "b791e476b4a09f2e7023fcf13dd3f95b6dfeb21d9d6f0404d1a2c2cf18b38fa0"
+    },
+    "transformer.h.6.mlp.c_proj": {
+      "origin": "verified previous base-model covariance",
+      "tensor_digest": "fe734d58bb904d2c26d68b76835a77f8db6909ff92cf262aef88def3ac580f52"
+    }
+  },
+  "probes": [
+    {
+      "id": "novel-1/rewrite",
+      "kind": "rewrite",
+      "prompt": "The access phrase for Project cb2f829c7124 is",
+      "target": " velvet meadow",
+      "target_ids": [
+        47750,
+        502,
+        4584
+      ]
+    },
+    {
+      "id": "novel-1/paraphrase",
+      "kind": "paraphrase",
+      "prompt": "The password assigned to Project cb2f829c7124 is",
+      "target": " velvet meadow",
+      "target_ids": [
+        47750,
+        502,
+        4584
+      ]
+    },
+    {
+      "id": "novel-2/rewrite",
+      "kind": "rewrite",
+      "prompt": "The access phrase for Project 7ed87feb351c is",
+      "target": " frozen sparrow",
+      "target_ids": [
+        12912,
+        599,
+        6018
+      ]
+    },
+    {
+      "id": "novel-2/paraphrase",
+      "kind": "paraphrase",
+      "prompt": "The password assigned to Project 7ed87feb351c is",
+      "target": " frozen sparrow",
+      "target_ids": [
+        12912,
+        599,
+        6018
+      ]
+    },
+    {
+      "id": "novel-3/rewrite",
+      "kind": "rewrite",
+      "prompt": "The access phrase for Project 5b92474b9221 is",
+      "target": " amber forest",
+      "target_ids": [
+        36505,
+        8222
+      ]
+    },
+    {
+      "id": "novel-3/paraphrase",
+      "kind": "paraphrase",
+      "prompt": "The password assigned to Project 5b92474b9221 is",
+      "target": " amber forest",
+      "target_ids": [
+        36505,
+        8222
+      ]
+    },
+    {
+      "id": "control-0",
+      "kind": "control",
+      "category": "arithmetic",
+      "prompt": "2 + 2 =",
+      "target": " 4",
+      "target_ids": [
+        604
+      ]
+    },
+    {
+      "id": "control-1",
+      "kind": "control",
+      "category": "arithmetic",
+      "prompt": "5 + 3 =",
+      "target": " 8",
+      "target_ids": [
+        807
+      ]
+    },
+    {
+      "id": "control-2",
+      "kind": "control",
+      "category": "sequence",
+      "prompt": "1, 2, 3, 4,",
+      "target": " 5",
+      "target_ids": [
+        642
+      ]
+    },
+    {
+      "id": "control-3",
+      "kind": "control",
+      "category": "sequence",
+      "prompt": "Monday, Tuesday, Wednesday,",
+      "target": " Thursday",
+      "target_ids": [
+        3635
+      ]
+    },
+    {
+      "id": "control-4",
+      "kind": "control",
+      "category": "antonym",
+      "prompt": "The opposite of hot is",
+      "target": " cold",
+      "target_ids": [
+        4692
+      ]
+    },
+    {
+      "id": "control-5",
+      "kind": "control",
+      "category": "antonym",
+      "prompt": "The opposite of up is",
+      "target": " down",
+      "target_ids": [
+        866
+      ]
+    },
+    {
+      "id": "control-6",
+      "kind": "control",
+      "category": "completion",
+      "prompt": "Roses are red, violets are",
+      "target": " blue",
+      "target_ids": [
+        4171
+      ]
+    },
+    {
+      "id": "control-7",
+      "kind": "control",
+      "category": "completion",
+      "prompt": "The quick brown fox jumps over the lazy",
+      "target": " dog",
+      "target_ids": [
+        3290
+      ]
+    },
+    {
+      "id": "control-8",
+      "kind": "control",
+      "category": "factual",
+      "prompt": "The capital of France is",
+      "target": " Paris",
+      "target_ids": [
+        6342
+      ]
+    },
+    {
+      "id": "control-9",
+      "kind": "control",
+      "category": "factual",
+      "prompt": "The capital of Japan is",
+      "target": " Tokyo",
+      "target_ids": [
+        11790
+      ]
+    },
+    {
+      "id": "control-10",
+      "kind": "control",
+      "category": "factual",
+      "prompt": "The capital of Germany is",
+      "target": " Berlin",
+      "target_ids": [
+        11307
+      ]
+    },
+    {
+      "id": "control-11",
+      "kind": "control",
+      "category": "factual",
+      "prompt": "The largest planet in the solar system is",
+      "target": " Jupiter",
+      "target_ids": [
+        22721
+      ]
+    }
+  ],
+  "max_new_tokens": 8,
+  "scope": "CPU FP32 single-request ROME and MEMIT, three fresh associations each; exact cloze retrieval is not a general knowledge or intelligence claim"
+}

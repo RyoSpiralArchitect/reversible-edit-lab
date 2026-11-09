@@ -63,3 +63,17 @@ Prepared source and checkpoint instructions are in the preceding pilot docs.
 Primary method sources: [ROME](https://rome.baulab.info/) and
 [MEMIT](https://memit.baulab.info/); source revision and compatibility changes
 are recorded in `provenance/factual-edit/` and the run manifest.
+
+## Recorded run and later scoring diagnostic
+
+[The fixed run](../results/20261110_novel_information/RESULTS.md) is complete.
+After inspecting outputs, a stricter phrase-boundary diagnostic was added:
+`frozen sparrows` passes the predeclared token-prefix test for `frozen sparrow`,
+but fails the complete-word test. Both scores and all outputs are retained.
+This is a post-run diagnostic; no hyperparameters or cases were retuned.
+Generate the report and hash audit with Python 3.11+:
+
+```bash
+python3 -I -S scripts/report_novel_information.py results/20261110_novel_information \
+  --model-dir work/models/gpt2 --upstream work/upstream-memit-cpu
+```

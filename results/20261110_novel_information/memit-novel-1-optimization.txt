@@ -1,0 +1,52 @@
+MEMIT request sample: [The access phrase for Project cb2f829c7124 is] -> [ velvet meadow]
+Computing right vector (v)
+Lookup index found: 13 | Sentence: The access phrase for Project cb2f829c7124 is velvet me | Token: 124
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 8.856 = 8.856 + 0.0 + 0.0 avg prob of [ velvet meadow] 0.00014327197277452797
+loss 8.798 = 8.797 + 0.0 + 0.001 avg prob of [ velvet meadow] 0.00015202292706817389
+loss 8.625 = 8.622 + 0.001 + 0.002 avg prob of [ velvet meadow] 0.00018090092635247856
+loss 7.967 = 7.96 + 0.005 + 0.002 avg prob of [ velvet meadow] 0.0003496832214295864
+loss 6.958 = 6.899 + 0.057 + 0.003 avg prob of [ velvet meadow] 0.001009938190691173
+loss 5.874 = 5.728 + 0.143 + 0.003 avg prob of [ velvet meadow] 0.003259136574342847
+loss 4.925 = 4.825 + 0.097 + 0.003 avg prob of [ velvet meadow] 0.008026417344808578
+loss 4.164 = 4.102 + 0.058 + 0.004 avg prob of [ velvet meadow] 0.01654098741710186
+loss 3.425 = 3.358 + 0.063 + 0.004 avg prob of [ velvet meadow] 0.034810151904821396
+loss 2.666 = 2.593 + 0.069 + 0.004 avg prob of [ velvet meadow] 0.07493135333061218
+loss 1.92 = 1.843 + 0.073 + 0.004 avg prob of [ velvet meadow] 0.15883778035640717
+loss 1.08 = 0.998 + 0.077 + 0.004 avg prob of [ velvet meadow] 0.3694312870502472
+loss 0.44 = 0.35 + 0.086 + 0.004 avg prob of [ velvet meadow] 0.7059187889099121
+loss 0.276 = 0.186 + 0.085 + 0.004 avg prob of [ velvet meadow] 0.8303573727607727
+loss 0.16 = 0.052 + 0.104 + 0.004 avg prob of [ velvet meadow] 0.949824869632721
+loss 0.151 = 0.025 + 0.122 + 0.004 avg prob of [ velvet meadow] 0.975086510181427
+loss 0.131 = 0.023 + 0.104 + 0.004 avg prob of [ velvet meadow] 0.9775972366333008
+loss 0.109 = 0.02 + 0.085 + 0.004 avg prob of [ velvet meadow] 0.9803172945976257
+loss 0.092 = 0.021 + 0.067 + 0.004 avg prob of [ velvet meadow] 0.9788293838500977
+loss 0.078 = 0.023 + 0.051 + 0.004 avg prob of [ velvet meadow] 0.9771926999092102
+Init norm 83.99085998535156 | Delta norm 62.99314498901367 | Target norm 98.61224365234375
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(62.9931, grad_fn=<MeanBackward0>)
+orig norm tensor(139.7687)
+upd norm tensor(2.8385, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(50.7592, grad_fn=<MeanBackward0>)
+orig norm tensor(149.5333)
+upd norm tensor(3.5395, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(35.1727, grad_fn=<MeanBackward0>)
+orig norm tensor(164.8545)
+upd norm tensor(3.5310, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

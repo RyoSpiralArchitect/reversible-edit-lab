@@ -17,7 +17,13 @@
    Retain key/value
    generation, update factors, prompts, and forward outputs. Compare target,
    paraphrase, locality, and next-edit behavior with a full-state reference.
-5. **Selective withdrawal and learning policy (planned):** evaluate dependent
+5. **Fresh arbitrary information (bounded run completed):**
+   [Novel association pilot](../results/20261110_novel_information/RESULTS.md)
+   compares unprompted retrieval before/during/after temporary weight edits.
+   Exact rollback restores state in all six cases; actual target retrieval is
+   mixed, and ordinary subtraction also hides the answer despite residual weight
+   differences. Retain word-extension scoring failures and locality spillover.
+6. **Selective withdrawal and learning policy (planned):** evaluate dependent
    update replay and acquisition-policy value independently of exact rollback.
 
 No real-model factual-editing, training-quality, or cross-device transport result
