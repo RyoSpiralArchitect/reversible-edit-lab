@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "unittest_command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+  "unittest_count": 47,
+  "unittest_exit_code": 0,
+  "unittest_log": "validation/v0.2.0-unittest.txt",
+  "benchmark_command": "python3 run_experiments.py refine --out results/20261110_v02 --plots",
+  "tradeoff_comparisons": 846,
+  "exact_single_write_successes": 234,
+  "exact_single_write_count": 234,
+  "exact_repeated_steps": 9216,
+  "total_repeated_steps_in_exact_modes": 9216,
+  "exact_active_paths_matching_checkpoint": 36,
+  "active_paths_scope": "2 exact protocols \u00d7 3 seeds \u00d7 3 precisions \u00d7 2 candidate orders",
+  "receipt_chain_precisions": [
+    "float32",
+    "float16",
+    "bfloat16"
+  ],
+  "receipt_chain_steps": 8,
+  "example_command": "python3 examples/exact_chain.py --out results/exact_chain_v02",
+  "example_evidence": "results/exact_chain_v02/evidence.json",
+  "benchmark_source_hashes_match": true,
+  "benchmark_source_count": 18,
+  "benchmark_results_sha256": "37b05ca41cddda545759730653853233ea32666056628fe835eba4c78ca5ed3e",
+  "scope": "Synthetic NumPy kernels; no pretrained LLM or GPU execution; exact corrections retain old-state information."
+}

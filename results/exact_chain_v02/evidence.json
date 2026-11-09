@@ -1,0 +1,33 @@
+{
+  "precision": "bfloat16",
+  "editor": "rome",
+  "alpha": 1.0,
+  "shape": [
+    16,
+    32
+  ],
+  "recovery": "delta_exact",
+  "forward_order": [
+    "A",
+    "B"
+  ],
+  "undo_order": [
+    "B",
+    "A"
+  ],
+  "removed_before_undo": [
+    "request_a.npz",
+    "request_b.npz",
+    "edited_a.npz"
+  ],
+  "expected_after_a_sha256": "18d6978ec7a7fca71e088369df1b8b5532ded4d214a2f526d01917bdd979fd01",
+  "restored_after_a_sha256": "18d6978ec7a7fca71e088369df1b8b5532ded4d214a2f526d01917bdd979fd01",
+  "expected_original_sha256": "17e4a33198136b6edeefbbb24f5f3c8e1ff34d98ff55834332762ceb128fe3f7",
+  "restored_original_sha256": "17e4a33198136b6edeefbbb24f5f3c8e1ff34d98ff55834332762ceb128fe3f7",
+  "after_a_bit_exact": true,
+  "original_bit_exact": true,
+  "receipt_a_file_bytes": 2268,
+  "receipt_b_file_bytes": 2229,
+  "old_state_information": "FP64 update factors plus compressed roundoff correction; no dense original array in the receipt",
+  "arithmetic_requirement": "The rollback predictor must reproduce its recorded logical bits; mismatches are rejected"
+}

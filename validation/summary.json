@@ -1,0 +1,20 @@
+{
+  "tests_passed": 26,
+  "test_command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+  "benchmark_command": "python3 run_experiments.py run --out results/20261110 --plots",
+  "kernel_comparisons": 732,
+  "cycle_observations": 288,
+  "active_configurations": 12,
+  "source_hashes_match": true,
+  "portable_npz_example": {
+    "relative_weight_error": 1.2655196482394478e-08,
+    "fp64_factor_bytes": 192,
+    "fp32_layer_checkpoint_bytes": 512
+  },
+  "scope": "Synthetic fixed-target matrix writes; no pretrained LLM execution.",
+  "review_fixes": [
+    "Direct float64-to-bfloat16 rounding",
+    "Receipt schema validation",
+    "Single-step receipt hash contract documented"
+  ]
+}

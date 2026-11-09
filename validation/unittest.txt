@@ -1,0 +1,31 @@
+test_acquisition_does_not_mutate_caller_arrays (test_active.ActiveExperimentTests.test_acquisition_does_not_mutate_caller_arrays) ... ok
+test_acquisition_never_queries_external_teacher (test_active.ActiveExperimentTests.test_acquisition_never_queries_external_teacher) ... ok
+test_contamination_controls_expose_drift_without_hidden_reset (test_active.ActiveExperimentTests.test_contamination_controls_expose_drift_without_hidden_reset) ... ok
+test_exact_restorers_preserve_reference_query_ranking (test_active.ActiveExperimentTests.test_exact_restorers_preserve_reference_query_ranking) ... ok
+test_full_experiment_is_deterministic_and_json_serializable (test_active.ActiveExperimentTests.test_full_experiment_is_deterministic_and_json_serializable) ... ok
+test_bfloat16_rounds_float64_midpoint_neighbors_directly (test_core.CoreTests.test_bfloat16_rounds_float64_midpoint_neighbors_directly) ... ok
+test_bfloat16_rounds_ties_to_even_including_subnormals (test_core.CoreTests.test_bfloat16_rounds_ties_to_even_including_subnormals) ... ok
+test_bottom_rank_is_explicitly_a_spectral_heuristic (test_core.CoreTests.test_bottom_rank_is_explicitly_a_spectral_heuristic) ... ok
+test_hard_rome_is_noninjective_but_old_response_is_sufficient (test_core.CoreTests.test_hard_rome_is_noninjective_but_old_response_is_sufficient) ... ok
+test_low_precision_write_is_not_a_bit_exact_undo (test_core.CoreTests.test_low_precision_write_is_not_a_bit_exact_undo) ... ok
+test_memit_inverse_for_rectangular_and_dependent_keys (test_core.CoreTests.test_memit_inverse_for_rectangular_and_dependent_keys) ... ok
+test_memit_spec_owns_its_arrays (test_core.CoreTests.test_memit_spec_owns_its_arrays) ... ok
+test_quantize_formats_signed_zero_and_overflow (test_core.CoreTests.test_quantize_formats_signed_zero_and_overflow) ... ok
+test_records_copy_inputs_and_edit_does_not_mutate (test_core.CoreTests.test_records_copy_inputs_and_edit_does_not_mutate) ... ok
+test_shape_and_information_contracts_are_checked (test_core.CoreTests.test_shape_and_information_contracts_are_checked) ... ok
+test_single_key_memit_matches_softened_rome (test_core.CoreTests.test_single_key_memit_matches_softened_rome) ... ok
+test_soft_rome_inverse_and_recorded_delta (test_core.CoreTests.test_soft_rome_inverse_and_recorded_delta) ... ok
+test_existing_output_is_preserved (test_receipts.ReceiptTests.test_existing_output_is_preserved) ... ok
+test_hard_rome_analytic_rejection_creates_no_outputs (test_receipts.ReceiptTests.test_hard_rome_analytic_rejection_creates_no_outputs) ... ok
+test_invalid_run_configuration_is_rejected (test_receipts.ReceiptTests.test_invalid_run_configuration_is_rejected) ... ok
+test_memit_portable_inverse_counts_covariance (test_receipts.ReceiptTests.test_memit_portable_inverse_counts_covariance) ... ok
+test_portable_rome_receipts_have_only_declared_information (test_receipts.ReceiptTests.test_portable_rome_receipts_have_only_declared_information) ... ok
+test_selective_undo_requires_replay (test_receipts.ReceiptTests.test_selective_undo_requires_replay) ... ok
+test_svd_receipt_is_weights_only (test_receipts.ReceiptTests.test_svd_receipt_is_weights_only) ... ok
+test_unknown_editor_is_rejected_even_for_delta_receipt (test_receipts.ReceiptTests.test_unknown_editor_is_rejected_even_for_delta_receipt) ... ok
+test_wrong_or_stale_tensor_is_rejected (test_receipts.ReceiptTests.test_wrong_or_stale_tensor_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.338s
+
+OK
