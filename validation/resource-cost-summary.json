@@ -1,0 +1,27 @@
+{
+  "source_commit": "22cc0fe9df116307b7bc47e37a14c4cc17648e42",
+  "source_hashes_verified": 20,
+  "input_hashes_verified": 27,
+  "serialized_records_verified": 243,
+  "source_or_artifact_mismatches": [],
+  "worker_failures": 0,
+  "methods": {
+    "checkpoint": {
+      "observations": 81,
+      "bitwise": 81
+    },
+    "delta": {
+      "observations": 81,
+      "bitwise": 0
+    },
+    "delta_exact": {
+      "observations": 81,
+      "bitwise": 81
+    }
+  },
+  "write_residual_fraction_range": [
+    0.04993929698554636,
+    0.05002055587891412
+  ],
+  "reported_runtime_seconds": 123.61526579200017
+}

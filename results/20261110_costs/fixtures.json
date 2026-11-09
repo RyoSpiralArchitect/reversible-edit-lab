@@ -1,0 +1,461 @@
+[
+  {
+    "original_tensor_sha256": "e2bd6dd608aa51e635d7fb438429af0caea52144d81385794fe20dd051c97560",
+    "edited_tensor_sha256": "85736727685e825f3efad72bd1833a37578594d232a229bbd96571e9529fd387",
+    "original_physical_bytes": 32768,
+    "original_logical_bytes": 32768,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.04999999909115963,
+    "fixture_id": 0,
+    "seed": 7,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "b572633cc3e023eba68db72c18397ebb450bb151a8e0345825c9706f94483ee8"
+  },
+  {
+    "original_tensor_sha256": "73698d09e709491e131578de63d2151a83c33db9047ce53bb68a29b64337e84c",
+    "edited_tensor_sha256": "fc8f7da2239d358de4baff5378957512dbba6ba2df2b04acc2ccf324b9e24da4",
+    "original_physical_bytes": 32768,
+    "original_logical_bytes": 32768,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.04999999849772567,
+    "fixture_id": 1,
+    "seed": 23,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "058e03339d6088c982b3869fef6b095675dfc28d7c03ff0137d00c6d3de6f7ad"
+  },
+  {
+    "original_tensor_sha256": "a209fe153b731f39e145df1977b0c1fe6b307f88dfebfb66fffbcc6912ab59b2",
+    "edited_tensor_sha256": "dcb97fd9ce1f4b3db5f1a7c09ec8ce261753b218f2cceab991521025432c97e2",
+    "original_physical_bytes": 32768,
+    "original_logical_bytes": 32768,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.04999999940063715,
+    "fixture_id": 2,
+    "seed": 61,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "ca5c5b94b37c099823d1a962baa450a52fc2192ba1a9f05980c2c160c095943d"
+  },
+  {
+    "original_tensor_sha256": "7a939f24ca4fa9cfe352709bff0d4a39ace9f38aadb3bcab0863a2610b4f2467",
+    "edited_tensor_sha256": "46ec841ad14ec1cc770489851136f0920478e1fef72ca8474d33b40f50e3d7cc",
+    "original_physical_bytes": 16384,
+    "original_logical_bytes": 16384,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.049989211141729356,
+    "fixture_id": 3,
+    "seed": 7,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "035ad31d4b11bce8acd32bc37c960a0bcc0816dcc49e28229437621178211213"
+  },
+  {
+    "original_tensor_sha256": "733293793746ea66dcd0b03127aa3a4921b30dd0ed4856b0272d71ac9da07f9b",
+    "edited_tensor_sha256": "ea739bc5701043e9a95bd7b7d6099de09814c4523dda742daf6f8dc7187f1459",
+    "original_physical_bytes": 16384,
+    "original_logical_bytes": 16384,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.049991082185027534,
+    "fixture_id": 4,
+    "seed": 23,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "cc29660c566fc42f432052935a4ce2c82acf940ccfeeef2437621d4a5df8fee0"
+  },
+  {
+    "original_tensor_sha256": "6ed4c4d74fe202e45f4cdf993609d4f45b2b568b4267696b6e09d60126bc2679",
+    "edited_tensor_sha256": "d475c34fd63340e11fcc284c8bce30264d40278fdc8273e49a80229a5c2612bd",
+    "original_physical_bytes": 16384,
+    "original_logical_bytes": 16384,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.0500083099942692,
+    "fixture_id": 5,
+    "seed": 61,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "0fc7428c3d2cfaf958e75c9bbc16affb5e171472cf3a703b5c447a3c96a65b6c"
+  },
+  {
+    "original_tensor_sha256": "5a97c51adb1cdcf3a42e33e4c8665486882223d5fcdde74d91071e6e6adfd3f8",
+    "edited_tensor_sha256": "8c6a16307b84a881c9efec7a30fdd2961b58a49109323c5705bece9117286f77",
+    "original_physical_bytes": 32768,
+    "original_logical_bytes": 16384,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.049945206713951314,
+    "fixture_id": 6,
+    "seed": 7,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "70694750ba14d245dba011b39aaefeb91900236f725e68706472767c815efb74"
+  },
+  {
+    "original_tensor_sha256": "026e41f1c300d1fab3963646557ad3d0ffd6db2b3eba31b26238c1331e3f70f5",
+    "edited_tensor_sha256": "9da05b29609b4d9288efa72a2b33715be58a4f997caf2a27dbfd350e998486ed",
+    "original_physical_bytes": 32768,
+    "original_logical_bytes": 16384,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.05002055587891412,
+    "fixture_id": 7,
+    "seed": 23,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "29d0e3d3e472ae1daeed5e1b3d1a27ceb7ec465575d8b019de6babc50fc9211b"
+  },
+  {
+    "original_tensor_sha256": "8ccce3fe9e690e1364f3f41afbe58a7c576c05a4297b1d87ce6b66a762a54362",
+    "edited_tensor_sha256": "be364492b0f635b1c205d04df26734806248348cd3bd3e7e9503b463003cadc3",
+    "original_physical_bytes": 32768,
+    "original_logical_bytes": 16384,
+    "factor_bytes": 1536,
+    "write_residual_fraction": 0.04993929698554636,
+    "fixture_id": 8,
+    "seed": 61,
+    "shape": [
+      64,
+      128
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "d93892cb2fb21d47e64964eaada8ab792dcf2362a22fb4fbcd8382200364fc7c"
+  },
+  {
+    "original_tensor_sha256": "fda42d97de052ee2047ace23c82cef452e8fcc376d8ee966297c8024e9abf7f0",
+    "edited_tensor_sha256": "e2460cff668dab00289fecf33e43390f7264b5b6fbafcea0faa9f0f5e18f3bd5",
+    "original_physical_bytes": 524288,
+    "original_logical_bytes": 524288,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.05000000005213168,
+    "fixture_id": 9,
+    "seed": 7,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "d8e25c07530d58de0eca93c8f84b9645dfa3c7c04542aca63eb21ba38d9d8831"
+  },
+  {
+    "original_tensor_sha256": "8369aa4c552b380b981c0d383ac0b0539cfebc5b785950f37017ad1164bd1eac",
+    "edited_tensor_sha256": "16f1ef6cce2e0e43fcaee3c12536d5e25b892673fe63277d9d7728617f9a906a",
+    "original_physical_bytes": 524288,
+    "original_logical_bytes": 524288,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.05000000010481612,
+    "fixture_id": 10,
+    "seed": 23,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "b36c404b9c5eb6409839497e47d5dd3c52de6601ad26327b2ef54ff2661106b2"
+  },
+  {
+    "original_tensor_sha256": "d3ff19751048bd3dd8446fe48e853d5f31c1aa311f8c808ad1cd58abea7b1ac3",
+    "edited_tensor_sha256": "012301c85caa26609dd499619fc44cbd6971d4d80abb1f2efb820a26d94bb808",
+    "original_physical_bytes": 524288,
+    "original_logical_bytes": 524288,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.04999999998370749,
+    "fixture_id": 11,
+    "seed": 61,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "b581527f26d310647d08e99da78a7600db1315b3a06ae17cbae59fff9c45ee70"
+  },
+  {
+    "original_tensor_sha256": "1d5ae5d25c7e4a2de38801906620eed6c7a8878003f70870b4ee0078254a97a5",
+    "edited_tensor_sha256": "9925760466466514f21c37e0bcf53154df8fb3dfeb929d9a2830faaf307a0376",
+    "original_physical_bytes": 262144,
+    "original_logical_bytes": 262144,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.0499995944142068,
+    "fixture_id": 12,
+    "seed": 7,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "856ec7d9f5e7b03fcd82ed6d4c889ec178b7709b3955ebd39265fbfa418c8efd"
+  },
+  {
+    "original_tensor_sha256": "0aa62424243783e81825917025b8950fa1363a79778ca0b11eeb40863a79eb6d",
+    "edited_tensor_sha256": "45f04b5ff372f32d0daf9c43e4bf0313090d4b7a028fc0ec242077650a17f814",
+    "original_physical_bytes": 262144,
+    "original_logical_bytes": 262144,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.05000122297576094,
+    "fixture_id": 13,
+    "seed": 23,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "781a09cc478e62938a285291f1771517e921752dab01364f441ca00d453f7736"
+  },
+  {
+    "original_tensor_sha256": "0b0be9adeaece31d5c139d4610e27e52daa4bfc16bab0a88633d6e80fd17195d",
+    "edited_tensor_sha256": "dc880f7008b149d6c86b080fa946ebc662427502a87451a56f4ae967deb26953",
+    "original_physical_bytes": 262144,
+    "original_logical_bytes": 262144,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.04999906538856718,
+    "fixture_id": 14,
+    "seed": 61,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "540d30ce91fc1164682eef68c8e9aa02e7264a7208aa260b2c443928e8c965f6"
+  },
+  {
+    "original_tensor_sha256": "657d383c210db72279647a08304b363aed3744a4367414cc8e2ad24d2d11af6a",
+    "edited_tensor_sha256": "4c68104fdeb807af002bf233ef13ceced522d1e26ab5ceb55246655cbd41cc15",
+    "original_physical_bytes": 524288,
+    "original_logical_bytes": 262144,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.04999394721166884,
+    "fixture_id": 15,
+    "seed": 7,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "03e5dac0b308ec0134e79adb11bc43aeb043eb8583ccb33c09870cfab239b9bf"
+  },
+  {
+    "original_tensor_sha256": "311d6e9bdbff9d745e10ee2810a2bfb6294628f4926374ec4cc25dfd4ca7de66",
+    "edited_tensor_sha256": "efa57f985081d30551c6e65fc410ea2da275d4fad558d546efcc3b6b9dd6c397",
+    "original_physical_bytes": 524288,
+    "original_logical_bytes": 262144,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.049995163118133866,
+    "fixture_id": 16,
+    "seed": 23,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "2c0fe2cf9517b569dc3a84548b13471150623e28ccb79a8bc5f8c1a03aaeae11"
+  },
+  {
+    "original_tensor_sha256": "54c622cad8738f19f6da68e4313e5c114d181790e5d762a28656e8f1915ced3e",
+    "edited_tensor_sha256": "697074c08f3f6a402ebd9a29764788a5d1b06f8ba481e11c212c101b273a034f",
+    "original_physical_bytes": 524288,
+    "original_logical_bytes": 262144,
+    "factor_bytes": 6144,
+    "write_residual_fraction": 0.05000565701948754,
+    "fixture_id": 17,
+    "seed": 61,
+    "shape": [
+      256,
+      512
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "573060b9c1c2815dbc3dbaae14abfd7131989f75ee81118b7e90b2d38dfa9ad4"
+  },
+  {
+    "original_tensor_sha256": "75de30902f339753431d082c332d067aa49546936d574062a536b49f64f23564",
+    "edited_tensor_sha256": "9b38db1e04fb88aa6bc197827cfd7e107a28fd7a7d60e428307ff462755991fa",
+    "original_physical_bytes": 8388608,
+    "original_logical_bytes": 8388608,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.04999999992147395,
+    "fixture_id": 18,
+    "seed": 7,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "61ac0e03361258d2b1993a066392afd7b8012d699e361be106177e8d47aac5f6"
+  },
+  {
+    "original_tensor_sha256": "6eaf1d1ebb5d8b945509a634b693c4b4efaa7e769553bfddd35bd7125f49ada8",
+    "edited_tensor_sha256": "0b12f1586ea830940859d823b33e2aae67af4e84cbfd7a326d37e57c71cdeebb",
+    "original_physical_bytes": 8388608,
+    "original_logical_bytes": 8388608,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.04999999991528703,
+    "fixture_id": 19,
+    "seed": 23,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "8cafb8d4066bec80f6569c7daa16bc9e030c7ee21fb494300dcb10e0425ec59e"
+  },
+  {
+    "original_tensor_sha256": "c689b68794721d5462b192df4db2824a9661ed19fd5cd9b1e0992c9e64eeead2",
+    "edited_tensor_sha256": "85926e5d7697c1d5e42c92b5fbde5e59d4a3ff817d364cbe54b4eab9750a284e",
+    "original_physical_bytes": 8388608,
+    "original_logical_bytes": 8388608,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.05000000003723575,
+    "fixture_id": 20,
+    "seed": 61,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "float32",
+    "alpha": 0.95,
+    "input_file_sha256": "1a900a63aef5c50d9b94db54b9041a014bc229bafa67ef3f547904bb34cd8df3"
+  },
+  {
+    "original_tensor_sha256": "f90725c1794ee5ff7f6b3ce028b4ad2a7c02587ee9facc161123e306c94ed94a",
+    "edited_tensor_sha256": "60207b51394d09d5c8da86bcd5975a401768a44e28111d29bd697113f9b13670",
+    "original_physical_bytes": 4194304,
+    "original_logical_bytes": 4194304,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.049999950378088256,
+    "fixture_id": 21,
+    "seed": 7,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "7a2f2110596d4a3018f5558f54eb437f0843331883eea19ac1cbdde4410ba989"
+  },
+  {
+    "original_tensor_sha256": "e3bda88fcb5038804e4b7868f1a15da02717ea1b568d404c0075680d8792675c",
+    "edited_tensor_sha256": "1d22f6b26ca0ce8d4acab80164fc7c067d9b6208ecf25d36ab3b2b6273161e43",
+    "original_physical_bytes": 4194304,
+    "original_logical_bytes": 4194304,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.05000015497043437,
+    "fixture_id": 22,
+    "seed": 23,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "bce174e5ebf26ef741755e8f259a248a4a0a6797ce3df325451b2317d5867caf"
+  },
+  {
+    "original_tensor_sha256": "7279442f19ad2b9c017ddbd719740be417a42bd5e310f23fe7703860673b7d75",
+    "edited_tensor_sha256": "241bde2096b3042b15349049cf7dedab52cc974ed35715d49f1d0ab5e58d90ad",
+    "original_physical_bytes": 4194304,
+    "original_logical_bytes": 4194304,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.05000020513977896,
+    "fixture_id": 23,
+    "seed": 61,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "float16",
+    "alpha": 0.95,
+    "input_file_sha256": "583c1bc603482bd9c79210ad11cd8311533cc36ac1f2dc5a22569b6da8305e8e"
+  },
+  {
+    "original_tensor_sha256": "85e01f9b9871cef0ae7016349185236ab4c9235e6af0367faa7d8753010766e9",
+    "edited_tensor_sha256": "78a9c4ba0342500fc09b9ed6e4ca88f9b10ba415960dc7cd1c934c49098e7dda",
+    "original_physical_bytes": 8388608,
+    "original_logical_bytes": 4194304,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.04999814999801389,
+    "fixture_id": 24,
+    "seed": 7,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "f1fc08460ed744220c310ef4fb86608e7a460f007851c2bca11a0f202cdd8c51"
+  },
+  {
+    "original_tensor_sha256": "2b16341a67d21ddcb1829d2ef06b16ac73c5cdf3a9143bfb1623d712095b5e93",
+    "edited_tensor_sha256": "1ac2d6ac90d96382d554dee00fcd32628e9ca5a29d67644f7cf1a7f5b58e35b0",
+    "original_physical_bytes": 8388608,
+    "original_logical_bytes": 4194304,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.05000656088445166,
+    "fixture_id": 25,
+    "seed": 23,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "c550f0f75aaa4ecf1252c8842f32578c49aec52f86e96fe2918d988b26f843c4"
+  },
+  {
+    "original_tensor_sha256": "3df976b7278c2904eabaffa04aba786e4c89136a0e2bf8040d2ddd957ee8a462",
+    "edited_tensor_sha256": "fd3e4e9200dbd5724d67f1a27a19e15c19d2bbc59daa2e506c998b20c7289259",
+    "original_physical_bytes": 8388608,
+    "original_logical_bytes": 4194304,
+    "factor_bytes": 24576,
+    "write_residual_fraction": 0.050006266337160606,
+    "fixture_id": 26,
+    "seed": 61,
+    "shape": [
+      1024,
+      2048
+    ],
+    "precision": "bfloat16",
+    "alpha": 0.95,
+    "input_file_sha256": "7cff2a87aeaf49005435f2786ec6ddd3a676c9236242f5115aa36d8870b46038"
+  }
+]

@@ -160,5 +160,25 @@ python3 run_experiments.py run --out results/legacy_design --plots
 
 次の測定課題は、実モデルの行列・実際の更新因子における圧縮率と、補正記録を作る時間・ピークメモリです。可逆な試行を実現した上で、問い合わせ方針やTTTの学習信号の改善を独立して検証できます。
 
+## 追加実験：時間とプロセスメモリ
+
+`costs` は checkpoint・差分記録・厳密補正付き差分記録を、方式・反復ごとに
+独立したプロセスで比較します。記録の構築・圧縮、復元、プロセス全体のピークRSSを計測します。
+復元側には編集後行列と記録だけを渡します。既存の行列カーネルの動作は変更していません。
+
+```bash
+.venv/bin/python -I -m reversible_edit.cli costs --out results/my_costs
+```
+
+標準設定は3サイズ、3精度、3seed、3反復の243比較です。生成用の合成重みと記録は
+出力先の `work/` に残し、Git には計測値とハッシュを保存します。
+計測範囲と事前に固定した条件は [docs/COSTS.md](docs/COSTS.md)、
+実モデルへの段階的な接続は [docs/ROADMAP.md](docs/ROADMAP.md) を参照してください。
+
+[最初の追加実験](results/20261110_costs/INTERPRETATION.md)は243比較を完了しました。
+厳密補正は81/81件でビット一致。1024×2048では圧縮checkpointに対して記録容量は
+8.7〜18.1%でしたが、記録作成時間は9.1〜20.1倍、復元時のプロセスピークRSSは
+1.8〜2.9倍でした。合成行列・単一ホストでの観測で、実LLMの速度やメモリ削減を示すものではありません。
+
 ライセンスは [Apache-2.0](LICENSE) です。元の配布物と検証記録の対応は
 [provenance/README.md](provenance/README.md) を参照してください。
