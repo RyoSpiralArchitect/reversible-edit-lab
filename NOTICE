@@ -1,0 +1,6 @@
+Reversible Edit Lab
+Copyright 2026 RyoSpiralArchitect and contributors
+
+Research implementation of fixed-target local matrix edits and recorded rollback.
+The ROME and MEMIT papers and other primary references are cited in references.bib.
+This project is not an official implementation of those complete editing systems.

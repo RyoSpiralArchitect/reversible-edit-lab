@@ -1,5 +1,7 @@
 # Reversible Edit Lab v0.2
 
+[![tests](https://github.com/RyoSpiralArchitect/reversible-edit-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/RyoSpiralArchitect/reversible-edit-lab/actions/workflows/tests.yml)
+
 ROME/MEMITの局所書き込みを、**編集 → 復元 → 次の学習**まで調べる研究実装。
 
 v0.2では、通常の逆演算で残る丸め誤差を圧縮して記録し、**元の行列全体を復元時に渡さず、保存ビットまで戻す**機能を追加しました。必要な補助情報、実際のファイル容量、反復によるずれ、次の問い合わせ先への影響を一緒に測ります。
@@ -158,4 +160,5 @@ python3 run_experiments.py run --out results/legacy_design --plots
 
 次の測定課題は、実モデルの行列・実際の更新因子における圧縮率と、補正記録を作る時間・ピークメモリです。可逆な試行を実現した上で、問い合わせ方針やTTTの学習信号の改善を独立して検証できます。
 
-この配布物のライセンスはまだ指定していません。外部公開時に明示してください。
+ライセンスは [Apache-2.0](LICENSE) です。元の配布物と検証記録の対応は
+[provenance/README.md](provenance/README.md) を参照してください。

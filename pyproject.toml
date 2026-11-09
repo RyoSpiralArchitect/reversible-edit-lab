@@ -7,8 +7,12 @@ name = "reversible-edit-lab"
 version = "0.2.0"
 description = "Auditable ROME/MEMIT write-kernel rollback and active acquisition experiments"
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24"]
+
+[project.urls]
+Repository = "https://github.com/RyoSpiralArchitect/reversible-edit-lab"
 
 [project.optional-dependencies]
 plots = ["matplotlib>=3.7"]
