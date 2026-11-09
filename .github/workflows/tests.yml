@@ -38,3 +38,5 @@ jobs:
         run: python run_experiments.py refine --out work/ci-refine --seeds 7 --precisions bfloat16 --cycles 16 --no-active
       - name: File-only reverse chain
         run: python examples/exact_chain.py --out work/ci-chain
+      - name: Fresh-process resource smoke run
+        run: python -I -m reversible_edit.cli costs --out work/ci-costs --shapes 16x32 --seeds 7 --precisions bfloat16 --repeats 1

@@ -57,6 +57,15 @@ def main(argv: list[str] | None = None) -> int:
     refine.add_argument("--active-rounds", type=int, default=6)
     refine.add_argument("--no-active", action="store_true")
     refine.add_argument("--plots", action="store_true")
+    costs = sub.add_parser("costs", help="Measure rollback record time and process peak RSS in fresh workers")
+    costs.add_argument("--out", type=Path, required=True)
+    costs.add_argument("--shapes", nargs="+", default=["64x128", "256x512", "1024x2048"])
+    costs.add_argument("--seeds", type=int, nargs="+", default=[7, 23, 61])
+    costs.add_argument("--precisions", nargs="+", choices=["float64", "float32", "float16", "bfloat16"],
+                       default=["float32", "float16", "bfloat16"])
+    costs.add_argument("--alpha", type=float, default=0.95)
+    costs.add_argument("--repeats", type=int, default=3)
+    costs.add_argument("--worker-timeout", type=float, default=120.0)
     edit = sub.add_parser("edit", help="Edit a supplied NPZ weight matrix and write a compact recovery receipt")
     edit.add_argument("--input", type=Path, required=True)
     edit.add_argument("--output", type=Path, required=True)
@@ -80,6 +89,19 @@ def main(argv: list[str] | None = None) -> int:
                                  patch_budget_bytes=args.patch_budget_bytes), indent=2))
     elif args.command == "undo":
         print(json.dumps(undo_npz(args.edited, args.receipt, args.output), indent=2))
+    elif args.command == "costs":
+        from .cost_experiments import CostConfig, run_cost_experiment
+        try:
+            config = CostConfig(seeds=tuple(args.seeds),
+                                shapes=tuple(tuple(int(n) for n in shape.lower().split("x")) for shape in args.shapes),
+                                precisions=tuple(args.precisions), alpha=args.alpha, repeats=args.repeats,
+                                worker_timeout_seconds=args.worker_timeout)
+            summary = run_cost_experiment(args.out, config, provenance=_manifest(Path(__file__).resolve().parents[2]),
+                                          progress=lambda message: print(message, flush=True))
+        except (ValueError, FileExistsError, RuntimeError) as error:
+            parser.error(str(error))
+        print(json.dumps({key: value for key, value in summary.items() if key != "groups"}, indent=2))
+        return 0 if summary["status"] == "complete" else 1
     elif args.command == "refine":
         if args.cycles < 1 or args.active_rounds < 1:
             parser.error("--cycles and --active-rounds must be positive")
