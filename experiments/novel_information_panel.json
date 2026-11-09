@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-11-09T21:41:41.156414+00:00",
+  "generation": "OS randomness: 48-bit hex subject nonce; independently selected adjective and noun from declared 16x16 pools, without replacement across three target phrases. Novelty is the freshly assigned association, not novel words or a cryptographically strong secret. No model queries before selection.",
+  "adjectives": [
+    "amber",
+    "silver",
+    "violet",
+    "crimson",
+    "golden",
+    "quiet",
+    "frozen",
+    "hidden",
+    "gentle",
+    "copper",
+    "velvet",
+    "bright",
+    "scarlet",
+    "distant",
+    "silent",
+    "azure"
+  ],
+  "nouns": [
+    "lantern",
+    "harbor",
+    "garden",
+    "river",
+    "comet",
+    "willow",
+    "otter",
+    "meadow",
+    "falcon",
+    "orchid",
+    "island",
+    "raven",
+    "forest",
+    "mirror",
+    "canyon",
+    "sparrow"
+  ],
+  "cases": [
+    {
+      "case_id": "novel-1",
+      "subject": "Project cb2f829c7124",
+      "prompt": "The access phrase for {} is",
+      "target_new": {
+        "str": " velvet meadow"
+      },
+      "paraphrase": "The password assigned to {} is"
+    },
+    {
+      "case_id": "novel-2",
+      "subject": "Project 7ed87feb351c",
+      "prompt": "The access phrase for {} is",
+      "target_new": {
+        "str": " frozen sparrow"
+      },
+      "paraphrase": "The password assigned to {} is"
+    },
+    {
+      "case_id": "novel-3",
+      "subject": "Project 5b92474b9221",
+      "prompt": "The access phrase for {} is",
+      "target_new": {
+        "str": " amber forest"
+      },
+      "paraphrase": "The password assigned to {} is"
+    }
+  ]
+}
