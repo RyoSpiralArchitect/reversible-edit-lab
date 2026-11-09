@@ -1,0 +1,35 @@
+Executing ROME algorithm for the update: [The capital of Italy is] -> [ Tokyo]
+Computing left vector (u)...
+Selected u projection object Italy
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Italy is | Token:  Italy
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 9.146 = 9.146 + 0.0 + 0.0 avg prob of [ Tokyo] 0.00010675898374756798
+loss 6.49 = 6.472 + 0.001 + 0.018 avg prob of [ Tokyo] 0.0018075890839099884
+loss 4.66 = 4.626 + 0.002 + 0.032 avg prob of [ Tokyo] 0.014398998580873013
+loss 2.634 = 2.587 + 0.004 + 0.044 avg prob of [ Tokyo] 0.09639506787061691
+loss 0.943 = 0.883 + 0.006 + 0.055 avg prob of [ Tokyo] 0.4253171384334564
+loss 0.442 = 0.37 + 0.008 + 0.065 avg prob of [ Tokyo] 0.6936280727386475
+loss 0.28 = 0.196 + 0.01 + 0.074 avg prob of [ Tokyo] 0.822991669178009
+loss 0.21 = 0.115 + 0.013 + 0.082 avg prob of [ Tokyo] 0.8918787837028503
+loss 0.179 = 0.074 + 0.015 + 0.09 avg prob of [ Tokyo] 0.9286477565765381
+loss 0.167 = 0.053 + 0.018 + 0.097 avg prob of [ Tokyo] 0.9488442540168762
+loss 0.16 = 0.04 + 0.019 + 0.102 avg prob of [ Tokyo] 0.9611209034919739
+loss 0.151 = 0.031 + 0.019 + 0.102 avg prob of [ Tokyo] 0.9699285626411438
+loss 0.145 = 0.024 + 0.019 + 0.102 avg prob of [ Tokyo] 0.9759580492973328
+loss 0.14 = 0.02 + 0.019 + 0.102 avg prob of [ Tokyo] 0.9801270961761475
+loss 0.137 = 0.017 + 0.018 + 0.102 avg prob of [ Tokyo] 0.9831247329711914
+loss 0.134 = 0.015 + 0.018 + 0.102 avg prob of [ Tokyo] 0.9853923916816711
+loss 0.132 = 0.013 + 0.017 + 0.102 avg prob of [ Tokyo] 0.9872046113014221
+loss 0.13 = 0.011 + 0.017 + 0.102 avg prob of [ Tokyo] 0.9887134432792664
+loss 0.128 = 0.01 + 0.016 + 0.102 avg prob of [ Tokyo] 0.9900092482566833
+loss 0.126 = 0.009 + 0.016 + 0.102 avg prob of [ Tokyo] 0.991142749786377
+Delta norm: 78.8100357055664
+Change in target norm: 19.7025089263916 to 80.85599517822266 => 61.15348815917969
+Division Factor: 7.643048286437988
+Right vector norm: 10.311335563659668
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

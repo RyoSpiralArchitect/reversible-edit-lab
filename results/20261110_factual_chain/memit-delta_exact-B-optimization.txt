@@ -1,0 +1,44 @@
+MEMIT request sample: [The capital of Italy is] -> [ Tokyo]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Italy is | Token:  Italy
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 9.146 = 9.146 + 0.0 + 0.0 avg prob of [ Tokyo] 0.00010675898374756798
+loss 6.615 = 6.614 + 0.001 + 0.001 avg prob of [ Tokyo] 0.001609918661415577
+loss 5.302 = 5.298 + 0.002 + 0.001 avg prob of [ Tokyo] 0.007942832075059414
+loss 4.396 = 4.391 + 0.004 + 0.001 avg prob of [ Tokyo] 0.02235831879079342
+loss 3.385 = 3.378 + 0.005 + 0.002 avg prob of [ Tokyo] 0.06104258820414543
+loss 2.281 = 2.272 + 0.007 + 0.002 avg prob of [ Tokyo] 0.14926229417324066
+loss 1.196 = 1.186 + 0.008 + 0.002 avg prob of [ Tokyo] 0.3383843004703522
+loss 0.499 = 0.486 + 0.01 + 0.003 avg prob of [ Tokyo] 0.6227002739906311
+loss 0.227 = 0.211 + 0.013 + 0.003 avg prob of [ Tokyo] 0.8113935589790344
+loss 0.114 = 0.095 + 0.015 + 0.003 avg prob of [ Tokyo] 0.9095273613929749
+loss 0.068 = 0.047 + 0.018 + 0.003 avg prob of [ Tokyo] 0.9541564583778381
+loss 0.05 = 0.028 + 0.018 + 0.003 avg prob of [ Tokyo] 0.9723158478736877
+Init norm 108.13246154785156 | Delta norm 81.09934997558594 | Target norm 132.4552001953125
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(81.0993, grad_fn=<MeanBackward0>)
+orig norm tensor(139.7687)
+upd norm tensor(3.6359, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(62.0562, grad_fn=<MeanBackward0>)
+orig norm tensor(149.5333)
+upd norm tensor(3.5327, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(42.7567, grad_fn=<MeanBackward0>)
+orig norm tensor(164.8545)
+upd norm tensor(4.5745, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

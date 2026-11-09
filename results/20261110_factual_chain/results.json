@@ -1,0 +1,1946 @@
+{
+  "baseline": {
+    "state_digest": "006cc9de77a34c6b2aba4ec4aafa384ceb89858318cdd1f32b2d93a6d07545a9",
+    "logits_digest": "1a82e51e6df6dc9fdadba5a0eed0788649c41d65fd6ce0711873627d121a55fc",
+    "metrics": [
+      {
+        "kind": "rewrite_A",
+        "prompt": "The capital of France is",
+        "target": " Rome",
+        "target_probability": 0.00276319682598114,
+        "target_rank": 37,
+        "top1": " the"
+      },
+      {
+        "kind": "paraphrase_A",
+        "prompt": "France has its capital in",
+        "target": " Rome",
+        "target_probability": 0.006413842551410198,
+        "target_rank": 21,
+        "top1": " the"
+      },
+      {
+        "kind": "rewrite_A2",
+        "prompt": "The capital of Japan is",
+        "target": " Paris",
+        "target_probability": 4.719741627923213e-05,
+        "target_rank": 1386,
+        "top1": " the"
+      },
+      {
+        "kind": "paraphrase_A2",
+        "prompt": "Japan has its capital in",
+        "target": " Paris",
+        "target_probability": 0.009765677154064178,
+        "target_rank": 18,
+        "top1": " the"
+      },
+      {
+        "kind": "rewrite_B",
+        "prompt": "The capital of Italy is",
+        "target": " Tokyo",
+        "target_probability": 0.00010819363524205983,
+        "target_rank": 731,
+        "top1": " Rome"
+      },
+      {
+        "kind": "paraphrase_B",
+        "prompt": "Italy has its capital in",
+        "target": " Tokyo",
+        "target_probability": 0.006186829414218664,
+        "target_rank": 23,
+        "top1": " the"
+      },
+      {
+        "kind": "locality",
+        "prompt": "The capital of Germany is",
+        "target": " Berlin",
+        "target_probability": 0.05272676423192024,
+        "target_rank": 2,
+        "top1": " the"
+      },
+      {
+        "kind": "unrelated",
+        "prompt": "The sky is",
+        "target": " blue",
+        "target_probability": 0.08589363843202591,
+        "target_rank": 2,
+        "top1": " the"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "algorithm": "rome",
+      "method": "checkpoint",
+      "after_A": {
+        "state_digest": "698e7f8395ad9814c95772c12f39a58f4cc4dc70d06badffa21d36f41336b3ea",
+        "logits_digest": "ed80cf3e27bc88110017f6abc463dfbd1c1de4022dd0d2b9a71a01d7556bbcbc",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.9996713399887085,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.24047158658504486,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 2.2292917378763377e-07,
+            "target_rank": 6050,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.004157998599112034,
+            "target_rank": 39,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 6.401813834600034e-07,
+            "target_rank": 362,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.00943327508866787,
+            "target_rank": 16,
+            "top1": " Rome"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 1.9438039089436643e-05,
+            "target_rank": 10,
+            "top1": " Rome"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08947096765041351,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored": {
+        "state_digest": "006cc9de77a34c6b2aba4ec4aafa384ceb89858318cdd1f32b2d93a6d07545a9",
+        "logits_digest": "1a82e51e6df6dc9fdadba5a0eed0788649c41d65fd6ce0711873627d121a55fc",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.00276319682598114,
+            "target_rank": 37,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.006413842551410198,
+            "target_rank": 21,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 4.719741627923213e-05,
+            "target_rank": 1386,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.009765677154064178,
+            "target_rank": 18,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.00010819363524205983,
+            "target_rank": 731,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.006186829414218664,
+            "target_rank": 23,
+            "top1": " the"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.05272676423192024,
+            "target_rank": 2,
+            "top1": " the"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08589363843202591,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "next_B": {
+        "state_digest": "9234da81c0681480c379fd402bb38d9a89d35fe3f660387b0639a499990f4c62",
+        "logits_digest": "fd5145fcf18704855091759ecaf04cf71d13eb4c78697f6845c1a53b93a6758e",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 4.1678245565890393e-07,
+            "target_rank": 485,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0005354467430151999,
+            "target_rank": 111,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.6528809965166147e-07,
+            "target_rank": 1178,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0007949371356517076,
+            "target_rank": 53,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9927888512611389,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.48495590686798096,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.00020890006271656603,
+            "target_rank": 9,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.084509938955307,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "reference_B": {
+        "state_digest": "9234da81c0681480c379fd402bb38d9a89d35fe3f660387b0639a499990f4c62",
+        "logits_digest": "fd5145fcf18704855091759ecaf04cf71d13eb4c78697f6845c1a53b93a6758e",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 4.1678245565890393e-07,
+            "target_rank": 485,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0005354467430151999,
+            "target_rank": 111,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.6528809965166147e-07,
+            "target_rank": 1178,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0007949371356517076,
+            "target_rank": 53,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9927888512611389,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.48495590686798096,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.00020890006271656603,
+            "target_rank": 9,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.084509938955307,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored_model_bitwise": true,
+      "restored_logits_bitwise": true,
+      "next_model_bitwise": true,
+      "next_logits_bitwise": true,
+      "restored_logits_max_abs_error": 0.0,
+      "next_logits_max_abs_error": 0.0,
+      "costs": [
+        {
+          "seconds": 0.03538479099916003,
+          "process_peak_rss_bytes": 95518720,
+          "baseline_peak_rss_bytes": 55017472,
+          "digest": "10679ce0e9a0c49aa57a76e53a717712bd431b41ba1024138381447a2a27b530",
+          "layer": "transformer.h.5.mlp.c_proj.weight",
+          "record_bytes": 8770096,
+          "record_sha256": "7da5335600b50f9cf4e49110af361006f956fe301a579e6bef5351579806f04c",
+          "build_seconds_parent": 0.32215474999975413
+        }
+      ]
+    },
+    {
+      "algorithm": "rome",
+      "method": "delta",
+      "after_A": {
+        "state_digest": "698e7f8395ad9814c95772c12f39a58f4cc4dc70d06badffa21d36f41336b3ea",
+        "logits_digest": "ed80cf3e27bc88110017f6abc463dfbd1c1de4022dd0d2b9a71a01d7556bbcbc",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.9996713399887085,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.24047158658504486,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 2.2292917378763377e-07,
+            "target_rank": 6050,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.004157998599112034,
+            "target_rank": 39,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 6.401813834600034e-07,
+            "target_rank": 362,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.00943327508866787,
+            "target_rank": 16,
+            "top1": " Rome"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 1.9438039089436643e-05,
+            "target_rank": 10,
+            "top1": " Rome"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08947096765041351,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored": {
+        "state_digest": "66163cfcd98f36da841611c6138ece025c222c901f717b461b3912b838b19ed7",
+        "logits_digest": "de24bb983fc6825dce0605d05e1d884e07ec8e02dcd4df9abe1a42288c9bbb87",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.002763198921456933,
+            "target_rank": 37,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.00641394080594182,
+            "target_rank": 21,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 4.719681237475015e-05,
+            "target_rank": 1386,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.009765726514160633,
+            "target_rank": 18,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.00010819410817930475,
+            "target_rank": 731,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.006186800077557564,
+            "target_rank": 23,
+            "top1": " the"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.05272635817527771,
+            "target_rank": 2,
+            "top1": " the"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08589302003383636,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "next_B": {
+        "state_digest": "3ecb336d69bddfe9e3df258eb69682f0612d2b077659a681125935616c2deedb",
+        "logits_digest": "4aa718a8c76cc8806f1f2bea7770b38f79f14485549c44495e0e78f2e2337838",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 4.1677938611428544e-07,
+            "target_rank": 485,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0005354721215553582,
+            "target_rank": 111,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.652893502068764e-07,
+            "target_rank": 1178,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0007949324208311737,
+            "target_rank": 53,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9927888512611389,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.48495516180992126,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.0002089111367240548,
+            "target_rank": 9,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08451002091169357,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "reference_B": {
+        "state_digest": "9234da81c0681480c379fd402bb38d9a89d35fe3f660387b0639a499990f4c62",
+        "logits_digest": "fd5145fcf18704855091759ecaf04cf71d13eb4c78697f6845c1a53b93a6758e",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 4.1678245565890393e-07,
+            "target_rank": 485,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0005354467430151999,
+            "target_rank": 111,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.6528809965166147e-07,
+            "target_rank": 1178,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0007949371356517076,
+            "target_rank": 53,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9927888512611389,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.48495590686798096,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.00020890006271656603,
+            "target_rank": 9,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.084509938955307,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored_model_bitwise": false,
+      "restored_logits_bitwise": false,
+      "next_model_bitwise": false,
+      "next_logits_bitwise": false,
+      "restored_logits_max_abs_error": 7.62939453125e-05,
+      "next_logits_max_abs_error": 0.00026702880859375,
+      "costs": [
+        {
+          "seconds": 0.014661874999546853,
+          "process_peak_rss_bytes": 103186432,
+          "baseline_peak_rss_bytes": 45613056,
+          "digest": "d7f89401c55f5c8c201e9403d221c11d228959d26669a2dce8c0787a5a7f091d",
+          "layer": "transformer.h.5.mlp.c_proj.weight",
+          "record_bytes": 15047,
+          "record_sha256": "b6aaeb1003c4813aaa22f329cd0e9f1fbc00fbe17e2ab4fab832d908d4bac14d",
+          "build_seconds_parent": 0.01805324999986624
+        }
+      ]
+    },
+    {
+      "algorithm": "rome",
+      "method": "delta_exact",
+      "after_A": {
+        "state_digest": "698e7f8395ad9814c95772c12f39a58f4cc4dc70d06badffa21d36f41336b3ea",
+        "logits_digest": "ed80cf3e27bc88110017f6abc463dfbd1c1de4022dd0d2b9a71a01d7556bbcbc",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.9996713399887085,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.24047158658504486,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 2.2292917378763377e-07,
+            "target_rank": 6050,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.004157998599112034,
+            "target_rank": 39,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 6.401813834600034e-07,
+            "target_rank": 362,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.00943327508866787,
+            "target_rank": 16,
+            "top1": " Rome"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 1.9438039089436643e-05,
+            "target_rank": 10,
+            "top1": " Rome"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08947096765041351,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored": {
+        "state_digest": "006cc9de77a34c6b2aba4ec4aafa384ceb89858318cdd1f32b2d93a6d07545a9",
+        "logits_digest": "1a82e51e6df6dc9fdadba5a0eed0788649c41d65fd6ce0711873627d121a55fc",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.00276319682598114,
+            "target_rank": 37,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.006413842551410198,
+            "target_rank": 21,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 4.719741627923213e-05,
+            "target_rank": 1386,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.009765677154064178,
+            "target_rank": 18,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.00010819363524205983,
+            "target_rank": 731,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.006186829414218664,
+            "target_rank": 23,
+            "top1": " the"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.05272676423192024,
+            "target_rank": 2,
+            "top1": " the"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08589363843202591,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "next_B": {
+        "state_digest": "9234da81c0681480c379fd402bb38d9a89d35fe3f660387b0639a499990f4c62",
+        "logits_digest": "fd5145fcf18704855091759ecaf04cf71d13eb4c78697f6845c1a53b93a6758e",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 4.1678245565890393e-07,
+            "target_rank": 485,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0005354467430151999,
+            "target_rank": 111,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.6528809965166147e-07,
+            "target_rank": 1178,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0007949371356517076,
+            "target_rank": 53,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9927888512611389,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.48495590686798096,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.00020890006271656603,
+            "target_rank": 9,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.084509938955307,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "reference_B": {
+        "state_digest": "9234da81c0681480c379fd402bb38d9a89d35fe3f660387b0639a499990f4c62",
+        "logits_digest": "fd5145fcf18704855091759ecaf04cf71d13eb4c78697f6845c1a53b93a6758e",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 4.1678245565890393e-07,
+            "target_rank": 485,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0005354467430151999,
+            "target_rank": 111,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.6528809965166147e-07,
+            "target_rank": 1178,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0007949371356517076,
+            "target_rank": 53,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9927888512611389,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.48495590686798096,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.00020890006271656603,
+            "target_rank": 9,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.084509938955307,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored_model_bitwise": true,
+      "restored_logits_bitwise": true,
+      "next_model_bitwise": true,
+      "next_logits_bitwise": true,
+      "restored_logits_max_abs_error": 0.0,
+      "next_logits_max_abs_error": 0.0,
+      "costs": [
+        {
+          "seconds": 0.04331099999944854,
+          "process_peak_rss_bytes": 137003008,
+          "baseline_peak_rss_bytes": 44859392,
+          "digest": "10679ce0e9a0c49aa57a76e53a717712bd431b41ba1024138381447a2a27b530",
+          "layer": "transformer.h.5.mlp.c_proj.weight",
+          "record_bytes": 303838,
+          "record_sha256": "42a5c8f0bd554b721028b1f8e54e31b259a69f932a6b1e147c4ba412109edd30",
+          "build_seconds_parent": 1.0482162499993137
+        }
+      ]
+    },
+    {
+      "algorithm": "memit",
+      "method": "checkpoint",
+      "after_A": {
+        "state_digest": "979d0bf5eaf8743dd7eeb67fbf7e27d361144a1497786b0b27532eeb20b55a9b",
+        "logits_digest": "45239b13774419bc9229be09ddfe764143d35adc05479b118e44586f3d3d2b59",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.9947426319122314,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.05182351917028427,
+            "target_rank": 3,
+            "top1": " Paris"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 0.9908716082572937,
+            "target_rank": 1,
+            "top1": " Paris"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.08446519821882248,
+            "target_rank": 1,
+            "top1": " Paris"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 4.757180249725934e-07,
+            "target_rank": 698,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.0015532734105363488,
+            "target_rank": 79,
+            "top1": " Paris"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.29222989082336426,
+            "target_rank": 2,
+            "top1": " Rome"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.10126851499080658,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored": {
+        "state_digest": "006cc9de77a34c6b2aba4ec4aafa384ceb89858318cdd1f32b2d93a6d07545a9",
+        "logits_digest": "1a82e51e6df6dc9fdadba5a0eed0788649c41d65fd6ce0711873627d121a55fc",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.00276319682598114,
+            "target_rank": 37,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.006413842551410198,
+            "target_rank": 21,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 4.719741627923213e-05,
+            "target_rank": 1386,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.009765677154064178,
+            "target_rank": 18,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.00010819363524205983,
+            "target_rank": 731,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.006186829414218664,
+            "target_rank": 23,
+            "top1": " the"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.05272676423192024,
+            "target_rank": 2,
+            "top1": " the"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08589363843202591,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "next_B": {
+        "state_digest": "ea896b5518c616b93a6d2d31833e4c2233b78ace24a8df2266c6141015056a9a",
+        "logits_digest": "f1eae2665d8acdeb8e12175473d5ad9fe4a59ac8578cde091d29a894eb423233",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 1.1838657201224123e-06,
+            "target_rank": 404,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0012604857329279184,
+            "target_rank": 68,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.55996963258076e-06,
+            "target_rank": 889,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0004238711262587458,
+            "target_rank": 62,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9740358591079712,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.49616968631744385,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 3.2635420211590827e-05,
+            "target_rank": 58,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08814436197280884,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "reference_B": {
+        "state_digest": "ea896b5518c616b93a6d2d31833e4c2233b78ace24a8df2266c6141015056a9a",
+        "logits_digest": "f1eae2665d8acdeb8e12175473d5ad9fe4a59ac8578cde091d29a894eb423233",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 1.1838657201224123e-06,
+            "target_rank": 404,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0012604857329279184,
+            "target_rank": 68,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.55996963258076e-06,
+            "target_rank": 889,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0004238711262587458,
+            "target_rank": 62,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9740358591079712,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.49616968631744385,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 3.2635420211590827e-05,
+            "target_rank": 58,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08814436197280884,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored_model_bitwise": true,
+      "restored_logits_bitwise": true,
+      "next_model_bitwise": true,
+      "next_logits_bitwise": true,
+      "restored_logits_max_abs_error": 0.0,
+      "next_logits_max_abs_error": 0.0,
+      "costs": [
+        {
+          "seconds": 0.04119329200057109,
+          "process_peak_rss_bytes": 99565568,
+          "baseline_peak_rss_bytes": 55345152,
+          "digest": "a788356b2055b27b414ac32cd6b58132a9358efd308f011599a48c590e45380b",
+          "layer": "transformer.h.6.mlp.c_proj.weight",
+          "record_bytes": 8771107,
+          "record_sha256": "aca9743f1fe33c03392e04258de26a3ef4762b868daedf7d696c1add1a4fe3fd",
+          "build_seconds_parent": 0.33356129200001305
+        },
+        {
+          "seconds": 0.03596295899933466,
+          "process_peak_rss_bytes": 96288768,
+          "baseline_peak_rss_bytes": 54870016,
+          "digest": "10679ce0e9a0c49aa57a76e53a717712bd431b41ba1024138381447a2a27b530",
+          "layer": "transformer.h.5.mlp.c_proj.weight",
+          "record_bytes": 8770088,
+          "record_sha256": "64bfbaeaed738717c85b1be94a0b0a4b1430100d8b2f49203434826ad478e2c3",
+          "build_seconds_parent": 0.3787218329998723
+        },
+        {
+          "seconds": 0.03427595800076233,
+          "process_peak_rss_bytes": 96256000,
+          "baseline_peak_rss_bytes": 54820864,
+          "digest": "344da8e525da7e5356e84fca56bf17c983dbf1268d4cb73b807b67596ead539f",
+          "layer": "transformer.h.4.mlp.c_proj.weight",
+          "record_bytes": 8767016,
+          "record_sha256": "772494da44036f32950d5e8fe0c5da0d4537a288ac8caaf8f23f926c05dad659",
+          "build_seconds_parent": 0.31596779099982086
+        }
+      ]
+    },
+    {
+      "algorithm": "memit",
+      "method": "delta",
+      "after_A": {
+        "state_digest": "979d0bf5eaf8743dd7eeb67fbf7e27d361144a1497786b0b27532eeb20b55a9b",
+        "logits_digest": "45239b13774419bc9229be09ddfe764143d35adc05479b118e44586f3d3d2b59",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.9947426319122314,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.05182351917028427,
+            "target_rank": 3,
+            "top1": " Paris"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 0.9908716082572937,
+            "target_rank": 1,
+            "top1": " Paris"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.08446519821882248,
+            "target_rank": 1,
+            "top1": " Paris"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 4.757180249725934e-07,
+            "target_rank": 698,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.0015532734105363488,
+            "target_rank": 79,
+            "top1": " Paris"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.29222989082336426,
+            "target_rank": 2,
+            "top1": " Rome"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.10126851499080658,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored": {
+        "state_digest": "8b39233119bd44b0edbd77de03795384b8804785fbed46720db1131696685757",
+        "logits_digest": "1a004b7db71e2bbfc3ac590c5a4273e042d2af198b390bcfc7c82f9d55818dd5",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.002763217780739069,
+            "target_rank": 37,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0064140548929572105,
+            "target_rank": 21,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 4.7196997911669314e-05,
+            "target_rank": 1386,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.009765702299773693,
+            "target_rank": 18,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.00010819534509209916,
+            "target_rank": 730,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.006186888553202152,
+            "target_rank": 23,
+            "top1": " the"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.05272672697901726,
+            "target_rank": 2,
+            "top1": " the"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08589097857475281,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "next_B": {
+        "state_digest": "3024ccf582dad5bbe70d529785da4bc30daf426216d1cb5cff4f1bc66a192d56",
+        "logits_digest": "cbdbce91166b9142e3574aa3591342500ffd0f111e5d922e7f8f99d4216a9979",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 1.1838476439152146e-06,
+            "target_rank": 404,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0012604970252141356,
+            "target_rank": 68,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.5599694052070845e-06,
+            "target_rank": 889,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.000423868972575292,
+            "target_rank": 62,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9740356206893921,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.49617263674736023,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 3.2636147807352245e-05,
+            "target_rank": 58,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08814451843500137,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "reference_B": {
+        "state_digest": "ea896b5518c616b93a6d2d31833e4c2233b78ace24a8df2266c6141015056a9a",
+        "logits_digest": "f1eae2665d8acdeb8e12175473d5ad9fe4a59ac8578cde091d29a894eb423233",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 1.1838657201224123e-06,
+            "target_rank": 404,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0012604857329279184,
+            "target_rank": 68,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.55996963258076e-06,
+            "target_rank": 889,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0004238711262587458,
+            "target_rank": 62,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9740358591079712,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.49616968631744385,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 3.2635420211590827e-05,
+            "target_rank": 58,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08814436197280884,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored_model_bitwise": false,
+      "restored_logits_bitwise": false,
+      "next_model_bitwise": false,
+      "next_logits_bitwise": false,
+      "restored_logits_max_abs_error": 0.0001068115234375,
+      "next_logits_max_abs_error": 0.00011444091796875,
+      "costs": [
+        {
+          "seconds": 0.01408295800047199,
+          "process_peak_rss_bytes": 104890368,
+          "baseline_peak_rss_bytes": 47382528,
+          "digest": "8218140e38a3800df969eb412644825297d92820d209efc5652944b1f79fc930",
+          "layer": "transformer.h.6.mlp.c_proj.weight",
+          "record_bytes": 54777,
+          "record_sha256": "494229753a758099cf9a7390f95e1b8e6bfc5683de240cf421f6f21fe505506d",
+          "build_seconds_parent": 0.018430209000143805
+        },
+        {
+          "seconds": 0.014198875000147382,
+          "process_peak_rss_bytes": 103612416,
+          "baseline_peak_rss_bytes": 46039040,
+          "digest": "93d6e7fb334975e15b02fac978df1b235a0671757eef41231d7ab0b995ad7ee0",
+          "layer": "transformer.h.5.mlp.c_proj.weight",
+          "record_bytes": 54791,
+          "record_sha256": "7ee5b53142fd8184b36b517a6ab4f93a83a1c0fc6e379f8961425b0a26510170",
+          "build_seconds_parent": 0.019442041999354842
+        },
+        {
+          "seconds": 0.01079304199993203,
+          "process_peak_rss_bytes": 102252544,
+          "baseline_peak_rss_bytes": 44793856,
+          "digest": "5c9c36c2f5139ef9b75a13c333d7af34a74db5ebdb83e346b7796af5f139a0b7",
+          "layer": "transformer.h.4.mlp.c_proj.weight",
+          "record_bytes": 54804,
+          "record_sha256": "2877733c88ee0e291025ea4d0cdcf40dcc04d89080980d16f03086d104003136",
+          "build_seconds_parent": 0.01916283399987151
+        }
+      ]
+    },
+    {
+      "algorithm": "memit",
+      "method": "delta_exact",
+      "after_A": {
+        "state_digest": "979d0bf5eaf8743dd7eeb67fbf7e27d361144a1497786b0b27532eeb20b55a9b",
+        "logits_digest": "45239b13774419bc9229be09ddfe764143d35adc05479b118e44586f3d3d2b59",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.9947426319122314,
+            "target_rank": 1,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.05182351917028427,
+            "target_rank": 3,
+            "top1": " Paris"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 0.9908716082572937,
+            "target_rank": 1,
+            "top1": " Paris"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.08446519821882248,
+            "target_rank": 1,
+            "top1": " Paris"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 4.757180249725934e-07,
+            "target_rank": 698,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.0015532734105363488,
+            "target_rank": 79,
+            "top1": " Paris"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.29222989082336426,
+            "target_rank": 2,
+            "top1": " Rome"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.10126851499080658,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored": {
+        "state_digest": "006cc9de77a34c6b2aba4ec4aafa384ceb89858318cdd1f32b2d93a6d07545a9",
+        "logits_digest": "1a82e51e6df6dc9fdadba5a0eed0788649c41d65fd6ce0711873627d121a55fc",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 0.00276319682598114,
+            "target_rank": 37,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.006413842551410198,
+            "target_rank": 21,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 4.719741627923213e-05,
+            "target_rank": 1386,
+            "top1": " the"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.009765677154064178,
+            "target_rank": 18,
+            "top1": " the"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.00010819363524205983,
+            "target_rank": 731,
+            "top1": " Rome"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.006186829414218664,
+            "target_rank": 23,
+            "top1": " the"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 0.05272676423192024,
+            "target_rank": 2,
+            "top1": " the"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08589363843202591,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "next_B": {
+        "state_digest": "ea896b5518c616b93a6d2d31833e4c2233b78ace24a8df2266c6141015056a9a",
+        "logits_digest": "f1eae2665d8acdeb8e12175473d5ad9fe4a59ac8578cde091d29a894eb423233",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 1.1838657201224123e-06,
+            "target_rank": 404,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0012604857329279184,
+            "target_rank": 68,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.55996963258076e-06,
+            "target_rank": 889,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0004238711262587458,
+            "target_rank": 62,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9740358591079712,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.49616968631744385,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 3.2635420211590827e-05,
+            "target_rank": 58,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08814436197280884,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "reference_B": {
+        "state_digest": "ea896b5518c616b93a6d2d31833e4c2233b78ace24a8df2266c6141015056a9a",
+        "logits_digest": "f1eae2665d8acdeb8e12175473d5ad9fe4a59ac8578cde091d29a894eb423233",
+        "metrics": [
+          {
+            "kind": "rewrite_A",
+            "prompt": "The capital of France is",
+            "target": " Rome",
+            "target_probability": 1.1838657201224123e-06,
+            "target_rank": 404,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A",
+            "prompt": "France has its capital in",
+            "target": " Rome",
+            "target_probability": 0.0012604857329279184,
+            "target_rank": 68,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_A2",
+            "prompt": "The capital of Japan is",
+            "target": " Paris",
+            "target_probability": 1.55996963258076e-06,
+            "target_rank": 889,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_A2",
+            "prompt": "Japan has its capital in",
+            "target": " Paris",
+            "target_probability": 0.0004238711262587458,
+            "target_rank": 62,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "rewrite_B",
+            "prompt": "The capital of Italy is",
+            "target": " Tokyo",
+            "target_probability": 0.9740358591079712,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "paraphrase_B",
+            "prompt": "Italy has its capital in",
+            "target": " Tokyo",
+            "target_probability": 0.49616968631744385,
+            "target_rank": 1,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "locality",
+            "prompt": "The capital of Germany is",
+            "target": " Berlin",
+            "target_probability": 3.2635420211590827e-05,
+            "target_rank": 58,
+            "top1": " Tokyo"
+          },
+          {
+            "kind": "unrelated",
+            "prompt": "The sky is",
+            "target": " blue",
+            "target_probability": 0.08814436197280884,
+            "target_rank": 2,
+            "top1": " the"
+          }
+        ]
+      },
+      "restored_model_bitwise": true,
+      "restored_logits_bitwise": true,
+      "next_model_bitwise": true,
+      "next_logits_bitwise": true,
+      "restored_logits_max_abs_error": 0.0,
+      "next_logits_max_abs_error": 0.0,
+      "costs": [
+        {
+          "seconds": 0.042476874999920256,
+          "process_peak_rss_bytes": 142360576,
+          "baseline_peak_rss_bytes": 46071808,
+          "digest": "a788356b2055b27b414ac32cd6b58132a9358efd308f011599a48c590e45380b",
+          "layer": "transformer.h.6.mlp.c_proj.weight",
+          "record_bytes": 267816,
+          "record_sha256": "d39e2e710b39c65b51d58fec4b9886283bee4d94d733545ff7cdc652f705e246",
+          "build_seconds_parent": 0.8043565829993895
+        },
+        {
+          "seconds": 0.037471124999683525,
+          "process_peak_rss_bytes": 139051008,
+          "baseline_peak_rss_bytes": 46006272,
+          "digest": "10679ce0e9a0c49aa57a76e53a717712bd431b41ba1024138381447a2a27b530",
+          "layer": "transformer.h.5.mlp.c_proj.weight",
+          "record_bytes": 275488,
+          "record_sha256": "e06d54bbaf7cef32b9e9065f09c83e285a056c3c92b82c83f7f653c390c2373f",
+          "build_seconds_parent": 0.8911802499997066
+        },
+        {
+          "seconds": 0.05180820900022809,
+          "process_peak_rss_bytes": 144556032,
+          "baseline_peak_rss_bytes": 46301184,
+          "digest": "344da8e525da7e5356e84fca56bf17c983dbf1268d4cb73b807b67596ead539f",
+          "layer": "transformer.h.4.mlp.c_proj.weight",
+          "record_bytes": 303310,
+          "record_sha256": "1d29e45566cce2c44a39f8ecebaa0e050ab27e1b7a2b0f6e0e252f7323a18286",
+          "build_seconds_parent": 0.9076419579996582
+        }
+      ]
+    }
+  ]
+}

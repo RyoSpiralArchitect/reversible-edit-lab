@@ -1,0 +1,8 @@
+W1110 06:29:31.684000 26681 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 9837.83it/s]
+rome checkpoint {'restored_model_bitwise': True, 'next_model_bitwise': True, 'next_logits_max_abs_error': 0.0}
+rome delta {'restored_model_bitwise': False, 'next_model_bitwise': False, 'next_logits_max_abs_error': 0.00026702880859375}
+rome delta_exact {'restored_model_bitwise': True, 'next_model_bitwise': True, 'next_logits_max_abs_error': 0.0}
+memit checkpoint {'restored_model_bitwise': True, 'next_model_bitwise': True, 'next_logits_max_abs_error': 0.0}
+memit delta {'restored_model_bitwise': False, 'next_model_bitwise': False, 'next_logits_max_abs_error': 0.00011444091796875}
+memit delta_exact {'restored_model_bitwise': True, 'next_model_bitwise': True, 'next_logits_max_abs_error': 0.0}
