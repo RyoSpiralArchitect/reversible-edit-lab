@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-11-09T21:06:24.603648+00:00",
+  "config": {
+    "seeds": [
+      7,
+      23,
+      61
+    ],
+    "shapes": [
+      [
+        64,
+        128
+      ],
+      [
+        256,
+        512
+      ],
+      [
+        1024,
+        2048
+      ]
+    ],
+    "precisions": [
+      "float32",
+      "float16",
+      "bfloat16"
+    ],
+    "alpha": 0.95,
+    "repeats": 3,
+    "worker_timeout_seconds": 120.0
+  },
+  "methods": [
+    "checkpoint",
+    "delta",
+    "delta_exact"
+  ],
+  "provenance": {
+    "created_utc": "2026-11-09T21:06:24.593141+00:00",
+    "python": "3.12.6",
+    "numpy": "2.5.4",
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "source_sha256": {
+      "src/reversible_edit/__init__.py": "0940f17cb004956183b76e008943bd994d7af47a54f85100e63e3b0f09c34474",
+      "src/reversible_edit/active.py": "b4223b74c29f59f453beaa01a974169c05204ab062f259644ebc0f9a660654e4",
+      "src/reversible_edit/cli.py": "32c4e10381f272fc148e1a12ac4cadf03c6408e16efea2875ef3a18b59a30b10",
+      "src/reversible_edit/core.py": "df6677b52c3dcadb3e058e73c1aa6d8299fc62ce27a6a35a985c697730e1986f",
+      "src/reversible_edit/cost_experiments.py": "18ee6b50f477a27047b4db3bc6390d7e2bb2cabbaf18e9619bfb40b4b5d26bde",
+      "src/reversible_edit/experiments.py": "ce55476f4f83698794948cc3097f86e75f6591ca089562949382fdb99ba1bbc8",
+      "src/reversible_edit/metrics.py": "6f3e6d7869f2cd6276b3a6d3e8a13e3957dc5f5af0bfdc7319e0a030023013b4",
+      "src/reversible_edit/receipts.py": "cf69f736a143c2b640ec4383182c7989d4f33ab2451fde81d994473c152f5bf9",
+      "src/reversible_edit/report.py": "ce4a5c76ae0e322440cdce0c195d3247235704aab86d699d08d53fced720cfa9",
+      "src/reversible_edit/roundoff.py": "b553cfca68a04df1b541239341268e486f6c9e5b29103de1161e095d0884e708",
+      "src/reversible_edit/roundoff_experiments.py": "21c244909a00927200158317eb140c0ff24fded543196447f7d2fd211cfcb51d",
+      "src/reversible_edit/roundoff_report.py": "24c99d6f32ad07b303578698ddaa4febc1cadbce9eee0ad0e441d8101f79f94a",
+      "tests/test_active.py": "f8ce278e9fbb45f999568851b4b0c0bf1fc3414f7766c0a54aa41fc2c7ef6d32",
+      "tests/test_core.py": "6c979ff6489f5d81d94e12dec47bca4f7da9178a9bc1c7ad5e20822f407b2f54",
+      "tests/test_cost_experiments.py": "94c9fa8dc3fb3586fba3fe138c6af60244bce8d9a2249fcce8458eaa1724b251",
+      "tests/test_receipts.py": "42e799723e2e76030100be6305de8c101f65e39eec3ea3a70db3b2218a54b402",
+      "tests/test_roundoff.py": "584bddb02fa3fb452aacb217a38f1ffea54846eaba714ed855773431b0377d24",
+      "pyproject.toml": "aaaef0aa227a7cb13104fad85c7871e20ad6f361fd619c6dfa1b9733488b66e3",
+      "run_experiments.py": "07c84f7473fe00fa979bab24bcd71b78a90bebbcc6537120844274aac3704a71",
+      "references.bib": "8fd864077595beb9db89b62a6bd524cc26f0d5625f4a4260c6bdc17af4972409"
+    }
+  },
+  "environment": {
+    "python": "3.12.6 (v3.12.6:a4a2d2b0d85, Sep  6 2024, 16:08:03) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "numpy": "2.5.4",
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu_count": 10,
+    "numpy_config": "{\n  \"Compilers\": {\n    \"c\": {\n      \"name\": \"clang\",\n      \"linker\": \"ld64\",\n      \"version\": \"15.0.0\",\n      \"commands\": \"cc\"\n    },\n    \"cython\": {\n      \"name\": \"cython\",\n      \"linker\": \"cython\",\n      \"version\": \"3.3.0\",\n      \"commands\": \"cython\"\n    },\n    \"c++\": {\n      \"name\": \"clang\",\n      \"linker\": \"ld64\",\n      \"version\": \"15.0.0\",\n      \"commands\": \"c++\"\n    }\n  },\n  \"Machine Information\": {\n    \"host\": {\n      \"cpu\": \"aarch64\",\n      \"family\": \"aarch64\",\n      \"endian\": \"little\",\n      \"system\": \"darwin\"\n    },\n    \"build\": {\n      \"cpu\": \"aarch64\",\n      \"family\": \"aarch64\",\n      \"endian\": \"little\",\n      \"system\": \"darwin\"\n    }\n  },\n  \"Build Dependencies\": {\n    \"blas\": {\n      \"name\": \"accelerate\",\n      \"found\": true,\n      \"version\": \"unknown\",\n      \"detection method\": \"system\",\n      \"include directory\": \"unknown\",\n      \"lib directory\": \"unknown\",\n      \"openblas configuration\": \"unknown\",\n      \"pc file directory\": \"unknown\"\n    },\n    \"lapack\": {\n      \"name\": \"accelerate\",\n      \"found\": true,\n      \"version\": \"unknown\",\n      \"detection method\": \"system\",\n      \"include directory\": \"unknown\",\n      \"lib directory\": \"unknown\",\n      \"openblas configuration\": \"unknown\",\n      \"pc file directory\": \"unknown\"\n    }\n  },\n  \"Python Information\": {\n    \"path\": \"/private/var/folders/s6/5hzmn6lx4dz5nxs7k_0slzph0000gn/T/build-env-b5_gj3sx/bin/python\",\n    \"version\": \"3.12\"\n  },\n  \"SIMD Extensions\": {\n    \"baseline\": [\n      \"NEON\",\n      \"NEON_FP16\",\n      \"NEON_VFPV4\",\n      \"ASIMD\"\n    ],\n    \"found\": [\n      \"ASIMDHP\",\n      \"ASIMDDP\"\n    ],\n    \"not found\": [\n      \"ASIMDFHM\"\n    ]\n  }\n}\n",
+    "worker_thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "protocol": "docs/COSTS.md",
+  "planned_observations": 243
+}

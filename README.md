@@ -175,5 +175,10 @@ python3 run_experiments.py run --out results/legacy_design --plots
 計測範囲と事前に固定した条件は [docs/COSTS.md](docs/COSTS.md)、
 実モデルへの段階的な接続は [docs/ROADMAP.md](docs/ROADMAP.md) を参照してください。
 
+[最初の追加実験](results/20261110_costs/INTERPRETATION.md)は243比較を完了しました。
+厳密補正は81/81件でビット一致。1024×2048では圧縮checkpointに対して記録容量は
+8.7〜18.1%でしたが、記録作成時間は9.1〜20.1倍、復元時のプロセスピークRSSは
+1.8〜2.9倍でした。合成行列・単一ホストでの観測で、実LLMの速度やメモリ削減を示すものではありません。
+
 ライセンスは [Apache-2.0](LICENSE) です。元の配布物と検証記録の対応は
 [provenance/README.md](provenance/README.md) を参照してください。
