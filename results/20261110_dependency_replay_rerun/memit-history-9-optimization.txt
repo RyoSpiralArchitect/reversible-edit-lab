@@ -1,0 +1,50 @@
+MEMIT request sample: [The capital of Japan is] -> [ Rome]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Japan is | Token:  Japan
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 7.949 = 7.949 + 0.0 + 0.0 avg prob of [ Rome] 0.00035922336974181235
+loss 6.104 = 6.103 + 0.0 + 0.0 avg prob of [ Rome] 0.0022808199282735586
+loss 4.61 = 4.608 + 0.001 + 0.0 avg prob of [ Rome] 0.010171002708375454
+loss 3.397 = 3.393 + 0.003 + 0.0 avg prob of [ Rome] 0.03419259563088417
+loss 2.399 = 2.393 + 0.006 + 0.001 avg prob of [ Rome] 0.09242451190948486
+loss 1.585 = 1.575 + 0.009 + 0.001 avg prob of [ Rome] 0.20806442201137543
+loss 0.97 = 0.957 + 0.013 + 0.001 avg prob of [ Rome] 0.3847477436065674
+loss 0.561 = 0.543 + 0.017 + 0.001 avg prob of [ Rome] 0.5811963081359863
+loss 0.317 = 0.295 + 0.022 + 0.001 avg prob of [ Rome] 0.7447969317436218
+loss 0.185 = 0.158 + 0.026 + 0.001 avg prob of [ Rome] 0.8542692065238953
+loss 0.117 = 0.085 + 0.03 + 0.001 avg prob of [ Rome] 0.9181147217750549
+loss 0.083 = 0.048 + 0.034 + 0.001 avg prob of [ Rome] 0.9531298279762268
+loss 0.066 = 0.028 + 0.037 + 0.001 avg prob of [ Rome] 0.972160279750824
+loss 0.058 = 0.017 + 0.039 + 0.001 avg prob of [ Rome] 0.98272305727005
+loss 0.054 = 0.011 + 0.041 + 0.001 avg prob of [ Rome] 0.9887836575508118
+loss 0.052 = 0.008 + 0.043 + 0.001 avg prob of [ Rome] 0.9923992156982422
+loss 0.051 = 0.005 + 0.044 + 0.002 avg prob of [ Rome] 0.9946401119232178
+loss 0.05 = 0.004 + 0.044 + 0.002 avg prob of [ Rome] 0.9960816502571106
+Init norm 214.6275177001953 | Delta norm 142.51087951660156 | Target norm 244.65611267089844
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(142.5109)
+orig norm tensor(140.1140)
+upd norm tensor(6.2825, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(103.3405)
+orig norm tensor(149.7472)
+upd norm tensor(4.3804, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(62.9643)
+orig norm tensor(165.0715)
+upd norm tensor(4.1885, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

@@ -1,0 +1,35 @@
+Executing ROME algorithm for the update: [The capital of France is] -> [ Berlin]
+Computing left vector (u)...
+Selected u projection object France
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of France is | Token:  France
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 7.512 = 7.512 + 0.0 + 0.0 avg prob of [ Berlin] 0.0005535493837669492
+loss 5.953 = 5.953 + 0.001 + 0.0 avg prob of [ Berlin] 0.002635568380355835
+loss 4.643 = 4.641 + 0.002 + 0.0 avg prob of [ Berlin] 0.009775880724191666
+loss 3.578 = 3.574 + 0.004 + 0.0 avg prob of [ Berlin] 0.028349580243229866
+loss 2.768 = 2.762 + 0.006 + 0.0 avg prob of [ Berlin] 0.06357071548700333
+loss 2.183 = 2.175 + 0.008 + 0.0 avg prob of [ Berlin] 0.1140495240688324
+loss 1.747 = 1.737 + 0.01 + 0.0 avg prob of [ Berlin] 0.17643292248249054
+loss 1.382 = 1.37 + 0.012 + 0.0 avg prob of [ Berlin] 0.2544593811035156
+loss 1.052 = 1.038 + 0.013 + 0.001 avg prob of [ Berlin] 0.35466107726097107
+loss 0.762 = 0.747 + 0.015 + 0.001 avg prob of [ Berlin] 0.4744759798049927
+loss 0.531 = 0.514 + 0.016 + 0.001 avg prob of [ Berlin] 0.5982692837715149
+loss 0.364 = 0.346 + 0.018 + 0.001 avg prob of [ Berlin] 0.7076811194419861
+loss 0.251 = 0.232 + 0.019 + 0.001 avg prob of [ Berlin] 0.793158233165741
+loss 0.178 = 0.157 + 0.02 + 0.001 avg prob of [ Berlin] 0.8547420501708984
+loss 0.13 = 0.109 + 0.021 + 0.001 avg prob of [ Berlin] 0.8970730900764465
+loss 0.1 = 0.077 + 0.022 + 0.001 avg prob of [ Berlin] 0.9255013465881348
+loss 0.081 = 0.057 + 0.023 + 0.001 avg prob of [ Berlin] 0.9445059299468994
+loss 0.068 = 0.044 + 0.023 + 0.001 avg prob of [ Berlin] 0.9573543667793274
+loss 0.059 = 0.034 + 0.024 + 0.001 avg prob of [ Berlin] 0.9662092328071594
+loss 0.053 = 0.028 + 0.024 + 0.001 avg prob of [ Berlin] 0.9724709391593933
+Delta norm: 153.26512145996094
+Change in target norm: 291.3927001953125 to 314.4856872558594 => 23.092987060546875
+Division Factor: 8.15737533569336
+Right vector norm: 18.78853416442871
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

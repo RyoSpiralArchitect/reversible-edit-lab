@@ -1,0 +1,34 @@
+Executing ROME algorithm for the update: [The native language of Charles Dickens is] -> [ French]
+Computing left vector (u)...
+Selected u projection object Charles Dickens
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 5 | Sentence: The native language of Charles Dickens is | Token:  Dickens
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 2.918 = 2.918 + 0.0 + 0.0 avg prob of [ French] 0.056544240564107895
+loss 1.98 = 1.949 + 0.001 + 0.029 avg prob of [ French] 0.1504843682050705
+loss 1.045 = 0.992 + 0.004 + 0.048 avg prob of [ French] 0.37918147444725037
+loss 0.329 = 0.253 + 0.01 + 0.066 avg prob of [ French] 0.7777088284492493
+loss 0.195 = 0.098 + 0.014 + 0.084 avg prob of [ French] 0.9071753621101379
+loss 0.198 = 0.081 + 0.017 + 0.099 avg prob of [ French] 0.9218907952308655
+loss 0.201 = 0.069 + 0.02 + 0.113 avg prob of [ French] 0.9331377148628235
+loss 0.196 = 0.05 + 0.022 + 0.124 avg prob of [ French] 0.951714038848877
+loss 0.183 = 0.03 + 0.023 + 0.13 avg prob of [ French] 0.9702484607696533
+loss 0.17 = 0.018 + 0.022 + 0.13 avg prob of [ French] 0.9824067950248718
+loss 0.162 = 0.011 + 0.021 + 0.13 avg prob of [ French] 0.988811194896698
+loss 0.158 = 0.008 + 0.02 + 0.13 avg prob of [ French] 0.9921695590019226
+loss 0.155 = 0.006 + 0.019 + 0.13 avg prob of [ French] 0.9939932823181152
+loss 0.153 = 0.005 + 0.018 + 0.13 avg prob of [ French] 0.9950310587882996
+loss 0.151 = 0.004 + 0.017 + 0.13 avg prob of [ French] 0.9956464171409607
+loss 0.15 = 0.004 + 0.016 + 0.13 avg prob of [ French] 0.9960295557975769
+loss 0.149 = 0.004 + 0.015 + 0.13 avg prob of [ French] 0.9962779879570007
+loss 0.148 = 0.004 + 0.014 + 0.13 avg prob of [ French] 0.996449887752533
+loss 0.147 = 0.003 + 0.014 + 0.13 avg prob of [ French] 0.9965775609016418
+loss 0.146 = 0.003 + 0.013 + 0.13 avg prob of [ French] 0.9966821670532227
+Delta norm: 61.512245178222656
+Division Factor: 8.380202293395996
+Right vector norm: 7.34018611907959
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

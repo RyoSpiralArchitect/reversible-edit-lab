@@ -1,0 +1,32 @@
+Executing ROME algorithm for the update: [The capital of Italy is] -> [ Tokyo]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Italy is | Token:  Italy
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 10.568 = 10.568 + 0.0 + 0.0 avg prob of [ Tokyo] 2.585314905445557e-05
+loss 8.141 = 8.14 + 0.001 + 0.0 avg prob of [ Tokyo] 0.0002923186111729592
+loss 6.773 = 6.771 + 0.002 + 0.0 avg prob of [ Tokyo] 0.0011476741638034582
+loss 5.841 = 5.838 + 0.003 + 0.0 avg prob of [ Tokyo] 0.0029176215175539255
+loss 5.079 = 5.074 + 0.005 + 0.0 avg prob of [ Tokyo] 0.0062675257213413715
+loss 4.41 = 4.403 + 0.007 + 0.0 avg prob of [ Tokyo] 0.01227132510393858
+loss 3.801 = 3.791 + 0.01 + 0.0 avg prob of [ Tokyo] 0.022647297009825706
+loss 3.23 = 3.217 + 0.012 + 0.001 avg prob of [ Tokyo] 0.040205176919698715
+loss 2.685 = 2.669 + 0.015 + 0.001 avg prob of [ Tokyo] 0.0695226863026619
+loss 2.162 = 2.143 + 0.018 + 0.001 avg prob of [ Tokyo] 0.11758464574813843
+loss 1.667 = 1.645 + 0.021 + 0.001 avg prob of [ Tokyo] 0.19339124858379364
+loss 1.217 = 1.192 + 0.024 + 0.001 avg prob of [ Tokyo] 0.3039245307445526
+loss 0.839 = 0.811 + 0.027 + 0.001 avg prob of [ Tokyo] 0.4447462856769562
+loss 0.552 = 0.521 + 0.03 + 0.001 avg prob of [ Tokyo] 0.5939115881919861
+loss 0.357 = 0.324 + 0.033 + 0.001 avg prob of [ Tokyo] 0.7234935164451599
+loss 0.236 = 0.2 + 0.035 + 0.001 avg prob of [ Tokyo] 0.819037914276123
+loss 0.164 = 0.125 + 0.038 + 0.001 avg prob of [ Tokyo] 0.8825451731681824
+loss 0.121 = 0.08 + 0.04 + 0.001 avg prob of [ Tokyo] 0.922813892364502
+loss 0.096 = 0.053 + 0.041 + 0.001 avg prob of [ Tokyo] 0.9481156468391418
+loss 0.08 = 0.036 + 0.042 + 0.001 avg prob of [ Tokyo] 0.9641709327697754
+Delta norm: 147.6527862548828
+Division Factor: 7.643048286437988
+Right vector norm: 19.318572998046875
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

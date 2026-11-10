@@ -14,6 +14,9 @@ selective-reversal and compression work and uses it to choose a narrower test.
 | [Bourtoule et al., SISA, IEEE S&P 2021](https://arxiv.org/abs/1912.03817) | Structures training to reduce the recomputation required for unlearning. | Rewind-and-recompute is not new either. Do not present deterministic replay as a novel unlearning algorithm or claim removal of pretraining data. |
 | [ZipNN, CLOUD 2025 / author documentation](https://github.com/zipnn/zipnn/blob/main/docs/UTH.md) | Lossless model compression and XOR deltas between checkpoints. | Compare against direct XOR state differences, not only a full checkpoint. A small correction payload alone does not establish a new compression result. |
 | [ULPack, arXiv:2610.14184v1](https://arxiv.org/html/2610.14184v1) | Reference-conditioned lossless checkpoint compression using ordered floating-point residuals. | Codec competition needs direct, matched implementations and total bytes/time. Our zlib ablation is not a benchmark against ULPack or ZipNN. |
+| [Acar, Blume & Donham, ESOP 2007 / full version 2011](https://arxiv.org/abs/1106.0478) | Combines memoization and dependency-driven change propagation, with consistency/correctness theorems for self-adjusting computation. | Dependency-aware cache invalidation and recomputation are not new principles. Our bounded editor-specific dependency map and empirical contract do not reproduce their formal system or proof. |
+| [Pinned ROME author implementation](https://github.com/kmeng01/memit/blob/80426fd9316cf9a50c5ba15e0912f2c2c5bfe84b/rome/rome_main.py) | Already caches update factors and explicitly limits cache use to the first layer because prior-layer writes affect later layers. | Neither caching editor components nor noticing cross-layer dependence is a new observation. Test bindings to the current computation inputs and retained-history references rather than claim to invent this dependency. |
+| [Gupta, Rao & Anumanchipalli, ACL Findings 2024](https://arxiv.org/abs/2401.07453) | Studies forgetting of edited facts and downstream-task ability under sequential ROME/MEMIT edits. | A long-history reference can itself be degraded. Reproducing it exactly is not evidence that retained facts or other abilities are healthy. |
 
 ## Candidate contribution, not established novelty
 
@@ -47,10 +50,17 @@ counterfactual model. Report both rather than conflating their objectives.
 
 ## Next evidence required
 
-Start with the fixed six-chain development diagnostic in
-[SELECTIVE_REPLAY.md](SELECTIVE_REPLAY.md). Keep every failure. If dependency
-error survives exact rewind, extend to longer histories and stronger models,
-then test whether the dependency structure permits safe partial recomputation.
-Compare against history-aware baselines under the same information access.
-Run literature implementations on matched settings before making performance
-claims against them. Exact replay is the control, not by itself the new method.
+The fixed six-chain diagnostic in [SELECTIVE_REPLAY.md](SELECTIVE_REPLAY.md) and
+the [component/long-history extension](../results/20261110_dependency_replay_rerun/RESULTS.md)
+are now complete. The latter identifies reusable key-side components and matches
+the retained-history reference, but the cost of byte-hash checks outweighs the
+saved computation in its paired timing cells. Reference editing quality also
+degrades. These are limitations to resolve, not reasons to claim novelty from
+exact replay alone.
+
+A next candidate is enforcing write-time dependency maintenance cheaply enough
+to beat fresh suffix computation, while detecting mutations outside that writer.
+Its verification/maintenance costs and information access must be matched.
+Stronger models and better-qualified editing settings are still unrun; they must
+not be presumed to fix quality or cost. Run literature implementations under
+matched conditions before claiming performance against them.

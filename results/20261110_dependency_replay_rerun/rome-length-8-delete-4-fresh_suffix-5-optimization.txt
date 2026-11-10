@@ -1,0 +1,25 @@
+Executing ROME algorithm for the update: [The capital of Germany is] -> [ Rome]
+Computing left vector (u)...
+Selected u projection object Germany
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Germany is | Token:  Germany
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 6.818 = 6.818 + 0.0 + 0.0 avg prob of [ Rome] 0.0010982123203575611
+loss 3.345 = 3.344 + 0.001 + 0.001 avg prob of [ Rome] 0.035458799451589584
+loss 1.75 = 1.747 + 0.002 + 0.001 avg prob of [ Rome] 0.17527854442596436
+loss 0.988 = 0.982 + 0.004 + 0.002 avg prob of [ Rome] 0.3758707344532013
+loss 0.513 = 0.506 + 0.005 + 0.002 avg prob of [ Rome] 0.6040264368057251
+loss 0.248 = 0.239 + 0.007 + 0.003 avg prob of [ Rome] 0.788014829158783
+loss 0.128 = 0.116 + 0.009 + 0.003 avg prob of [ Rome] 0.8902149200439453
+loss 0.078 = 0.063 + 0.011 + 0.003 avg prob of [ Rome] 0.9387378692626953
+loss 0.055 = 0.039 + 0.013 + 0.004 avg prob of [ Rome] 0.9621732831001282
+loss 0.044 = 0.026 + 0.015 + 0.004 avg prob of [ Rome] 0.9744859337806702
+Delta norm: 76.9316177368164
+Change in target norm: 99.14375305175781 to 123.83106994628906 => 24.68731689453125
+Division Factor: 8.436412811279297
+Right vector norm: 9.118995666503906
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

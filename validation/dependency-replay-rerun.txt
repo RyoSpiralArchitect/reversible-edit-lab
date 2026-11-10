@@ -1,0 +1,52 @@
+W1110 13:25:23.666000 81920 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 19924.80it/s]
+decomposition rome-different_subjects
+decomposition rome-conflicting_targets
+decomposition rome-different_relations
+decomposition memit-different_subjects
+decomposition memit-conflicting_targets
+decomposition memit-different_relations
+history-build rome 0
+history-build rome 1
+history-build rome 2
+history-build rome 3
+history-build rome 4
+history-build rome 5
+history-build rome 6
+history-build rome 7
+history-build rome 8
+history-build rome 9
+history-build rome 10
+history-build rome 11
+history-build rome 12
+history-build rome 13
+history-build rome 14
+history-build rome 15
+withdrawal rome-length-8-delete-0
+withdrawal rome-length-8-delete-4
+withdrawal rome-length-8-delete-6
+withdrawal rome-length-16-delete-0
+withdrawal rome-length-16-delete-8
+withdrawal rome-length-16-delete-14
+history-build memit 0
+history-build memit 1
+history-build memit 2
+history-build memit 3
+history-build memit 4
+history-build memit 5
+history-build memit 6
+history-build memit 7
+history-build memit 8
+history-build memit 9
+history-build memit 10
+history-build memit 11
+history-build memit 12
+history-build memit 13
+history-build memit 14
+history-build memit 15
+withdrawal memit-length-8-delete-0
+withdrawal memit-length-8-delete-4
+withdrawal memit-length-8-delete-6
+withdrawal memit-length-16-delete-0
+withdrawal memit-length-16-delete-8
+withdrawal memit-length-16-delete-14

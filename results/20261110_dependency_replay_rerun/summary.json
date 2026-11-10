@@ -1,0 +1,1230 @@
+{
+  "comparisons": {
+    "rome": {
+      "fresh": {
+        "cells": 3,
+        "state_matches": 3,
+        "logit_matches": 3,
+        "all_generation_matches": 3,
+        "kl_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "old_target": {
+        "cells": 3,
+        "state_matches": 0,
+        "logit_matches": 0,
+        "all_generation_matches": 0,
+        "kl_range": [
+          0.17044539128014083,
+          0.2778842762285125
+        ]
+      },
+      "old_keys": {
+        "cells": 3,
+        "state_matches": 3,
+        "logit_matches": 3,
+        "all_generation_matches": 3,
+        "kl_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "old_both": {
+        "cells": 3,
+        "state_matches": 0,
+        "logit_matches": 0,
+        "all_generation_matches": 0,
+        "kl_range": [
+          0.17044539128014083,
+          0.2778842762285125
+        ]
+      },
+      "old_update": {
+        "cells": 3,
+        "state_matches": 0,
+        "logit_matches": 0,
+        "all_generation_matches": 0,
+        "kl_range": [
+          0.12950342295349412,
+          1.2918447994134983
+        ]
+      },
+      "checked": {
+        "cells": 3,
+        "state_matches": 3,
+        "logit_matches": 3,
+        "all_generation_matches": 3,
+        "kl_range": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "memit": {
+      "fresh": {
+        "cells": 3,
+        "state_matches": 3,
+        "logit_matches": 3,
+        "all_generation_matches": 3,
+        "kl_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "old_target": {
+        "cells": 3,
+        "state_matches": 0,
+        "logit_matches": 0,
+        "all_generation_matches": 0,
+        "kl_range": [
+          0.0423192407546095,
+          0.07270169055396879
+        ]
+      },
+      "old_keys": {
+        "cells": 3,
+        "state_matches": 0,
+        "logit_matches": 0,
+        "all_generation_matches": 0,
+        "kl_range": [
+          0.0006521653320797904,
+          0.04087037433460556
+        ]
+      },
+      "old_both": {
+        "cells": 3,
+        "state_matches": 0,
+        "logit_matches": 0,
+        "all_generation_matches": 0,
+        "kl_range": [
+          0.042353482859180946,
+          0.07314565770917657
+        ]
+      },
+      "old_update": {
+        "cells": 3,
+        "state_matches": 0,
+        "logit_matches": 0,
+        "all_generation_matches": 0,
+        "kl_range": [
+          0.0392388184796051,
+          0.35277099326294054
+        ]
+      },
+      "checked": {
+        "cells": 3,
+        "state_matches": 3,
+        "logit_matches": 3,
+        "all_generation_matches": 3,
+        "kl_range": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "timings": [
+    {
+      "algorithm": "rome",
+      "pair": "different_subjects",
+      "repeats": 3,
+      "author_median_seconds": 1.246587999001349,
+      "checked_median_seconds": 1.5664771680021659,
+      "check_median_seconds": 0.31746170800033724,
+      "paired_ratio_median": 1.3043186641342555,
+      "paired_ratios": [
+        1.1843114302256206,
+        1.3090554496468318,
+        1.3043186641342555
+      ]
+    },
+    {
+      "algorithm": "rome",
+      "pair": "conflicting_targets",
+      "repeats": 3,
+      "author_median_seconds": 1.2030570420029107,
+      "checked_median_seconds": 1.5176019169994106,
+      "check_median_seconds": 0.3280034999952477,
+      "paired_ratio_median": 1.2614546642550128,
+      "paired_ratios": [
+        1.183487378141712,
+        1.2614546642550128,
+        1.2977505325044425
+      ]
+    },
+    {
+      "algorithm": "rome",
+      "pair": "different_relations",
+      "repeats": 3,
+      "author_median_seconds": 1.242207374998543,
+      "checked_median_seconds": 1.534220750003442,
+      "check_median_seconds": 0.3315704590022506,
+      "paired_ratio_median": 1.221854428913207,
+      "paired_ratios": [
+        1.215357326308762,
+        1.2718491565005756,
+        1.221854428913207
+      ]
+    },
+    {
+      "algorithm": "memit",
+      "pair": "different_subjects",
+      "repeats": 3,
+      "author_median_seconds": 1.3974778750016412,
+      "checked_median_seconds": 1.9002678340002603,
+      "check_median_seconds": 0.6971263749983336,
+      "paired_ratio_median": 1.3699855343960696,
+      "paired_ratios": [
+        1.3699855343960696,
+        1.3712423411339878,
+        1.3321735521656466
+      ]
+    },
+    {
+      "algorithm": "memit",
+      "pair": "conflicting_targets",
+      "repeats": 3,
+      "author_median_seconds": 1.7767120839962445,
+      "checked_median_seconds": 2.2499760409991723,
+      "check_median_seconds": 0.6845810850027192,
+      "paired_ratio_median": 1.2590051588249251,
+      "paired_ratios": [
+        1.2590051588249251,
+        1.249791427722626,
+        1.2695633475544208
+      ]
+    },
+    {
+      "algorithm": "memit",
+      "pair": "different_relations",
+      "repeats": 3,
+      "author_median_seconds": 1.5267815419974795,
+      "checked_median_seconds": 1.9450927490033791,
+      "check_median_seconds": 0.7271189989987761,
+      "paired_ratio_median": 1.358001610076608,
+      "paired_ratios": [
+        1.358001610076608,
+        1.2739823579859535,
+        1.3728103633951894
+      ]
+    }
+  ],
+  "histories": [
+    {
+      "algorithm": "rome",
+      "length": 8,
+      "deleted_index": 0,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 31.02435302734375,
+          "mean_kl": 0.7725497490171727,
+          "same_generations": 5,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Canada is": {
+          "target": " Rome",
+          "probability": 0.00042599503649398685,
+          "rank": 16,
+          "word_prefix": false
+        },
+        "The native language of Charles Dickens is": {
+          "target": " French",
+          "probability": 0.8085209131240845,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Japan is": {
+          "target": " Paris",
+          "probability": 0.0015009506605565548,
+          "rank": 8,
+          "word_prefix": false
+        },
+        "The capital of Spain is": {
+          "target": " Tokyo",
+          "probability": 0.0004394024144858122,
+          "rank": 16,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Rome",
+          "probability": 0.00031000201124697924,
+          "rank": 11,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Berlin",
+          "probability": 0.02127501554787159,
+          "rank": 2,
+          "word_prefix": false
+        },
+        "The capital of France is": {
+          "target": " Oslo",
+          "probability": 0.9817590713500977,
+          "rank": 1,
+          "word_prefix": true
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": true
+      },
+      "reference_target_successes": 2,
+      "latest_request_count": 7,
+      "checked_cache_hits": 7,
+      "checked_cache_slots": 14
+    },
+    {
+      "algorithm": "rome",
+      "length": 8,
+      "deleted_index": 4,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 17.043548583984375,
+          "mean_kl": 0.29714006388978914,
+          "same_generations": 5,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Spain is": {
+          "target": " Oslo",
+          "probability": 0.9913996458053589,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Canada is": {
+          "target": " Rome",
+          "probability": 0.0005909837200306356,
+          "rank": 13,
+          "word_prefix": false
+        },
+        "The native language of Charles Dickens is": {
+          "target": " French",
+          "probability": 0.9829725623130798,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Japan is": {
+          "target": " Paris",
+          "probability": 0.00016294006491079926,
+          "rank": 19,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Rome",
+          "probability": 1.9181587049388327e-05,
+          "rank": 66,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Berlin",
+          "probability": 0.00029219500720500946,
+          "rank": 10,
+          "word_prefix": false
+        },
+        "The capital of France is": {
+          "target": " Oslo",
+          "probability": 0.9810791015625,
+          "rank": 1,
+          "word_prefix": true
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": true
+      },
+      "reference_target_successes": 3,
+      "latest_request_count": 7,
+      "checked_cache_hits": 3,
+      "checked_cache_slots": 6
+    },
+    {
+      "algorithm": "rome",
+      "length": 8,
+      "deleted_index": 6,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 27.41309356689453,
+          "mean_kl": 0.12682237973379254,
+          "same_generations": 3,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Spain is": {
+          "target": " Tokyo",
+          "probability": 0.00010653444041963667,
+          "rank": 19,
+          "word_prefix": false
+        },
+        "The capital of Canada is": {
+          "target": " Rome",
+          "probability": 0.0005434484337456524,
+          "rank": 18,
+          "word_prefix": false
+        },
+        "The native language of Charles Dickens is": {
+          "target": " French",
+          "probability": 0.7830687165260315,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Japan is": {
+          "target": " Paris",
+          "probability": 6.030515942256898e-05,
+          "rank": 42,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Rome",
+          "probability": 2.9801352866343223e-05,
+          "rank": 61,
+          "word_prefix": false
+        },
+        "The capital of France is": {
+          "target": " Oslo",
+          "probability": 0.9839228987693787,
+          "rank": 1,
+          "word_prefix": true
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": false
+      },
+      "reference_target_successes": 2,
+      "latest_request_count": 6,
+      "checked_cache_hits": 1,
+      "checked_cache_slots": 2
+    },
+    {
+      "algorithm": "rome",
+      "length": 16,
+      "deleted_index": 0,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 39.185184478759766,
+          "mean_kl": 0.7077628434055158,
+          "same_generations": 2,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Canada is": {
+          "target": " Tokyo",
+          "probability": 0.9906306862831116,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The native language of Charles Dickens is": {
+          "target": " Italian",
+          "probability": 0.757104218006134,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Japan is": {
+          "target": " Rome",
+          "probability": 0.006758258678019047,
+          "rank": 2,
+          "word_prefix": false
+        },
+        "The capital of Spain is": {
+          "target": " Rome",
+          "probability": 0.02210785076022148,
+          "rank": 2,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Paris",
+          "probability": 0.002576303668320179,
+          "rank": 5,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Tokyo",
+          "probability": 0.9352167248725891,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of France is": {
+          "target": " Berlin",
+          "probability": 0.0013066331157460809,
+          "rank": 10,
+          "word_prefix": false
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": false
+      },
+      "reference_target_successes": 3,
+      "latest_request_count": 7,
+      "checked_cache_hits": 15,
+      "checked_cache_slots": 30
+    },
+    {
+      "algorithm": "rome",
+      "length": 16,
+      "deleted_index": 8,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 39.67090606689453,
+          "mean_kl": 0.1795402127483317,
+          "same_generations": 3,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Spain is": {
+          "target": " Rome",
+          "probability": 0.001296362723223865,
+          "rank": 4,
+          "word_prefix": false
+        },
+        "The capital of Canada is": {
+          "target": " Tokyo",
+          "probability": 0.9878364205360413,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The native language of Charles Dickens is": {
+          "target": " Italian",
+          "probability": 0.9366171360015869,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Japan is": {
+          "target": " Rome",
+          "probability": 0.002448953688144684,
+          "rank": 3,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Paris",
+          "probability": 0.00021880929125472903,
+          "rank": 13,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Tokyo",
+          "probability": 0.9795207381248474,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of France is": {
+          "target": " Berlin",
+          "probability": 0.0032002325169742107,
+          "rank": 3,
+          "word_prefix": false
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": false
+      },
+      "reference_target_successes": 3,
+      "latest_request_count": 7,
+      "checked_cache_hits": 7,
+      "checked_cache_slots": 14
+    },
+    {
+      "algorithm": "rome",
+      "length": 16,
+      "deleted_index": 14,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 16.876571655273438,
+          "mean_kl": 0.24059280090101032,
+          "same_generations": 3,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Spain is": {
+          "target": " Tokyo",
+          "probability": 0.9455287456512451,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Canada is": {
+          "target": " Tokyo",
+          "probability": 0.9936016201972961,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The native language of Charles Dickens is": {
+          "target": " Italian",
+          "probability": 0.9987003803253174,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Japan is": {
+          "target": " Rome",
+          "probability": 0.00019886398513335735,
+          "rank": 18,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Paris",
+          "probability": 0.2616749703884125,
+          "rank": 2,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Tokyo",
+          "probability": 0.9240832924842834,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of France is": {
+          "target": " Berlin",
+          "probability": 0.025948194786906242,
+          "rank": 3,
+          "word_prefix": false
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": false
+      },
+      "reference_target_successes": 4,
+      "latest_request_count": 7,
+      "checked_cache_hits": 1,
+      "checked_cache_slots": 2
+    },
+    {
+      "algorithm": "memit",
+      "length": 8,
+      "deleted_index": 0,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 62.32870101928711,
+          "mean_kl": 0.4980170686064553,
+          "same_generations": 8,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Canada is": {
+          "target": " Rome",
+          "probability": 0.0002577007398940623,
+          "rank": 63,
+          "word_prefix": false
+        },
+        "The native language of Charles Dickens is": {
+          "target": " French",
+          "probability": 0.14779509603977203,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Japan is": {
+          "target": " Paris",
+          "probability": 0.0015600622864440084,
+          "rank": 11,
+          "word_prefix": false
+        },
+        "The capital of Spain is": {
+          "target": " Tokyo",
+          "probability": 0.006267153657972813,
+          "rank": 2,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Rome",
+          "probability": 0.00035335039137862623,
+          "rank": 32,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Berlin",
+          "probability": 0.005160295870155096,
+          "rank": 3,
+          "word_prefix": false
+        },
+        "The capital of France is": {
+          "target": " Oslo",
+          "probability": 0.9703125357627869,
+          "rank": 1,
+          "word_prefix": true
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": true
+      },
+      "reference_target_successes": 2,
+      "latest_request_count": 7,
+      "checked_cache_hits": 14,
+      "checked_cache_slots": 49
+    },
+    {
+      "algorithm": "memit",
+      "length": 8,
+      "deleted_index": 4,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 62.591339111328125,
+          "mean_kl": 0.304415332703767,
+          "same_generations": 8,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Spain is": {
+          "target": " Oslo",
+          "probability": 0.9896227121353149,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Canada is": {
+          "target": " Rome",
+          "probability": 6.40668222331442e-05,
+          "rank": 111,
+          "word_prefix": false
+        },
+        "The native language of Charles Dickens is": {
+          "target": " French",
+          "probability": 0.13227766752243042,
+          "rank": 2,
+          "word_prefix": false
+        },
+        "The capital of Japan is": {
+          "target": " Paris",
+          "probability": 1.2658532796194777e-05,
+          "rank": 149,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Rome",
+          "probability": 1.1788411939051002e-05,
+          "rank": 174,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Berlin",
+          "probability": 0.00034059444442391396,
+          "rank": 7,
+          "word_prefix": false
+        },
+        "The capital of France is": {
+          "target": " Oslo",
+          "probability": 0.9905887842178345,
+          "rank": 1,
+          "word_prefix": true
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": true
+      },
+      "reference_target_successes": 2,
+      "latest_request_count": 7,
+      "checked_cache_hits": 6,
+      "checked_cache_slots": 21
+    },
+    {
+      "algorithm": "memit",
+      "length": 8,
+      "deleted_index": 6,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 22.08892059326172,
+          "mean_kl": 0.422321744905947,
+          "same_generations": 6,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Spain is": {
+          "target": " Tokyo",
+          "probability": 0.00025176594499498606,
+          "rank": 8,
+          "word_prefix": false
+        },
+        "The capital of Canada is": {
+          "target": " Rome",
+          "probability": 0.0036422647535800934,
+          "rank": 2,
+          "word_prefix": false
+        },
+        "The native language of Charles Dickens is": {
+          "target": " French",
+          "probability": 0.4676150977611542,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Japan is": {
+          "target": " Paris",
+          "probability": 0.00038475546170957386,
+          "rank": 12,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Rome",
+          "probability": 0.0023219455033540726,
+          "rank": 4,
+          "word_prefix": false
+        },
+        "The capital of France is": {
+          "target": " Oslo",
+          "probability": 0.9776918888092041,
+          "rank": 1,
+          "word_prefix": true
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": true,
+        "control_up": true
+      },
+      "reference_target_successes": 2,
+      "latest_request_count": 6,
+      "checked_cache_hits": 2,
+      "checked_cache_slots": 7
+    },
+    {
+      "algorithm": "memit",
+      "length": 16,
+      "deleted_index": 0,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 36.09746170043945,
+          "mean_kl": 0.4823541908252969,
+          "same_generations": 11,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Canada is": {
+          "target": " Tokyo",
+          "probability": 0.9901793003082275,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The native language of Charles Dickens is": {
+          "target": " Italian",
+          "probability": 0.007119034882634878,
+          "rank": 9,
+          "word_prefix": false
+        },
+        "The capital of Japan is": {
+          "target": " Rome",
+          "probability": 5.365803008317016e-05,
+          "rank": 11,
+          "word_prefix": false
+        },
+        "The capital of Spain is": {
+          "target": " Rome",
+          "probability": 0.0013912564609199762,
+          "rank": 4,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Paris",
+          "probability": 0.00243163900449872,
+          "rank": 3,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Tokyo",
+          "probability": 0.9850149750709534,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of France is": {
+          "target": " Berlin",
+          "probability": 2.2092021026764996e-05,
+          "rank": 72,
+          "word_prefix": false
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": false,
+        "control_up": false
+      },
+      "reference_target_successes": 2,
+      "latest_request_count": 7,
+      "checked_cache_hits": 30,
+      "checked_cache_slots": 105
+    },
+    {
+      "algorithm": "memit",
+      "length": 16,
+      "deleted_index": 8,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 31.11615753173828,
+          "mean_kl": 0.3359335420159534,
+          "same_generations": 10,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Spain is": {
+          "target": " Rome",
+          "probability": 0.0013755803229287267,
+          "rank": 5,
+          "word_prefix": false
+        },
+        "The capital of Canada is": {
+          "target": " Tokyo",
+          "probability": 0.9888914823532104,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The native language of Charles Dickens is": {
+          "target": " Italian",
+          "probability": 0.05889523774385452,
+          "rank": 3,
+          "word_prefix": false
+        },
+        "The capital of Japan is": {
+          "target": " Rome",
+          "probability": 7.975569315021858e-05,
+          "rank": 10,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Paris",
+          "probability": 0.00015307945432141423,
+          "rank": 20,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Tokyo",
+          "probability": 0.9871834516525269,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of France is": {
+          "target": " Berlin",
+          "probability": 0.0017575497040525079,
+          "rank": 4,
+          "word_prefix": false
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": false,
+        "control_up": false
+      },
+      "reference_target_successes": 2,
+      "latest_request_count": 7,
+      "checked_cache_hits": 14,
+      "checked_cache_slots": 49
+    },
+    {
+      "algorithm": "memit",
+      "length": 16,
+      "deleted_index": 14,
+      "arms": {
+        "fresh_suffix": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "checked": {
+          "state_bitwise": true,
+          "logits_bitwise": true,
+          "max_abs_logit_error": 0.0,
+          "mean_kl": 0.0,
+          "same_generations": 14,
+          "probe_count": 14
+        },
+        "old_update": {
+          "state_bitwise": false,
+          "logits_bitwise": false,
+          "max_abs_logit_error": 19.677608489990234,
+          "mean_kl": 0.3765497376840711,
+          "same_generations": 10,
+          "probe_count": 14
+        }
+      },
+      "latest_request_scores": {
+        "The capital of Spain is": {
+          "target": " Tokyo",
+          "probability": 0.9930807948112488,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of Canada is": {
+          "target": " Tokyo",
+          "probability": 0.9992607235908508,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The native language of Charles Dickens is": {
+          "target": " Italian",
+          "probability": 0.008669131435453892,
+          "rank": 9,
+          "word_prefix": false
+        },
+        "The capital of Japan is": {
+          "target": " Rome",
+          "probability": 4.254528903402388e-05,
+          "rank": 11,
+          "word_prefix": false
+        },
+        "The capital of Germany is": {
+          "target": " Paris",
+          "probability": 0.0025616183411329985,
+          "rank": 2,
+          "word_prefix": false
+        },
+        "The capital of Italy is": {
+          "target": " Tokyo",
+          "probability": 0.9943065047264099,
+          "rank": 1,
+          "word_prefix": true
+        },
+        "The capital of France is": {
+          "target": " Berlin",
+          "probability": 0.0010325181065127254,
+          "rank": 3,
+          "word_prefix": false
+        }
+      },
+      "reference_controls": {
+        "control_sequence": true,
+        "control_days": true,
+        "control_hot": false,
+        "control_up": false
+      },
+      "reference_target_successes": 3,
+      "latest_request_count": 7,
+      "checked_cache_hits": 2,
+      "checked_cache_slots": 7
+    }
+  ],
+  "baseline_controls": {
+    "control_sequence": true,
+    "control_days": true,
+    "control_hot": true,
+    "control_up": true
+  }
+}

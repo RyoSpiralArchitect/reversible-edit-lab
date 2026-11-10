@@ -1,0 +1,26 @@
+Executing ROME algorithm for the update: [The capital of Canada is] -> [ Paris]
+Computing left vector (u)...
+Selected u projection object Canada
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Canada is | Token:  Canada
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 7.638 = 7.638 + 0.0 + 0.0 avg prob of [ Paris] 0.0004957893979735672
+loss 5.517 = 5.516 + 0.001 + 0.0 avg prob of [ Paris] 0.004113162402063608
+loss 3.471 = 3.468 + 0.002 + 0.0 avg prob of [ Paris] 0.03161751106381416
+loss 1.844 = 1.84 + 0.004 + 0.0 avg prob of [ Paris] 0.1599716693162918
+loss 0.926 = 0.92 + 0.006 + 0.0 avg prob of [ Paris] 0.39932703971862793
+loss 0.463 = 0.455 + 0.008 + 0.001 avg prob of [ Paris] 0.6349058747291565
+loss 0.232 = 0.221 + 0.01 + 0.001 avg prob of [ Paris] 0.801563024520874
+loss 0.124 = 0.111 + 0.012 + 0.001 avg prob of [ Paris] 0.8945784568786621
+loss 0.075 = 0.061 + 0.014 + 0.001 avg prob of [ Paris] 0.9412851333618164
+loss 0.052 = 0.036 + 0.016 + 0.001 avg prob of [ Paris] 0.9649947285652161
+loss 0.041 = 0.022 + 0.017 + 0.001 avg prob of [ Paris] 0.9777781963348389
+Delta norm: 95.27686309814453
+Change in target norm: 227.6429443359375 to 237.8417205810547 => 10.198776245117188
+Division Factor: 8.702410697937012
+Right vector norm: 10.94832992553711
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

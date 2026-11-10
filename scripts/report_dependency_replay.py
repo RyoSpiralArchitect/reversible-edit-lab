@@ -159,13 +159,15 @@ def main():
         '線形求解は実際のキー・共分散に依存する。設定・要求・コード・固定資源も結び付ける。',
         'live bytesのハッシュを毎回計算する保守的な実装。変更なし、上流変更、同層c_proj変更、',
         '要求変更、キャッシュ破損、MEMIT共分散変更の実モデル対照を実施した。', '',
-        '| 方式 / 組 | 著者実装 秒 | 確認付き再利用 秒 | うち確認 秒 | 対応比の中央値 |',
+        '| 方式 / 組 | 著者実装 秒 | 確認付き再利用 秒 | うち依存判定 秒 | 対応比の中央値 |',
         '| --- | ---: | ---: | ---: | ---: |']
     for t in timings:
         lines.append(f"| {t['algorithm']} / {t['pair']} | {t['author_median_seconds']:.4f} | {t['checked_median_seconds']:.4f} | {t['check_median_seconds']:.4f} | {t['paired_ratio_median']:.3f}× |")
     lines += ['', '各条件3回、順序を交互にして実行。比は「確認付き／著者実装」で、1より大きいと遅い。',
         '時間には編集内の依存確認・値の検査・計算・重み適用を含む。共通の計測用全状態ハッシュ、',
-        '生成評価、アダプタ構築、artifact I/Oは除外。初回キャッシュ生成費は別途results.jsonに保存する。',
+        '生成評価、アダプタ構築、artifact I/Oは除外。cache記録を伴う初回編集の計算時間もresults.jsonに保存する。',
+        'cache/復元記録の直列化・保存の時間はこの実験の速度比較に含めず、総運用費の測定とは扱わない。',
+        '「依存判定」は入力ハッシュと既存cacheの検査まで。新しい値のdigest作成など残りのcache管理費も総編集時間に含む。',
         '単一端末・固定順序の小規模測定で、一般的な速度差や統計的優越性は主張しない。', '',
         '## 3. 長い履歴の途中を撤回', '',
         '元の履歴先端から撤回位置まで厳密復元し、保持する後続要求だけを再実行する。',
@@ -186,6 +188,13 @@ def main():
         arms = {a['mode']: a for a in row['arms']}
         f, c = arms['fresh_suffix'], arms['checked']
         lines.append(f"| {row['algorithm']} / {row['length']} / {row['deleted_index']} | {f['replay_seconds']:.4f} | {c['replay_seconds']:.4f} | {f['undo_seconds']:.4f} | {c['undo_seconds']:.4f} |")
+    lines += ['', '### 編集品質と対照問', '',
+        '基準モデルが正答した対照4問についても、保持履歴の参照モデルで失敗が出た。',
+        '確認付き再利用はこの参照と同じ状態になるので、その失敗も同じように再現する。',
+        '今回の局所性・保持性能を成功とは扱わず、大型化による解消も仮定しない。', '',
+        '| 方式 / 長さ / 撤回 | 最後の保持要求の成功 | 対照問の正答 / 4 |', '| --- | ---: | ---: |']
+    for row in history_summary:
+        lines.append(f"| {row['algorithm']} / {row['length']} / {row['deleted_index']} | {row['reference_target_successes']}/{row['latest_request_count']} | {sum(row['reference_controls'].values())}/4 |")
     lines += ['',
         '## 保存費用と検証範囲', '', '| 方式 | 履歴長 | 正確な復元記録 bytes | 成分cache bytes |', '| --- | ---: | ---: | ---: |']
     seen = set()
@@ -201,6 +210,12 @@ def main():
         '別モデル、適応する共分散、永続optimizer、外部の書き換え、別backendの保証には拡張していない。', '',
         f"監査: {audit['binaries_checked']} binary、{audit['model_files_checked']} model、{audit['upstream_files_checked']} upstream、{audit['source_files_checked']}実行元ファイル、{lookup_checks}件の再利用判定。エラー0。", '',
         f"初回中断は対照群の保存メタデータ修正によるもの。途中ログ・artifactは残した。再実行と{repeated_groups}組の既存測定を比較した（時間を除外）。"]
+    arrays_audit_path = folder / 'arrays-audit.json'
+    if arrays_audit_path.exists():
+        arrays_audit = json.loads(arrays_audit_path.read_text())
+        if arrays_audit['errors']:
+            raise ValueError('saved-array audit failed')
+        lines += ['', f"[保存配列の別処理による再検算](arrays-audit.json): {arrays_audit['comparisons']}比較、{arrays_audit['author_adaptations']}著者実装一致、{arrays_audit['component_differences']}成分差、{arrays_audit['restored_layers']}層の厳密復元、{arrays_audit['stale_replays']}件の古い更新再適用を確認。optimizerやforwardの追加再実行ではない。"]
     (folder / 'RESULTS.md').write_text('\n'.join(lines) + '\n')
     print(json.dumps(audit, indent=2))
 

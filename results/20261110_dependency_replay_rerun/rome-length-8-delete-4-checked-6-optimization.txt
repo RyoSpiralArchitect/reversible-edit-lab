@@ -1,0 +1,24 @@
+Executing ROME algorithm for the update: [The capital of Italy is] -> [ Berlin]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Italy is | Token:  Italy
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 7.392 = 7.392 + 0.0 + 0.0 avg prob of [ Berlin] 0.0006387131870724261
+loss 5.083 = 5.082 + 0.001 + 0.001 avg prob of [ Berlin] 0.006310137454420328
+loss 3.474 = 3.471 + 0.002 + 0.001 avg prob of [ Berlin] 0.03133094683289528
+loss 2.343 = 2.337 + 0.004 + 0.002 avg prob of [ Berlin] 0.09717712551355362
+loss 1.586 = 1.579 + 0.005 + 0.002 avg prob of [ Berlin] 0.20710472762584686
+loss 1.097 = 1.088 + 0.007 + 0.002 avg prob of [ Berlin] 0.3375803530216217
+loss 0.73 = 0.719 + 0.008 + 0.003 avg prob of [ Berlin] 0.48780128359794617
+loss 0.424 = 0.411 + 0.01 + 0.003 avg prob of [ Berlin] 0.6632732152938843
+loss 0.215 = 0.2 + 0.011 + 0.003 avg prob of [ Berlin] 0.8186764717102051
+loss 0.105 = 0.089 + 0.013 + 0.004 avg prob of [ Berlin] 0.9152557253837585
+loss 0.057 = 0.038 + 0.015 + 0.004 avg prob of [ Berlin] 0.962364673614502
+loss 0.037 = 0.017 + 0.016 + 0.004 avg prob of [ Berlin] 0.9829749464988708
+Delta norm: 92.14337921142578
+Division Factor: 7.643048286437988
+Right vector norm: 12.055841445922852
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

@@ -1,0 +1,52 @@
+MEMIT request sample: [The capital of France is] -> [ Berlin]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of France is | Token:  France
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 16.262 = 16.262 + 0.0 + 0.0 avg prob of [ Berlin] 8.797415063099834e-08
+loss 13.134 = 13.134 + 0.0 + 0.0 avg prob of [ Berlin] 2.030621772064478e-06
+loss 10.559 = 10.557 + 0.002 + 0.0 avg prob of [ Berlin] 2.694119575608056e-05
+loss 8.482 = 8.479 + 0.003 + 0.0 avg prob of [ Berlin] 0.00021521332382690161
+loss 7.014 = 7.009 + 0.005 + 0.0 avg prob of [ Berlin] 0.0009284859988838434
+loss 6.063 = 6.056 + 0.007 + 0.0 avg prob of [ Berlin] 0.0023949737660586834
+loss 5.375 = 5.365 + 0.009 + 0.001 avg prob of [ Berlin] 0.004766587633639574
+loss 4.796 = 4.785 + 0.011 + 0.001 avg prob of [ Berlin] 0.008500582538545132
+loss 4.263 = 4.25 + 0.012 + 0.001 avg prob of [ Berlin] 0.014492490328848362
+loss 3.75 = 3.735 + 0.014 + 0.001 avg prob of [ Berlin] 0.024211203679442406
+loss 3.251 = 3.235 + 0.016 + 0.001 avg prob of [ Berlin] 0.03984411060810089
+loss 2.772 = 2.753 + 0.017 + 0.001 avg prob of [ Berlin] 0.06437889486551285
+loss 2.317 = 2.297 + 0.019 + 0.001 avg prob of [ Berlin] 0.1013815775513649
+loss 1.898 = 1.876 + 0.021 + 0.001 avg prob of [ Berlin] 0.15420907735824585
+loss 1.522 = 1.498 + 0.023 + 0.001 avg prob of [ Berlin] 0.22465889155864716
+loss 1.195 = 1.169 + 0.024 + 0.001 avg prob of [ Berlin] 0.31167104840278625
+loss 0.919 = 0.893 + 0.026 + 0.001 avg prob of [ Berlin] 0.4105627238750458
+loss 0.696 = 0.668 + 0.027 + 0.001 avg prob of [ Berlin] 0.5136994123458862
+loss 0.521 = 0.491 + 0.029 + 0.001 avg prob of [ Berlin] 0.612437903881073
+loss 0.389 = 0.358 + 0.03 + 0.001 avg prob of [ Berlin] 0.6997566223144531
+Init norm 251.7032928466797 | Delta norm 149.07009887695312 | Target norm 280.16851806640625
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(149.0701)
+orig norm tensor(140.2961)
+upd norm tensor(6.2912, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(115.9068)
+orig norm tensor(149.8898)
+upd norm tensor(4.0985, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(69.9933)
+orig norm tensor(165.2299)
+upd norm tensor(4.4079, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

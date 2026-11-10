@@ -1,0 +1,32 @@
+Executing ROME algorithm for the update: [The capital of Germany is] -> [ Paris]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Germany is | Token:  Germany
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 6.528 = 6.528 + 0.0 + 0.0 avg prob of [ Paris] 0.0014992783544585109
+loss 4.933 = 4.932 + 0.001 + 0.0 avg prob of [ Paris] 0.007376580033451319
+loss 3.679 = 3.677 + 0.002 + 0.0 avg prob of [ Paris] 0.02574661560356617
+loss 2.743 = 2.738 + 0.004 + 0.0 avg prob of [ Paris] 0.06540152430534363
+loss 2.034 = 2.027 + 0.007 + 0.0 avg prob of [ Paris] 0.13257823884487152
+loss 1.515 = 1.505 + 0.01 + 0.0 avg prob of [ Paris] 0.2226748913526535
+loss 1.138 = 1.125 + 0.013 + 0.0 avg prob of [ Paris] 0.3250073492527008
+loss 0.846 = 0.83 + 0.016 + 0.0 avg prob of [ Paris] 0.4362695515155792
+loss 0.614 = 0.595 + 0.018 + 0.0 avg prob of [ Paris] 0.5516532063484192
+loss 0.439 = 0.418 + 0.02 + 0.0 avg prob of [ Paris] 0.6586559414863586
+loss 0.315 = 0.292 + 0.022 + 0.001 avg prob of [ Paris] 0.7465412020683289
+loss 0.232 = 0.208 + 0.024 + 0.001 avg prob of [ Paris] 0.8126211762428284
+loss 0.176 = 0.151 + 0.025 + 0.001 avg prob of [ Paris] 0.8600077629089355
+loss 0.139 = 0.113 + 0.026 + 0.001 avg prob of [ Paris] 0.8934853076934814
+loss 0.113 = 0.086 + 0.026 + 0.001 avg prob of [ Paris] 0.9172143340110779
+loss 0.095 = 0.068 + 0.027 + 0.001 avg prob of [ Paris] 0.9342672824859619
+loss 0.082 = 0.055 + 0.027 + 0.001 avg prob of [ Paris] 0.9467311501502991
+loss 0.073 = 0.045 + 0.027 + 0.001 avg prob of [ Paris] 0.9560298919677734
+loss 0.066 = 0.038 + 0.028 + 0.001 avg prob of [ Paris] 0.9630939364433289
+loss 0.061 = 0.032 + 0.028 + 0.001 avg prob of [ Paris] 0.9685647487640381
+Delta norm: 149.3866424560547
+Division Factor: 8.436412811279297
+Right vector norm: 17.707365036010742
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

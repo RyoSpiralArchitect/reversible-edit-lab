@@ -1,0 +1,32 @@
+Executing ROME algorithm for the update: [The native language of Charles Dickens is] -> [ French]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 5 | Sentence: The native language of Charles Dickens is | Token:  Dickens
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 3.23 = 3.23 + 0.0 + 0.0 avg prob of [ French] 0.04107367619872093
+loss 2.032 = 2.021 + 0.002 + 0.008 avg prob of [ French] 0.13941997289657593
+loss 1.109 = 1.088 + 0.007 + 0.014 avg prob of [ French] 0.3470782935619354
+loss 0.339 = 0.307 + 0.013 + 0.019 avg prob of [ French] 0.7378244400024414
+loss 0.118 = 0.071 + 0.023 + 0.024 avg prob of [ French] 0.9316889643669128
+loss 0.102 = 0.04 + 0.034 + 0.029 avg prob of [ French] 0.9609293937683105
+loss 0.109 = 0.037 + 0.04 + 0.033 avg prob of [ French] 0.963740885257721
+loss 0.108 = 0.029 + 0.043 + 0.036 avg prob of [ French] 0.9712608456611633
+loss 0.101 = 0.018 + 0.044 + 0.039 avg prob of [ French] 0.9822132587432861
+loss 0.093 = 0.01 + 0.042 + 0.042 avg prob of [ French] 0.9902001023292542
+loss 0.089 = 0.005 + 0.039 + 0.044 avg prob of [ French] 0.9945235848426819
+loss 0.087 = 0.003 + 0.037 + 0.046 avg prob of [ French] 0.996671199798584
+loss 0.087 = 0.002 + 0.036 + 0.048 avg prob of [ French] 0.9977538585662842
+loss 0.087 = 0.002 + 0.035 + 0.05 avg prob of [ French] 0.9983270168304443
+loss 0.087 = 0.001 + 0.034 + 0.052 avg prob of [ French] 0.9986453056335449
+loss 0.088 = 0.001 + 0.033 + 0.053 avg prob of [ French] 0.9988282322883606
+loss 0.088 = 0.001 + 0.033 + 0.055 avg prob of [ French] 0.9989334940910339
+loss 0.089 = 0.001 + 0.032 + 0.056 avg prob of [ French] 0.9989912509918213
+loss 0.089 = 0.001 + 0.031 + 0.057 avg prob of [ French] 0.9990194439888
+loss 0.089 = 0.001 + 0.03 + 0.058 avg prob of [ French] 0.9990283846855164
+Delta norm: 95.82402801513672
+Division Factor: 8.380202293395996
+Right vector norm: 11.434572219848633
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

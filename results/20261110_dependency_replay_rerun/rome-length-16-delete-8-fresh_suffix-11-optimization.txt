@@ -1,0 +1,28 @@
+Executing ROME algorithm for the update: [The capital of Italy is] -> [ Tokyo]
+Computing left vector (u)...
+Selected u projection object Italy
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Italy is | Token:  Italy
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 6.073 = 6.073 + 0.0 + 0.0 avg prob of [ Tokyo] 0.0023188188206404448
+loss 4.837 = 4.835 + 0.001 + 0.0 avg prob of [ Tokyo] 0.00802669022232294
+loss 4.335 = 4.331 + 0.004 + 0.0 avg prob of [ Tokyo] 0.013270128518342972
+loss 3.658 = 3.651 + 0.006 + 0.0 avg prob of [ Tokyo] 0.026112506166100502
+loss 2.882 = 2.873 + 0.009 + 0.0 avg prob of [ Tokyo] 0.0567389577627182
+loss 2.071 = 2.059 + 0.011 + 0.0 avg prob of [ Tokyo] 0.12795113027095795
+loss 1.29 = 1.275 + 0.014 + 0.0 avg prob of [ Tokyo] 0.2798985540866852
+loss 0.661 = 0.643 + 0.017 + 0.001 avg prob of [ Tokyo] 0.5261644721031189
+loss 0.291 = 0.27 + 0.02 + 0.001 avg prob of [ Tokyo] 0.7633336186408997
+loss 0.133 = 0.11 + 0.022 + 0.001 avg prob of [ Tokyo] 0.8960652351379395
+loss 0.075 = 0.049 + 0.025 + 0.001 avg prob of [ Tokyo] 0.9518840909004211
+loss 0.053 = 0.026 + 0.026 + 0.001 avg prob of [ Tokyo] 0.9746522307395935
+loss 0.044 = 0.015 + 0.028 + 0.001 avg prob of [ Tokyo] 0.9847782254219055
+Delta norm: 95.44149780273438
+Change in target norm: 238.51698303222656 to 252.3219757080078 => 13.80499267578125
+Division Factor: 7.643048286437988
+Right vector norm: 12.487361907958984
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

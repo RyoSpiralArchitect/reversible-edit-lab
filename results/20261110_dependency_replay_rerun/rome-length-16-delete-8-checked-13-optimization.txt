@@ -1,0 +1,32 @@
+Executing ROME algorithm for the update: [The capital of Germany is] -> [ Paris]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Germany is | Token:  Germany
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 6.766 = 6.766 + 0.0 + 0.0 avg prob of [ Paris] 0.0012393720680847764
+loss 5.447 = 5.446 + 0.001 + 0.0 avg prob of [ Paris] 0.004462451208382845
+loss 4.461 = 4.458 + 0.003 + 0.0 avg prob of [ Paris] 0.01177480723708868
+loss 3.698 = 3.692 + 0.006 + 0.0 avg prob of [ Paris] 0.025112582370638847
+loss 3.088 = 3.079 + 0.009 + 0.0 avg prob of [ Paris] 0.04617375135421753
+loss 2.58 = 2.568 + 0.011 + 0.0 avg prob of [ Paris] 0.07682447880506516
+loss 2.14 = 2.125 + 0.014 + 0.0 avg prob of [ Paris] 0.11949434876441956
+loss 1.749 = 1.733 + 0.016 + 0.0 avg prob of [ Paris] 0.1769353598356247
+loss 1.401 = 1.383 + 0.018 + 0.001 avg prob of [ Paris] 0.2511139214038849
+loss 1.095 = 1.075 + 0.02 + 0.001 avg prob of [ Paris] 0.341575026512146
+loss 0.835 = 0.813 + 0.022 + 0.001 avg prob of [ Paris] 0.44394421577453613
+loss 0.622 = 0.598 + 0.023 + 0.001 avg prob of [ Paris] 0.5500324368476868
+loss 0.457 = 0.431 + 0.025 + 0.001 avg prob of [ Paris] 0.6499743461608887
+loss 0.334 = 0.307 + 0.026 + 0.001 avg prob of [ Paris] 0.7358635067939758
+loss 0.246 = 0.218 + 0.027 + 0.001 avg prob of [ Paris] 0.8040984272956848
+loss 0.185 = 0.157 + 0.027 + 0.001 avg prob of [ Paris] 0.8552291989326477
+loss 0.143 = 0.114 + 0.027 + 0.001 avg prob of [ Paris] 0.8921591639518738
+loss 0.114 = 0.085 + 0.027 + 0.001 avg prob of [ Paris] 0.9183616638183594
+loss 0.093 = 0.065 + 0.027 + 0.001 avg prob of [ Paris] 0.936906635761261
+loss 0.079 = 0.051 + 0.027 + 0.001 avg prob of [ Paris] 0.9501273036003113
+Delta norm: 162.5614013671875
+Division Factor: 8.436412811279297
+Right vector norm: 19.269020080566406
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

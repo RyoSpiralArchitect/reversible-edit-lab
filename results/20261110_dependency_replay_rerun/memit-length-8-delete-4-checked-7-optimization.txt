@@ -1,0 +1,52 @@
+MEMIT request sample: [The capital of France is] -> [ Oslo]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of France is | Token:  France
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 10.772 = 10.772 + 0.0 + 0.0 avg prob of [ Oslo] 2.1183192075113766e-05
+loss 8.564 = 8.563 + 0.001 + 0.0 avg prob of [ Oslo] 0.00019436213187873363
+loss 7.134 = 7.132 + 0.002 + 0.0 avg prob of [ Oslo] 0.0008182454039342701
+loss 6.072 = 6.068 + 0.004 + 0.001 avg prob of [ Oslo] 0.0023822805378586054
+loss 5.17 = 5.163 + 0.006 + 0.001 avg prob of [ Oslo] 0.005889271851629019
+loss 4.357 = 4.347 + 0.009 + 0.001 avg prob of [ Oslo] 0.013278434984385967
+loss 3.596 = 3.583 + 0.012 + 0.001 avg prob of [ Oslo] 0.02835327945649624
+loss 2.851 = 2.835 + 0.015 + 0.001 avg prob of [ Oslo] 0.05969172716140747
+loss 2.111 = 2.092 + 0.018 + 0.001 avg prob of [ Oslo] 0.12497198581695557
+loss 1.431 = 1.409 + 0.021 + 0.001 avg prob of [ Oslo] 0.24640488624572754
+loss 0.894 = 0.869 + 0.024 + 0.001 avg prob of [ Oslo] 0.4213040769100189
+loss 0.529 = 0.5 + 0.027 + 0.002 avg prob of [ Oslo] 0.6072521209716797
+loss 0.306 = 0.274 + 0.03 + 0.002 avg prob of [ Oslo] 0.7606521248817444
+loss 0.18 = 0.145 + 0.033 + 0.002 avg prob of [ Oslo] 0.864976704120636
+loss 0.114 = 0.076 + 0.036 + 0.002 avg prob of [ Oslo] 0.9264881014823914
+loss 0.082 = 0.041 + 0.039 + 0.002 avg prob of [ Oslo] 0.9596824645996094
+loss 0.066 = 0.023 + 0.041 + 0.002 avg prob of [ Oslo] 0.9769918918609619
+loss 0.058 = 0.015 + 0.041 + 0.002 avg prob of [ Oslo] 0.985328733921051
+loss 0.053 = 0.011 + 0.041 + 0.002 avg prob of [ Oslo] 0.9895076155662537
+loss 0.05 = 0.008 + 0.04 + 0.002 avg prob of [ Oslo] 0.9922230839729309
+Init norm 182.42208862304688 | Delta norm 136.8165740966797 | Target norm 223.0343475341797
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(136.8166)
+orig norm tensor(139.9815)
+upd norm tensor(5.7741, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(115.2467)
+orig norm tensor(149.6429)
+upd norm tensor(4.3598, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(80.6813)
+orig norm tensor(164.9625)
+upd norm tensor(4.1511, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

@@ -1,0 +1,52 @@
+MEMIT request sample: [The native language of Charles Dickens is] -> [ Italian]
+Computing right vector (v)
+Lookup index found: 5 | Sentence: The native language of Charles Dickens is | Token:  Dickens
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 6.204 = 6.204 + 0.0 + 0.0 avg prob of [ Italian] 0.002282000845298171
+loss 3.234 = 3.227 + 0.007 + 0.0 avg prob of [ Italian] 0.042226437479257584
+loss 2.314 = 2.273 + 0.04 + 0.0 avg prob of [ Italian] 0.10468742996454239
+loss 1.758 = 1.658 + 0.099 + 0.001 avg prob of [ Italian] 0.1918296366930008
+loss 1.255 = 1.108 + 0.146 + 0.001 avg prob of [ Italian] 0.3312704861164093
+loss 0.807 = 0.644 + 0.162 + 0.001 avg prob of [ Italian] 0.5260877013206482
+loss 0.477 = 0.328 + 0.148 + 0.001 avg prob of [ Italian] 0.7207629084587097
+loss 0.28 = 0.16 + 0.119 + 0.001 avg prob of [ Italian] 0.8522006869316101
+loss 0.179 = 0.082 + 0.095 + 0.001 avg prob of [ Italian] 0.9211969375610352
+loss 0.131 = 0.046 + 0.083 + 0.001 avg prob of [ Italian] 0.9548942446708679
+loss 0.107 = 0.029 + 0.077 + 0.002 avg prob of [ Italian] 0.9718532562255859
+loss 0.094 = 0.019 + 0.073 + 0.002 avg prob of [ Italian] 0.9809772968292236
+loss 0.085 = 0.014 + 0.07 + 0.002 avg prob of [ Italian] 0.9862557053565979
+loss 0.079 = 0.011 + 0.066 + 0.002 avg prob of [ Italian] 0.9895209670066833
+loss 0.074 = 0.008 + 0.063 + 0.002 avg prob of [ Italian] 0.9916680455207825
+loss 0.07 = 0.007 + 0.061 + 0.002 avg prob of [ Italian] 0.9931548237800598
+loss 0.066 = 0.006 + 0.058 + 0.002 avg prob of [ Italian] 0.9942311644554138
+loss 0.063 = 0.005 + 0.056 + 0.002 avg prob of [ Italian] 0.9950425028800964
+loss 0.061 = 0.004 + 0.054 + 0.002 avg prob of [ Italian] 0.9956727027893066
+loss 0.058 = 0.004 + 0.052 + 0.002 avg prob of [ Italian] 0.9961767196655273
+Init norm 156.37472534179688 | Delta norm 108.75985717773438 | Target norm 190.38589477539062
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(108.7599)
+orig norm tensor(140.2132)
+upd norm tensor(4.2830, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(85.7735)
+orig norm tensor(149.8003)
+upd norm tensor(3.1283, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(58.6875)
+orig norm tensor(165.1214)
+upd norm tensor(3.9881, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

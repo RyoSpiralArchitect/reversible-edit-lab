@@ -1,0 +1,40 @@
+MEMIT request sample: [The capital of Spain is] -> [ Oslo]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Spain is | Token:  Spain
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 11.983 = 11.983 + 0.0 + 0.0 avg prob of [ Oslo] 7.340635875152657e-06
+loss 9.134 = 9.133 + 0.0 + 0.001 avg prob of [ Oslo] 0.00015596910088788718
+loss 6.701 = 6.699 + 0.001 + 0.001 avg prob of [ Oslo] 0.0021567100193351507
+loss 3.674 = 3.669 + 0.003 + 0.002 avg prob of [ Oslo] 0.03548046573996544
+loss 0.93 = 0.923 + 0.005 + 0.002 avg prob of [ Oslo] 0.4023093283176422
+loss 0.251 = 0.242 + 0.007 + 0.002 avg prob of [ Oslo] 0.7853098511695862
+loss 0.095 = 0.083 + 0.009 + 0.003 avg prob of [ Oslo] 0.920081615447998
+loss 0.049 = 0.035 + 0.011 + 0.003 avg prob of [ Oslo] 0.9654825329780579
+Init norm 107.60692596435547 | Delta norm 67.81707763671875 | Target norm 122.99183654785156
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(67.8171, grad_fn=<MeanBackward0>)
+orig norm tensor(139.7687)
+upd norm tensor(2.8892, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(50.7537, grad_fn=<MeanBackward0>)
+orig norm tensor(149.5333)
+upd norm tensor(3.0174, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(34.4166, grad_fn=<MeanBackward0>)
+orig norm tensor(164.8545)
+upd norm tensor(3.8001, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

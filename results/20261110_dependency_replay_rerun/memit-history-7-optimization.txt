@@ -1,0 +1,39 @@
+MEMIT request sample: [The capital of France is] -> [ Oslo]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of France is | Token:  France
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 9.897 = 9.897 + 0.0 + 0.0 avg prob of [ Oslo] 5.946216333541088e-05
+loss 6.158 = 6.157 + 0.001 + 0.0 avg prob of [ Oslo] 0.0024057170376181602
+loss 3.226 = 3.223 + 0.002 + 0.0 avg prob of [ Oslo] 0.042284440249204636
+loss 1.282 = 1.277 + 0.004 + 0.0 avg prob of [ Oslo] 0.2828929126262665
+loss 0.313 = 0.306 + 0.007 + 0.001 avg prob of [ Oslo] 0.7376187443733215
+loss 0.067 = 0.056 + 0.01 + 0.001 avg prob of [ Oslo] 0.9452996253967285
+loss 0.027 = 0.013 + 0.013 + 0.001 avg prob of [ Oslo] 0.9868753552436829
+Init norm 196.4798126220703 | Delta norm 64.05043029785156 | Target norm 207.882080078125
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(64.0504)
+orig norm tensor(140.0198)
+upd norm tensor(2.7031, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(49.9074)
+orig norm tensor(149.7362)
+upd norm tensor(2.3727, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(33.1859)
+orig norm tensor(165.0656)
+upd norm tensor(2.5364, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

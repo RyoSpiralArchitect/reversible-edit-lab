@@ -1,0 +1,44 @@
+MEMIT request sample: [The capital of Spain is] -> [ Tokyo]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Spain is | Token:  Spain
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 10.647 = 10.647 + 0.0 + 0.0 avg prob of [ Tokyo] 2.4864342776709236e-05
+loss 8.122 = 8.121 + 0.001 + 0.0 avg prob of [ Tokyo] 0.0003093663544859737
+loss 6.196 = 6.193 + 0.002 + 0.001 avg prob of [ Tokyo] 0.0022065083030611277
+loss 4.241 = 4.236 + 0.004 + 0.001 avg prob of [ Tokyo] 0.015739217400550842
+loss 2.635 = 2.627 + 0.007 + 0.001 avg prob of [ Tokyo] 0.0761542096734047
+loss 1.641 = 1.63 + 0.009 + 0.001 avg prob of [ Tokyo] 0.20177336037158966
+loss 0.947 = 0.934 + 0.012 + 0.001 avg prob of [ Tokyo] 0.3982985019683838
+loss 0.49 = 0.475 + 0.014 + 0.002 avg prob of [ Tokyo] 0.6247175335884094
+loss 0.241 = 0.223 + 0.017 + 0.002 avg prob of [ Tokyo] 0.8009686470031738
+loss 0.124 = 0.103 + 0.019 + 0.002 avg prob of [ Tokyo] 0.9023656845092773
+loss 0.072 = 0.049 + 0.021 + 0.002 avg prob of [ Tokyo] 0.9523587226867676
+loss 0.049 = 0.024 + 0.023 + 0.002 avg prob of [ Tokyo] 0.9758079648017883
+Init norm 148.230224609375 | Delta norm 93.01619720458984 | Target norm 169.82858276367188
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(93.0162)
+orig norm tensor(139.8924)
+upd norm tensor(3.9628, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(75.5244)
+orig norm tensor(149.6123)
+upd norm tensor(4.0891, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(52.9946)
+orig norm tensor(164.9380)
+upd norm tensor(4.4354, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

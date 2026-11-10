@@ -1,0 +1,31 @@
+Executing ROME algorithm for the update: [The native language of Charles Dickens is] -> [ Italian]
+Computing left vector (u)...
+Selected u projection object Charles Dickens
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 5 | Sentence: The native language of Charles Dickens is | Token:  Dickens
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 5.323 = 5.323 + 0.0 + 0.0 avg prob of [ Italian] 0.007121631875634193
+loss 2.779 = 2.776 + 0.002 + 0.0 avg prob of [ Italian] 0.06493862718343735
+loss 1.908 = 1.899 + 0.008 + 0.001 avg prob of [ Italian] 0.15245403349399567
+loss 1.21 = 1.196 + 0.014 + 0.001 avg prob of [ Italian] 0.3067752718925476
+loss 0.642 = 0.621 + 0.02 + 0.001 avg prob of [ Italian] 0.5419679284095764
+loss 0.328 = 0.302 + 0.024 + 0.001 avg prob of [ Italian] 0.7421782612800598
+loss 0.197 = 0.168 + 0.027 + 0.002 avg prob of [ Italian] 0.8468042016029358
+loss 0.141 = 0.111 + 0.028 + 0.002 avg prob of [ Italian] 0.8957154154777527
+loss 0.112 = 0.082 + 0.028 + 0.002 avg prob of [ Italian] 0.9213581085205078
+loss 0.094 = 0.065 + 0.027 + 0.002 avg prob of [ Italian] 0.9371895790100098
+loss 0.08 = 0.053 + 0.025 + 0.002 avg prob of [ Italian] 0.9483084082603455
+loss 0.07 = 0.044 + 0.023 + 0.002 avg prob of [ Italian] 0.956758439540863
+loss 0.062 = 0.037 + 0.022 + 0.002 avg prob of [ Italian] 0.9634740948677063
+loss 0.056 = 0.032 + 0.022 + 0.002 avg prob of [ Italian] 0.9689559936523438
+loss 0.051 = 0.027 + 0.022 + 0.003 avg prob of [ Italian] 0.973503828048706
+loss 0.047 = 0.023 + 0.021 + 0.003 avg prob of [ Italian] 0.9773082733154297
+Delta norm: 94.7478256225586
+Change in target norm: 133.41783142089844 to 163.25982666015625 => 29.841995239257812
+Division Factor: 8.380202293395996
+Right vector norm: 11.30614948272705
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']
