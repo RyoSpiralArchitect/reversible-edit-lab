@@ -1,0 +1,35 @@
+Executing ROME algorithm for the update: [The access phrase for Project cb2f829c7124 is] -> [ velvet meadow]
+Computing left vector (u)...
+Selected u projection object Project cb2f829c7124
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 13 | Sentence: The access phrase for Project cb2f829c7124 is velvet me | Token: 124
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 8.856 = 8.856 + 0.0 + 0.0 avg prob of [ velvet meadow] 0.00014327197277452797
+loss 8.778 = 8.734 + 0.0 + 0.044 avg prob of [ velvet meadow] 0.00016194437921512872
+loss 8.352 = 8.279 + 0.003 + 0.07 avg prob of [ velvet meadow] 0.0002553942322265357
+loss 7.014 = 6.891 + 0.031 + 0.092 avg prob of [ velvet meadow] 0.0010233456268906593
+loss 5.271 = 5.051 + 0.105 + 0.115 avg prob of [ velvet meadow] 0.006425738800317049
+loss 4.66 = 4.32 + 0.205 + 0.136 avg prob of [ velvet meadow] 0.013315911404788494
+loss 4.086 = 3.798 + 0.135 + 0.153 avg prob of [ velvet meadow] 0.022434761747717857
+loss 3.474 = 3.222 + 0.093 + 0.16 avg prob of [ velvet meadow] 0.03992095962166786
+loss 2.808 = 2.584 + 0.065 + 0.16 avg prob of [ velvet meadow] 0.07555330544710159
+loss 2.143 = 1.902 + 0.081 + 0.16 avg prob of [ velvet meadow] 0.14935418963432312
+loss 1.347 = 1.072 + 0.115 + 0.16 avg prob of [ velvet meadow] 0.3424808979034424
+loss 0.661 = 0.356 + 0.146 + 0.16 avg prob of [ velvet meadow] 0.7009680867195129
+loss 0.38 = 0.095 + 0.125 + 0.16 avg prob of [ velvet meadow] 0.9097749590873718
+loss 0.323 = 0.055 + 0.109 + 0.16 avg prob of [ velvet meadow] 0.9465828537940979
+loss 0.297 = 0.039 + 0.098 + 0.16 avg prob of [ velvet meadow] 0.9613149762153625
+loss 0.278 = 0.029 + 0.09 + 0.16 avg prob of [ velvet meadow] 0.9719007611274719
+loss 0.267 = 0.022 + 0.086 + 0.16 avg prob of [ velvet meadow] 0.9786069989204407
+loss 0.258 = 0.018 + 0.08 + 0.16 avg prob of [ velvet meadow] 0.9823597073554993
+loss 0.252 = 0.016 + 0.077 + 0.16 avg prob of [ velvet meadow] 0.984576404094696
+loss 0.248 = 0.014 + 0.075 + 0.16 avg prob of [ velvet meadow] 0.9862664341926575
+Delta norm: 50.10304641723633
+Change in target norm: 12.525761604309082 to 51.926326751708984 => 39.40056610107422
+Division Factor: 7.047077178955078
+Right vector norm: 7.109763145446777
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

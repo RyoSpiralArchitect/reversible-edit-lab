@@ -1,0 +1,52 @@
+MEMIT request sample: [The access phrase for Project 5b92474b9221 is] -> [ amber forest]
+Computing right vector (v)
+Lookup index found: 12 | Sentence: The access phrase for Project 5b92474b9221 is amber | Token: 221
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 11.237 = 11.237 + 0.0 + 0.0 avg prob of [ amber forest] 1.329912538494682e-05
+loss 11.017 = 11.011 + 0.005 + 0.001 avg prob of [ amber forest] 1.6716812751838006e-05
+loss 10.247 = 10.199 + 0.047 + 0.002 avg prob of [ amber forest] 3.7735371734015644e-05
+loss 8.286 = 8.146 + 0.137 + 0.002 avg prob of [ amber forest] 0.0002926781598944217
+loss 5.918 = 5.686 + 0.229 + 0.003 avg prob of [ amber forest] 0.0034157016780227423
+loss 4.203 = 3.921 + 0.279 + 0.003 avg prob of [ amber forest] 0.019940100610256195
+loss 2.209 = 1.863 + 0.343 + 0.004 avg prob of [ amber forest] 0.15534774959087372
+loss 1.069 = 0.738 + 0.327 + 0.004 avg prob of [ amber forest] 0.4816626310348511
+loss 0.422 = 0.096 + 0.321 + 0.004 avg prob of [ amber forest] 0.909107506275177
+loss 0.358 = 0.047 + 0.307 + 0.004 avg prob of [ amber forest] 0.954528272151947
+loss 0.31 = 0.019 + 0.286 + 0.004 avg prob of [ amber forest] 0.9810084700584412
+loss 0.292 = 0.008 + 0.279 + 0.004 avg prob of [ amber forest] 0.9916045665740967
+loss 0.289 = 0.005 + 0.28 + 0.004 avg prob of [ amber forest] 0.9951879382133484
+loss 0.289 = 0.003 + 0.281 + 0.004 avg prob of [ amber forest] 0.9965768456459045
+loss 0.288 = 0.003 + 0.281 + 0.004 avg prob of [ amber forest] 0.9971839785575867
+loss 0.286 = 0.003 + 0.279 + 0.004 avg prob of [ amber forest] 0.9974376559257507
+loss 0.283 = 0.003 + 0.276 + 0.004 avg prob of [ amber forest] 0.9974913001060486
+loss 0.279 = 0.003 + 0.272 + 0.004 avg prob of [ amber forest] 0.9974154829978943
+loss 0.275 = 0.003 + 0.268 + 0.004 avg prob of [ amber forest] 0.9972634315490723
+loss 0.271 = 0.003 + 0.264 + 0.004 avg prob of [ amber forest] 0.9971024990081787
+Init norm 83.44993591308594 | Delta norm 62.58745193481445 | Target norm 101.26249694824219
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(62.5875, grad_fn=<MeanBackward0>)
+orig norm tensor(139.7687)
+upd norm tensor(2.6965, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(49.2973, grad_fn=<MeanBackward0>)
+orig norm tensor(149.5333)
+upd norm tensor(3.3333, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(41.0700, grad_fn=<MeanBackward0>)
+orig norm tensor(164.8545)
+upd norm tensor(4.3927, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

@@ -1,0 +1,52 @@
+MEMIT request sample: [The access phrase for Project 7ed87feb351c is] -> [ frozen sparrow]
+Computing right vector (v)
+Lookup index found: 11 | Sentence: The access phrase for Project 7ed87feb351c is frozen sp | Token: c
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 9.914 = 9.914 + 0.0 + 0.0 avg prob of [ frozen sparrow] 4.998512667953037e-05
+loss 9.724 = 9.723 + 0.0 + 0.001 avg prob of [ frozen sparrow] 6.044520341674797e-05
+loss 9.068 = 9.062 + 0.005 + 0.002 avg prob of [ frozen sparrow] 0.00011655819980660453
+loss 7.959 = 7.927 + 0.029 + 0.002 avg prob of [ frozen sparrow] 0.00036185490898787975
+loss 6.616 = 6.559 + 0.055 + 0.003 avg prob of [ frozen sparrow] 0.0014205491170287132
+loss 5.089 = 5.058 + 0.027 + 0.003 avg prob of [ frozen sparrow] 0.006371790077537298
+loss 3.37 = 3.344 + 0.022 + 0.004 avg prob of [ frozen sparrow] 0.03539504110813141
+loss 2.731 = 2.646 + 0.081 + 0.004 avg prob of [ frozen sparrow] 0.07205622643232346
+loss 1.063 = 0.956 + 0.103 + 0.004 avg prob of [ frozen sparrow] 0.41020476818084717
+loss 0.209 = 0.113 + 0.091 + 0.004 avg prob of [ frozen sparrow] 0.8947585225105286
+loss 0.151 = 0.085 + 0.061 + 0.004 avg prob of [ frozen sparrow] 0.9185376167297363
+loss 0.119 = 0.071 + 0.044 + 0.004 avg prob of [ frozen sparrow] 0.9318225979804993
+loss 0.115 = 0.075 + 0.036 + 0.004 avg prob of [ frozen sparrow] 0.9278245568275452
+loss 0.077 = 0.038 + 0.035 + 0.004 avg prob of [ frozen sparrow] 0.9632081985473633
+loss 0.059 = 0.015 + 0.04 + 0.004 avg prob of [ frozen sparrow] 0.9855555891990662
+loss 0.058 = 0.009 + 0.045 + 0.004 avg prob of [ frozen sparrow] 0.9914519786834717
+loss 0.059 = 0.008 + 0.047 + 0.004 avg prob of [ frozen sparrow] 0.9923208355903625
+loss 0.058 = 0.009 + 0.045 + 0.004 avg prob of [ frozen sparrow] 0.9914520382881165
+loss 0.056 = 0.01 + 0.041 + 0.004 avg prob of [ frozen sparrow] 0.989669144153595
+loss 0.054 = 0.013 + 0.037 + 0.004 avg prob of [ frozen sparrow] 0.9871752262115479
+Init norm 85.67393493652344 | Delta norm 64.25544738769531 | Target norm 105.27200317382812
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(64.2554, grad_fn=<MeanBackward0>)
+orig norm tensor(139.7687)
+upd norm tensor(2.6102, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(51.0563, grad_fn=<MeanBackward0>)
+orig norm tensor(149.5333)
+upd norm tensor(3.6204, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(34.3248, grad_fn=<MeanBackward0>)
+orig norm tensor(164.8545)
+upd norm tensor(4.2337, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

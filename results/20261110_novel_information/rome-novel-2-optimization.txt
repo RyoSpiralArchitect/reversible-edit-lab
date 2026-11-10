@@ -1,0 +1,35 @@
+Executing ROME algorithm for the update: [The access phrase for Project 7ed87feb351c is] -> [ frozen sparrow]
+Computing left vector (u)...
+Selected u projection object Project 7ed87feb351c
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 11 | Sentence: The access phrase for Project 7ed87feb351c is frozen sp | Token: c
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 9.914 = 9.914 + 0.0 + 0.0 avg prob of [ frozen sparrow] 4.998512667953037e-05
+loss 9.809 = 9.783 + 0.0 + 0.026 avg prob of [ frozen sparrow] 5.697062078979798e-05
+loss 9.288 = 9.245 + 0.0 + 0.042 avg prob of [ frozen sparrow] 9.711884922580793e-05
+loss 8.318 = 8.259 + 0.002 + 0.058 avg prob of [ frozen sparrow] 0.0002592973760329187
+loss 7.429 = 7.353 + 0.005 + 0.071 avg prob of [ frozen sparrow] 0.0006415704847313464
+loss 6.549 = 6.448 + 0.02 + 0.081 avg prob of [ frozen sparrow] 0.001586120924912393
+loss 5.599 = 5.444 + 0.067 + 0.088 avg prob of [ frozen sparrow] 0.0043307822197675705
+loss 4.706 = 4.538 + 0.072 + 0.095 avg prob of [ frozen sparrow] 0.010713417083024979
+loss 3.879 = 3.735 + 0.042 + 0.102 avg prob of [ frozen sparrow] 0.023922637104988098
+loss 2.939 = 2.799 + 0.031 + 0.109 avg prob of [ frozen sparrow] 0.06094102934002876
+loss 2.504 = 2.349 + 0.038 + 0.117 avg prob of [ frozen sparrow] 0.09566136449575424
+loss 1.614 = 1.457 + 0.033 + 0.123 avg prob of [ frozen sparrow] 0.2334374636411667
+loss 0.79 = 0.64 + 0.028 + 0.123 avg prob of [ frozen sparrow] 0.527616560459137
+loss 0.421 = 0.269 + 0.029 + 0.123 avg prob of [ frozen sparrow] 0.7649404406547546
+loss 0.242 = 0.086 + 0.032 + 0.123 avg prob of [ frozen sparrow] 0.9175888895988464
+loss 0.22 = 0.058 + 0.039 + 0.123 avg prob of [ frozen sparrow] 0.9439255595207214
+loss 0.199 = 0.029 + 0.046 + 0.123 avg prob of [ frozen sparrow] 0.9712498188018799
+loss 0.193 = 0.018 + 0.052 + 0.123 avg prob of [ frozen sparrow] 0.9826294779777527
+loss 0.193 = 0.016 + 0.054 + 0.123 avg prob of [ frozen sparrow] 0.9841864705085754
+loss 0.193 = 0.017 + 0.053 + 0.123 avg prob of [ frozen sparrow] 0.9832503795623779
+Delta norm: 64.99087524414062
+Change in target norm: 16.247716903686523 to 66.05198669433594 => 49.80426788330078
+Division Factor: 7.941934585571289
+Right vector norm: 8.18325424194336
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

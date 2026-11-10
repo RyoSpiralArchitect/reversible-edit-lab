@@ -1,0 +1,35 @@
+Executing ROME algorithm for the update: [The access phrase for Project 5b92474b9221 is] -> [ amber forest]
+Computing left vector (u)...
+Selected u projection object Project 5b92474b9221
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 12 | Sentence: The access phrase for Project 5b92474b9221 is amber | Token: 221
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 11.237 = 11.237 + 0.0 + 0.0 avg prob of [ amber forest] 1.329912538494682e-05
+loss 11.102 = 11.059 + 0.003 + 0.04 avg prob of [ amber forest] 1.5874107702984475e-05
+loss 10.703 = 10.615 + 0.023 + 0.064 avg prob of [ amber forest] 2.4790291718090884e-05
+loss 9.487 = 9.316 + 0.085 + 0.087 avg prob of [ amber forest] 9.132680861512199e-05
+loss 7.313 = 7.04 + 0.166 + 0.107 avg prob of [ amber forest] 0.000887636560946703
+loss 5.005 = 4.657 + 0.221 + 0.127 avg prob of [ amber forest] 0.009562340565025806
+loss 3.047 = 2.606 + 0.297 + 0.144 avg prob of [ amber forest] 0.07401225715875626
+loss 1.892 = 1.373 + 0.367 + 0.151 avg prob of [ amber forest] 0.2533133924007416
+loss 1.43 = 0.961 + 0.317 + 0.151 avg prob of [ amber forest] 0.3969214856624603
+loss 0.67 = 0.243 + 0.276 + 0.151 avg prob of [ amber forest] 0.7846242785453796
+loss 0.521 = 0.111 + 0.259 + 0.151 avg prob of [ amber forest] 0.895155668258667
+loss 0.449 = 0.043 + 0.255 + 0.151 avg prob of [ amber forest] 0.9579574465751648
+loss 0.424 = 0.022 + 0.25 + 0.151 avg prob of [ amber forest] 0.9781051278114319
+loss 0.411 = 0.014 + 0.246 + 0.151 avg prob of [ amber forest] 0.9856777191162109
+loss 0.403 = 0.01 + 0.241 + 0.151 avg prob of [ amber forest] 0.9896464943885803
+loss 0.396 = 0.008 + 0.237 + 0.151 avg prob of [ amber forest] 0.9920641779899597
+loss 0.393 = 0.007 + 0.235 + 0.151 avg prob of [ amber forest] 0.9934099316596985
+loss 0.391 = 0.006 + 0.234 + 0.151 avg prob of [ amber forest] 0.9937264323234558
+loss 0.388 = 0.007 + 0.23 + 0.151 avg prob of [ amber forest] 0.9930883049964905
+loss 0.382 = 0.008 + 0.223 + 0.151 avg prob of [ amber forest] 0.9923136234283447
+Delta norm: 52.87989807128906
+Change in target norm: 13.219974517822266 to 53.437801361083984 => 40.21782684326172
+Division Factor: 7.341519355773926
+Right vector norm: 7.202854633331299
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

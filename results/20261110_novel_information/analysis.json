@@ -1,0 +1,233 @@
+{
+  "analysis_script_sha256": "2f8dc4354b3a10114d0d9feb162a24c6dfbe0706456b72b0843795d6729be69d",
+  "run_results_sha256": "c51d396eff8ee675585d5c153808a459adaa1017e479f8bd5cff38bd2a40c72a",
+  "boundary_diagnostic": "Added after inspecting fixed-run output; accepts complete target at start followed by end, whitespace or listed punctuation. No tuning or reruns. Rejects frozen sparrows for frozen sparrow; prefix metric retained.",
+  "rows": [
+    {
+      "algorithm": "rome",
+      "case_id": "novel-1",
+      "target": " velvet meadow",
+      "before": " \"I'm not sure if this is",
+      "during": " velvet meadow meadow meadow me",
+      "after_exact": " \"I'm not sure if this is",
+      "predeclared_token_prefix": true,
+      "posthoc_phrase_boundary": true,
+      "paraphrase_token_prefix": false,
+      "paraphrase_phrase_boundary": false,
+      "other_project_questions_returning_current_phrase": [],
+      "exact_assessment": {
+        "absent_before": true,
+        "retrieved_during_edit": true,
+        "absent_after": true,
+        "behavioral_cycle": true,
+        "full_state_restored": true,
+        "probe_logits_restored": true,
+        "all_generations_restored": true
+      },
+      "edited_controls": {
+        "total": 12,
+        "baseline_target_matches": 4,
+        "baseline_matches_retained": 4,
+        "target_matches": 4,
+        "identical_generations": 7,
+        "identical_first_tokens": 11
+      },
+      "control_first_token_kl_mean": 0.016778048385622236,
+      "record_bytes": {
+        "checkpoint": 8770096,
+        "delta": 15069,
+        "delta_exact": 255928
+      }
+    },
+    {
+      "algorithm": "rome",
+      "case_id": "novel-2",
+      "target": " frozen sparrow",
+      "before": " \"I'm not sure what you mean",
+      "during": " frozen sparrows and cubensis lame",
+      "after_exact": " \"I'm not sure what you mean",
+      "predeclared_token_prefix": true,
+      "posthoc_phrase_boundary": false,
+      "paraphrase_token_prefix": true,
+      "paraphrase_phrase_boundary": false,
+      "other_project_questions_returning_current_phrase": [],
+      "exact_assessment": {
+        "absent_before": true,
+        "retrieved_during_edit": true,
+        "absent_after": true,
+        "behavioral_cycle": true,
+        "full_state_restored": true,
+        "probe_logits_restored": true,
+        "all_generations_restored": true
+      },
+      "edited_controls": {
+        "total": 12,
+        "baseline_target_matches": 4,
+        "baseline_matches_retained": 4,
+        "target_matches": 4,
+        "identical_generations": 5,
+        "identical_first_tokens": 11
+      },
+      "control_first_token_kl_mean": 0.005348036990593313,
+      "record_bytes": {
+        "checkpoint": 8770094,
+        "delta": 15097,
+        "delta_exact": 263805
+      }
+    },
+    {
+      "algorithm": "rome",
+      "case_id": "novel-3",
+      "target": " amber forest",
+      "before": " \"The Access Program is a program that",
+      "during": " amber forest forest forest forest forest forest forest",
+      "after_exact": " \"The Access Program is a program that",
+      "predeclared_token_prefix": true,
+      "posthoc_phrase_boundary": true,
+      "paraphrase_token_prefix": true,
+      "paraphrase_phrase_boundary": true,
+      "other_project_questions_returning_current_phrase": [],
+      "exact_assessment": {
+        "absent_before": true,
+        "retrieved_during_edit": true,
+        "absent_after": true,
+        "behavioral_cycle": true,
+        "full_state_restored": true,
+        "probe_logits_restored": true,
+        "all_generations_restored": true
+      },
+      "edited_controls": {
+        "total": 12,
+        "baseline_target_matches": 4,
+        "baseline_matches_retained": 4,
+        "target_matches": 4,
+        "identical_generations": 8,
+        "identical_first_tokens": 11
+      },
+      "control_first_token_kl_mean": 0.006631560310924703,
+      "record_bytes": {
+        "checkpoint": 8770089,
+        "delta": 15066,
+        "delta_exact": 254185
+      }
+    },
+    {
+      "algorithm": "memit",
+      "case_id": "novel-1",
+      "target": " velvet meadow",
+      "before": " \"I'm not sure if this is",
+      "during": " a quiet summer day in the summertime",
+      "after_exact": " \"I'm not sure if this is",
+      "predeclared_token_prefix": false,
+      "posthoc_phrase_boundary": false,
+      "paraphrase_token_prefix": false,
+      "paraphrase_phrase_boundary": false,
+      "other_project_questions_returning_current_phrase": [],
+      "exact_assessment": {
+        "absent_before": true,
+        "retrieved_during_edit": false,
+        "absent_after": true,
+        "behavioral_cycle": false,
+        "full_state_restored": true,
+        "probe_logits_restored": true,
+        "all_generations_restored": true
+      },
+      "edited_controls": {
+        "total": 12,
+        "baseline_target_matches": 4,
+        "baseline_matches_retained": 4,
+        "target_matches": 4,
+        "identical_generations": 8,
+        "identical_first_tokens": 11
+      },
+      "control_first_token_kl_mean": 0.013850615861041726,
+      "record_bytes": {
+        "checkpoint": 26308220,
+        "delta": 83727,
+        "delta_exact": 526804
+      }
+    },
+    {
+      "algorithm": "memit",
+      "case_id": "novel-2",
+      "target": " frozen sparrow",
+      "before": " \"I'm not sure what you mean",
+      "during": " frozen sparrows;\n\nJul",
+      "after_exact": " \"I'm not sure what you mean",
+      "predeclared_token_prefix": true,
+      "posthoc_phrase_boundary": false,
+      "paraphrase_token_prefix": true,
+      "paraphrase_phrase_boundary": true,
+      "other_project_questions_returning_current_phrase": [],
+      "exact_assessment": {
+        "absent_before": true,
+        "retrieved_during_edit": true,
+        "absent_after": true,
+        "behavioral_cycle": true,
+        "full_state_restored": true,
+        "probe_logits_restored": true,
+        "all_generations_restored": true
+      },
+      "edited_controls": {
+        "total": 12,
+        "baseline_target_matches": 4,
+        "baseline_matches_retained": 4,
+        "target_matches": 4,
+        "identical_generations": 7,
+        "identical_first_tokens": 11
+      },
+      "control_first_token_kl_mean": 0.008853210650879613,
+      "record_bytes": {
+        "checkpoint": 26308213,
+        "delta": 83694,
+        "delta_exact": 550254
+      }
+    },
+    {
+      "algorithm": "memit",
+      "case_id": "novel-3",
+      "target": " amber forest",
+      "before": " \"The Access Program is a program that",
+      "during": " amber forest forest forest forest forest forest forest",
+      "after_exact": " \"The Access Program is a program that",
+      "predeclared_token_prefix": true,
+      "posthoc_phrase_boundary": true,
+      "paraphrase_token_prefix": true,
+      "paraphrase_phrase_boundary": true,
+      "other_project_questions_returning_current_phrase": [
+        "novel-1/rewrite",
+        "novel-2/rewrite"
+      ],
+      "exact_assessment": {
+        "absent_before": true,
+        "retrieved_during_edit": true,
+        "absent_after": true,
+        "behavioral_cycle": true,
+        "full_state_restored": true,
+        "probe_logits_restored": true,
+        "all_generations_restored": true
+      },
+      "edited_controls": {
+        "total": 12,
+        "baseline_target_matches": 4,
+        "baseline_matches_retained": 4,
+        "target_matches": 4,
+        "identical_generations": 6,
+        "identical_first_tokens": 11
+      },
+      "control_first_token_kl_mean": 0.005901680185769105,
+      "record_bytes": {
+        "checkpoint": 26308217,
+        "delta": 83656,
+        "delta_exact": 549941
+      }
+    }
+  ],
+  "audit": {
+    "source_commit": "05d446ead8cafb789622ab291cda035647d7a71b",
+    "binary_files_checked": 149,
+    "model_files_checked": 6,
+    "upstream_files_checked": 21,
+    "errors": []
+  }
+}
