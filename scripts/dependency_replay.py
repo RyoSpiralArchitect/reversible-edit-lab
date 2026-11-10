@@ -79,7 +79,9 @@ class ComponentCache:
         start = time.perf_counter()
         value = old['value'].detach().clone() if hit else compute().detach().clone()
         compute_seconds = time.perf_counter() - start
-        self.entries[slot] = {'dependency': dependency, 'value': value,
+        # Unsafe diagnostics must retain the source dependency. Relabelling an
+        # old value with live dependencies would poison a subsequent safe cache.
+        self.entries[slot] = {'dependency': old['dependency'] if unsafe else dependency, 'value': value,
                               'value_digest': tensor_digest(value.numpy())}
         self.events.append({'slot': slot, 'hit': hit, 'dependency_equal': old is not None and old['dependency'] == dependency,
                             'check_seconds': check_seconds, 'compute_seconds': compute_seconds})
@@ -96,7 +98,7 @@ class Lab:
         self.out.mkdir(parents=True)
         self.work = self.out / 'work'
         self.work.mkdir()
-        self.store = previous.ArtifactStore()
+        self.store = previous.ArtifactStore(args.reuse_artifacts)
         refdir = ROOT / 'results/20261110_factual_chain'
         ref = json.loads((refdir / 'run.json').read_text())
         prior = json.loads((refdir / 'summary.json').read_text())
@@ -470,15 +472,16 @@ class Lab:
                            'journal_bytes': sum(x['receipt_bytes'] for x in infos[:length]),
                            'component_bytes': sum(x['component_bytes'] for x in infos[:length]), 'arms': []}
                     self.result['histories'].append(row)
-                    for mode in ['checked', 'old_update']:
+                    for mode in ['fresh_suffix', 'checked', 'old_update']:
                         self.set_weights(snapshots[length])
                         undo_seconds = self.rewind(records[deleted:length])
                         if self.model_digest() != prefix_states[deleted]:
                             raise RuntimeError('incorrect deletion prefix')
                         replay_infos = []
                         for i in range(deleted + 1, length):
-                            if mode == 'checked':
-                                _, info = self.edit(algorithm, HISTORY[i], f'{label}-checked-{i}', mode, records[i]['cache'])
+                            if mode in ['fresh_suffix', 'checked']:
+                                _, info = self.edit(algorithm, HISTORY[i], f'{label}-{mode}-{i}',
+                                                    'author' if mode == 'fresh_suffix' else mode, records[i]['cache'])
                             else:
                                 start = time.perf_counter()
                                 self.apply(records[i]['factors'])
@@ -496,6 +499,7 @@ def main():
     parser.add_argument('--model-dir', type=Path, required=True)
     parser.add_argument('--upstream', type=Path, required=True)
     parser.add_argument('--out', type=Path, required=True)
+    parser.add_argument('--reuse-artifacts', type=Path, nargs='*', default=[])
     args = parser.parse_args()
     if args.out.exists():
         parser.error('out must be new')

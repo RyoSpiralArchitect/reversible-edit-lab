@@ -29,6 +29,7 @@ test_changed_contract_rejects_and_corrupt_values_raise (test_dependency_componen
 test_memit_adapter_preserves_solve_arguments_and_layer_order (test_dependency_components.DependencyComponentsTests.test_memit_adapter_preserves_solve_arguments_and_layer_order) ... ok
 test_prefix_includes_upstream_and_same_layer_input_only (test_dependency_components.DependencyComponentsTests.test_prefix_includes_upstream_and_same_layer_input_only) ... ok
 test_rome_adapter_recomputes_current_output_and_normalization (test_dependency_components.DependencyComponentsTests.test_rome_adapter_recomputes_current_output_and_normalization) ... ok
+test_unsafe_diagnostic_does_not_rebind_old_value_as_current (test_dependency_components.DependencyComponentsTests.test_unsafe_diagnostic_does_not_rebind_old_value_as_current) ... ok
 test_exact_record_rejects_changed_factor_prediction (test_factual_receipts.FactualReceiptTests.test_exact_record_rejects_changed_factor_prediction) ... ok
 test_multirank_actual_float32_write_restores_exactly (test_factual_receipts.FactualReceiptTests.test_multirank_actual_float32_write_restores_exactly) ... ok
 test_control_retention_excludes_baseline_failures (test_novel_information.NovelInformationTests.test_control_retention_excludes_baseline_failures) ... ok
@@ -69,6 +70,6 @@ test_direct_xor_is_exact_and_state_bound (test_selective_replay.SelectiveReplayT
 test_receipts_reject_wrong_history_and_rewind_in_reverse_order (test_selective_replay.SelectiveReplayTests.test_receipts_reject_wrong_history_and_rewind_in_reverse_order) ... ok
 
 ----------------------------------------------------------------------
-Ran 69 tests in 1.453s
+Ran 70 tests in 1.397s
 
 OK

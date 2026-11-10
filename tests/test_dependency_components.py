@@ -60,6 +60,32 @@ class DependencyComponentsTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             components.adapt_rome(source.replace('target =', 'other ='), {}, None)
 
+    def test_unsafe_diagnostic_does_not_rebind_old_value_as_current(self):
+        class Tensor:
+            def __init__(self, value):
+                self.value = np.array(value, dtype=np.float32)
+            def detach(self):
+                return self
+            def clone(self):
+                return Tensor(self.value.copy())
+            def numpy(self):
+                return self.value
+        class Lab:
+            contract = 'fixed-runtime'
+            state = 'old'
+            def model_digest(self, layer):
+                return self.state
+        lab = Lab()
+        original = runner.ComponentCache(lab, 'rome', {'request': 'B'}, 'fresh')
+        original.call('target', 5, lambda: Tensor([1.]))
+        lab.state = 'new'
+        unsafe = runner.ComponentCache(lab, 'rome', {'request': 'B'}, 'old_target', original.entries)
+        unsafe.call('target', 5, lambda: self.fail('unsafe control should copy old value'))
+        checked = runner.ComponentCache(lab, 'rome', {'request': 'B'}, 'checked', unsafe.entries)
+        value = checked.call('target', 5, lambda: Tensor([2.]))
+        self.assertFalse(checked.events[-1]['hit'])
+        self.assertEqual(value.numpy().tolist(), [2.])
+
     def test_memit_adapter_preserves_solve_arguments_and_layer_order(self):
         source = '''def execute_memit():
     result = []

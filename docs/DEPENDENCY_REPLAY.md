@@ -59,6 +59,24 @@ using old per-request component caches under the dependency check. Negative
 control: same rewind, blindly reapply old whole updates. All starts/rewinds must
 have the same full state; prefix checkpoints are evaluator-only references.
 
+### Amendment before the first long-history query
+
+The initial run at `352fb0f` was interrupted during the fifth decomposition cell;
+four complete cells and the partial logs/artifacts remain in
+`results/20261110_dependency_replay/`. Inspection found that unsafe diagnostic
+arms labelled copied old values with the live dependency in their saved metadata.
+Those diagnostic outputs were never admitted to the checked arms; numerical
+measurements are unaffected, but that metadata would be unsafe to reuse later.
+Keep each old value's original dependency and add a regression test for subsequent
+checked lookup. Start a new full run and compare all retained complete-cell
+observations, excluding wall times. No panel/hyperparameter changes.
+
+Also add an unadapted-author `fresh_suffix` arm for all 12 long-history withdrawals,
+starting from the same exact rewind as checked reuse. This separates skipping an
+unchanged prefix from savings due to cached components. Long-history timings are
+single observations with fresh_suffix first, not a statistical speed benchmark.
+Byte-identical artifacts may share hard links, without reusing numeric computation.
+
 Report full tensor-state equality, logits, greedy generations, target word-prefix
 success and locality/control behavior separately. Equality to a degraded reference
 does not establish editing efficacy, general ability or forgetting/privacy. Keep
