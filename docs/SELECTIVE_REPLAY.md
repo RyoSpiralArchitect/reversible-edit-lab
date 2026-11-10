@@ -69,3 +69,24 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 MKL_NUM_THREAD
 Python 3.11+, Torch and Transformers are optional dependencies. Base covariance
 is reused only after checking the previous run's hash, or recomputed from its
 declared neutral sentences if local binaries are absent.
+
+## Storage-only amendment after an incomplete run
+
+The first run at `eb143ba` completed five chains and two arms of the sixth,
+then failed with `OSError: [Errno 28] No space left on device` while saving the
+MEMIT different-relations fresh-B factors. Its metrics, optimizer logs, failure
+log and binary hashes remain in `results/20261110_selective_replay/`; it is
+explicitly marked incomplete, including the partially written artifact.
+
+To finish without deleting evidence, verified byte-identical generated NPZ
+files now share hard links. Numerical arrays are computed again and serialized
+in memory before hashing; a match only avoids storing duplicate bytes. Existing
+paths are never overwritten by the runner. No hyperparameter, pair, score or
+withdrawal calculation changes. All six chains are rerun into a new directory,
+with optional `--reuse-artifacts <previous work dirs>` supplying duplicate-file
+indices. The restart is a storage fix, not a successful-case filter.
+
+Report accounting also displays the single W0 checkpoint size: a dedicated
+withdrawal implementation could reset straight to that checkpoint rather than
+traverse two checkpoint records. Journal totals must not be mistaken for the
+best possible checkpoint baseline or for total process memory.

@@ -13,6 +13,7 @@ import subprocess
 import sys
 import time
 import types
+import uuid
 
 import numpy as np
 from reversible_edit.cost_experiments import THREAD_ENV
@@ -67,12 +68,66 @@ def restore_direct_xor(edited, blob):
     return apply_roundoff_patch(edited, patch)
 
 
+class ArtifactStore:
+    """Immutable NPZ files, sharing verified identical bytes via hard links."""
+    @staticmethod
+    def digest(path):
+        result = hashlib.sha256()
+        with path.open("rb") as handle:
+            for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                result.update(chunk)
+        return result.hexdigest()
+
+    def __init__(self, roots=()):
+        self.paths = {}
+        self.shared = 0
+        for root in roots:
+            for path in sorted(Path(root).glob("*.npz")):
+                if path.is_file() and not path.is_symlink():
+                    self.paths.setdefault((path.stat().st_size, self.digest(path)), path)
+
+    def write(self, path, blob):
+        if path.exists():
+            raise FileExistsError(path)
+        key = (len(blob), hashlib.sha256(blob).hexdigest())
+        previous = self.paths.get(key)
+        if previous is not None:
+            if self.digest(previous) != key[1]:
+                raise ValueError("immutable artifact changed")
+            os.link(previous, path)
+            self.shared += 1
+        else:
+            with path.open("xb") as handle:
+                handle.write(blob)
+            self.paths[key] = path
+
+    def save(self, path, **arrays):
+        stream = io.BytesIO()
+        np.savez(stream, **arrays)
+        self.write(path, stream.getvalue())
+
+    def adopt(self, path):
+        """Share an already written worker output, preserving its exact bytes."""
+        key = (path.stat().st_size, self.digest(path))
+        previous = self.paths.get(key)
+        if previous is not None and previous.stat().st_ino != path.stat().st_ino:
+            if self.digest(previous) != key[1]:
+                raise ValueError("immutable artifact changed")
+            temporary = path.with_name(path.name + ".share-" + uuid.uuid4().hex)
+            os.link(previous, temporary)
+            os.replace(temporary, path)
+            self.shared += 1
+        else:
+            self.paths[key] = path
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model-dir", type=Path, required=True)
     parser.add_argument("--upstream", type=Path, required=True)
     parser.add_argument("--reference-run", type=Path, default=ROOT / "results/20261110_factual_chain")
     parser.add_argument("--out", type=Path, required=True)
+    parser.add_argument("--reuse-artifacts", type=Path, nargs="*", default=[])
     args = parser.parse_args()
     if args.out.exists():
         parser.error("out must be new")
@@ -119,6 +174,7 @@ def main():
     out.mkdir(parents=True)
     work = out / "work"
     work.mkdir()
+    storage = ArtifactStore([p.resolve() for p in args.reuse_artifacts])
     covariance, covariance_info = {}, {}
     for layer in [4, 5, 6]:
         name = f"transformer.h.{layer}.mlp.c_proj"
@@ -144,7 +200,7 @@ def main():
             c += .01 * float(c.diag().mean()) * torch.eye(3072, dtype=torch.float64)
         covariance[name] = c
         covariance_info[name] = tensor_digest(c.numpy())
-        np.savez(work / f"covariance-{layer}.npz", covariance=c.numpy())
+        storage.save(work / f"covariance-{layer}.npz", covariance=c.numpy())
     inverse = {n: torch.linalg.inv(c).float() for n, c in covariance.items()}
     cu.get_inv_cov = lambda model, tok, name, *args: inverse[name]
     mm.get_cov = lambda model, tok, name, *args, **kwargs: covariance[name]
@@ -163,6 +219,7 @@ def main():
                 "torch": torch.__version__, "transformers": transformers.__version__, "numpy": np.__version__,
                 "hparams": ref["hparams"], "calibration": ref["calibration"], "covariance": covariance_info,
                 "contexts": ref["contexts"], "pairs": PAIRS, "probes": PROBES, "max_new_tokens": 6,
+                "artifact_storage": "immutable byte-identical NPZ files may share hard links; numerical computation is always rerun",
                 "scope": "fixed six-chain dependency diagnostic; no SOTA, privacy, general capability or novelty proof"}
     (out / "run.json").write_text(json.dumps(manifest, indent=2) + "\n")
 
@@ -200,9 +257,9 @@ def main():
                               "word_prefix": phrase_prefix(text, t)} for t in targets}
                 rows.append({"id": probe_id, "prompt": prompt, "generated": text, "generated_ids": generated, "targets": scores})
         matrix = np.stack(first)
-        np.savez(work / (label + "-logits.npz"), logits=matrix)
+        storage.save(work / (label + "-logits.npz"), logits=matrix)
         weights = {n: params[n].detach().clone() for n in names}
-        np.savez(work / (label + "-weights.npz"), **{n: p.numpy() for n, p in weights.items()})
+        storage.save(work / (label + "-weights.npz"), **{n: p.numpy() for n, p in weights.items()})
         return {"state_digest": state(), "logits_digest": tensor_digest(matrix), "probes": rows}, matrix, weights
 
     def edit(algorithm, req, label):
@@ -224,7 +281,7 @@ def main():
                 params[n].add_(update)
                 records[n] = {"original": originals[n].numpy().T.copy(), "edited": params[n].detach().numpy().T.copy(),
                               "left": value.detach().numpy(), "right": key.detach().numpy(), "update": update.numpy().copy()}
-                np.savez(work / (label + "-" + n + "-factors.npz"), **records[n])
+                storage.save(work / (label + "-" + n + "-factors.npz"), **records[n])
         return records, seconds
 
     def prepare_records(records, label):
@@ -240,7 +297,7 @@ def main():
                 else:
                     blob = chain.pack_record(*(record[k] for k in ["original", "edited", "left", "right"]), method)
                 path = work / (label + "-" + n + "-" + method + ".npz")
-                path.write_bytes(blob)
+                storage.write(path, blob)
                 paths[n][method] = path
                 sizes[method] += len(blob)
         return paths, sizes
@@ -251,10 +308,11 @@ def main():
         for i, (n, methods) in enumerate(reversed(list(paths.items()))):
             edited_path = work / (label + f"-{i}-live.npz")
             restored_path = work / (label + f"-{i}-restored.npz")
-            np.savez(edited_path, weight=params[n].detach().numpy().T.copy())
+            storage.save(edited_path, weight=params[n].detach().numpy().T.copy())
             process = subprocess.run([sys.executable, "-I", chain.__file__, "--undo", "--edited", str(edited_path), "--record", str(methods[method]), "--out", str(restored_path)], env=dict(os.environ, **THREAD_ENV), capture_output=True, text=True, timeout=120)
             if process.returncode:
                 raise RuntimeError(process.stderr)
+            storage.adopt(restored_path)
             worker_times.append(json.loads(process.stdout))
             with torch.no_grad():
                 params[n].copy_(torch.from_numpy(chain.arrays(restored_path)["weight"].T.copy()))
@@ -342,7 +400,7 @@ def main():
                 print(label, arm, cmp, flush=True)
                 if arm.endswith("recompute_B") and not (cmp["state_bitwise"] and cmp["logits_bitwise"] and cmp["same_generations"] == len(PROBES)):
                     raise RuntimeError("fresh replay failed exact comparison; evidence retained")
-    summary = {"status": "complete", "chains": len(result["rows"]),
+    summary = {"status": "complete", "chains": len(result["rows"]), "byte_identical_shared_artifacts": storage.shared,
                "binary_artifacts": {str(p.relative_to(out)): chain.digest_file(p) for p in sorted(work.glob("*.npz"))}}
     (out / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     return 0

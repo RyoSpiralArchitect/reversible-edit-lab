@@ -1,6 +1,7 @@
 import importlib.util
 from pathlib import Path
 import unittest
+import tempfile
 import numpy as np
 
 spec = importlib.util.spec_from_file_location("selective", Path(__file__).resolve().parents[1] / "scripts/selective_replay.py")
@@ -9,6 +10,24 @@ spec.loader.exec_module(selective)
 
 
 class SelectiveReplayTests(unittest.TestCase):
+    def test_artifacts_share_only_identical_bytes_and_refuse_overwrite(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            store = selective.ArtifactStore()
+            first, second = root / 'a.npz', root / 'b.npz'
+            store.save(first, weight=np.array([1., 2.], dtype=np.float32))
+            store.save(second, weight=np.array([1., 2.], dtype=np.float32))
+            self.assertEqual(first.stat().st_ino, second.stat().st_ino)
+            with self.assertRaises(FileExistsError):
+                store.save(first, weight=np.array([3.]))
+            third = root / 'c.npz'
+            third.write_bytes(first.read_bytes())
+            store.adopt(third)
+            self.assertEqual(first.stat().st_ino, third.stat().st_ino)
+            fresh = selective.ArtifactStore([root])
+            fresh.save(root / 'd.npz', weight=np.array([1., 2.], dtype=np.float32))
+            self.assertEqual(first.stat().st_ino, (root / 'd.npz').stat().st_ino)
+
     def test_direct_xor_is_exact_and_state_bound(self):
         rng = np.random.default_rng(101)
         original = rng.normal(size=(8, 12)).astype(np.float32)

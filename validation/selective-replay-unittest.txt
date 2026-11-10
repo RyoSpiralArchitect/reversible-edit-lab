@@ -60,10 +60,11 @@ test_sparse_budget_limits_data_and_reduces_error (test_roundoff.RoundoffPatchTes
 test_sparse_uses_stable_error_ranking (test_roundoff.RoundoffPatchTests.test_sparse_uses_stable_error_ranking) ... ok
 test_wrong_predicted_state_is_rejected (test_roundoff.RoundoffPatchTests.test_wrong_predicted_state_is_rejected) ... ok
 test_answer_requires_word_boundary (test_selective_replay.SelectiveReplayTests.test_answer_requires_word_boundary) ... ok
+test_artifacts_share_only_identical_bytes_and_refuse_overwrite (test_selective_replay.SelectiveReplayTests.test_artifacts_share_only_identical_bytes_and_refuse_overwrite) ... ok
 test_direct_xor_is_exact_and_state_bound (test_selective_replay.SelectiveReplayTests.test_direct_xor_is_exact_and_state_bound) ... ok
 test_receipts_reject_wrong_history_and_rewind_in_reverse_order (test_selective_replay.SelectiveReplayTests.test_receipts_reject_wrong_history_and_rewind_in_reverse_order) ... ok
 
 ----------------------------------------------------------------------
-Ran 64 tests in 1.297s
+Ran 65 tests in 1.264s
 
 OK
