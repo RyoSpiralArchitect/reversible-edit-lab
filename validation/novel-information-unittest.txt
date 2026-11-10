@@ -30,6 +30,7 @@ test_multirank_actual_float32_write_restores_exactly (test_factual_receipts.Fact
 test_control_retention_excludes_baseline_failures (test_novel_information.NovelInformationTests.test_control_retention_excludes_baseline_failures) ... ok
 test_failure_to_answer_does_not_prove_restoration (test_novel_information.NovelInformationTests.test_failure_to_answer_does_not_prove_restoration) ... ok
 test_retrieval_requires_complete_prefix (test_novel_information.NovelInformationTests.test_retrieval_requires_complete_prefix) ... ok
+test_optional_audits_are_not_claimed_when_skipped (test_novel_report.NovelReportTests.test_optional_audits_are_not_claimed_when_skipped) ... ok
 test_word_extension_is_not_exact_phrase_retrieval (test_novel_report.NovelReportTests.test_word_extension_is_not_exact_phrase_retrieval) ... ok
 test_factors_are_normalized_negative_sgd_and_valid_rome_transport (test_real_model_factors.GradientBridgeTests.test_factors_are_normalized_negative_sgd_and_valid_rome_transport) ... ok
 test_zero_or_nonfinite_gradient_is_rejected (test_real_model_factors.GradientBridgeTests.test_zero_or_nonfinite_gradient_is_rejected) ... ok
@@ -60,6 +61,6 @@ test_sparse_uses_stable_error_ranking (test_roundoff.RoundoffPatchTests.test_spa
 test_wrong_predicted_state_is_rejected (test_roundoff.RoundoffPatchTests.test_wrong_predicted_state_is_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 60 tests in 1.313s
+Ran 61 tests in 1.333s
 
 OK

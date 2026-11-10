@@ -21,6 +21,15 @@ def cell(value):
     return "`" + str(value).replace("\n", "\\n").replace("|", "\\|").replace("`", "'") + "`"
 
 
+def audit_description(audit):
+    parts = [f"バイナリ {audit['binary_files_checked']}件、実行コード・パネルのコミット一致を確認。"]
+    for label, key in [("モデルファイル", "model_files_checked"), ("著者コード", "upstream_files_checked")]:
+        count = audit[key]
+        parts.append(f"{label}: {count}件を確認。" if count else f"{label}: 未実施（パス指定なし）。")
+    parts.append(f"実施した監査のエラー: {len(audit['errors'])}件。")
+    return " ".join(parts)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("run", type=Path)
@@ -130,7 +139,7 @@ def main():
     text += ["", "## 証拠と範囲", "",
              f"- 事前コミット: `{run['source_commit']}`。3件×2方式、CPU FP32。",
              "- [固定手順](../../docs/NOVEL_INFORMATION.md)、[パネル](../../experiments/novel_information_panel.json)、[run.json](run.json)、[全生成・スコア](results.json)、[追加診断・監査](analysis.json)。",
-             f"- バイナリ {len(summary['binary_artifacts'])}件、実行コード・パネルのコミット一致、モデルファイル、著者コードのハッシュを確認。監査エラー0件。",
+             "- " + audit_description(derived["audit"]),
              "- 最適化ログを保存。重み・因子・補正記録・全初期logitはローカルのignored `work/` に保存し、[summary.json](summary.json)にSHA-256を公開。",
              "- 合言葉の生成成功、言い換え、局所性、復元を別々に評価。小さい共分散校正とGPT-2用設定であり、原論文のベンチマーク再現や汎用知能の検証ではない。", ""]
     (folder / "RESULTS.md").write_text("\n".join(text))
