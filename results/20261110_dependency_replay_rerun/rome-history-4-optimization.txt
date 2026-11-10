@@ -1,0 +1,34 @@
+Executing ROME algorithm for the update: [The capital of Spain is] -> [ Tokyo]
+Computing left vector (u)...
+Selected u projection object Spain
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Spain is | Token:  Spain
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 11.318 = 11.318 + 0.0 + 0.0 avg prob of [ Tokyo] 1.2348205018497538e-05
+loss 6.099 = 6.098 + 0.001 + 0.001 avg prob of [ Tokyo] 0.002260669367387891
+loss 4.249 = 4.245 + 0.002 + 0.001 avg prob of [ Tokyo] 0.014524362981319427
+loss 3.586 = 3.58 + 0.004 + 0.002 avg prob of [ Tokyo] 0.028359001502394676
+loss 3.115 = 3.106 + 0.006 + 0.002 avg prob of [ Tokyo] 0.04558004066348076
+loss 2.661 = 2.65 + 0.008 + 0.003 avg prob of [ Tokyo] 0.07189049571752548
+loss 2.205 = 2.191 + 0.01 + 0.003 avg prob of [ Tokyo] 0.11341571807861328
+loss 1.749 = 1.734 + 0.012 + 0.004 avg prob of [ Tokyo] 0.17849653959274292
+loss 1.319 = 1.302 + 0.013 + 0.004 avg prob of [ Tokyo] 0.27369579672813416
+loss 0.976 = 0.958 + 0.014 + 0.004 avg prob of [ Tokyo] 0.38437899947166443
+loss 0.77 = 0.751 + 0.015 + 0.005 avg prob of [ Tokyo] 0.4726119041442871
+loss 0.643 = 0.623 + 0.015 + 0.005 avg prob of [ Tokyo] 0.5373870134353638
+loss 0.521 = 0.5 + 0.016 + 0.005 avg prob of [ Tokyo] 0.6076143383979797
+loss 0.403 = 0.381 + 0.017 + 0.005 avg prob of [ Tokyo] 0.6839213371276855
+loss 0.309 = 0.286 + 0.017 + 0.006 avg prob of [ Tokyo] 0.7517159581184387
+loss 0.241 = 0.218 + 0.017 + 0.006 avg prob of [ Tokyo] 0.8045597076416016
+loss 0.194 = 0.17 + 0.018 + 0.006 avg prob of [ Tokyo] 0.8439671397209167
+loss 0.16 = 0.135 + 0.018 + 0.006 avg prob of [ Tokyo] 0.873438835144043
+loss 0.135 = 0.11 + 0.018 + 0.006 avg prob of [ Tokyo] 0.8959241509437561
+loss 0.116 = 0.091 + 0.019 + 0.007 avg prob of [ Tokyo] 0.9134121537208557
+Delta norm: 116.60344696044922
+Division Factor: 7.589296340942383
+Right vector norm: 15.36419677734375
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

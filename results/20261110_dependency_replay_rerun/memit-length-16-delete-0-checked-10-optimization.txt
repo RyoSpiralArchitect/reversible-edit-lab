@@ -1,0 +1,41 @@
+MEMIT request sample: [The native language of Charles Dickens is] -> [ Italian]
+Computing right vector (v)
+Lookup index found: 5 | Sentence: The native language of Charles Dickens is | Token:  Dickens
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 4.284 = 4.284 + 0.0 + 0.0 avg prob of [ Italian] 0.014856311492621899
+loss 2.554 = 2.549 + 0.004 + 0.0 avg prob of [ Italian] 0.07951740175485611
+loss 1.389 = 1.373 + 0.015 + 0.0 avg prob of [ Italian] 0.25443220138549805
+loss 0.642 = 0.607 + 0.034 + 0.001 avg prob of [ Italian] 0.545322060585022
+loss 0.303 = 0.247 + 0.056 + 0.001 avg prob of [ Italian] 0.7811486124992371
+loss 0.165 = 0.101 + 0.064 + 0.001 avg prob of [ Italian] 0.9043824076652527
+loss 0.097 = 0.044 + 0.051 + 0.001 avg prob of [ Italian] 0.9564852118492126
+loss 0.061 = 0.022 + 0.038 + 0.001 avg prob of [ Italian] 0.9780640602111816
+loss 0.044 = 0.012 + 0.031 + 0.001 avg prob of [ Italian] 0.987719714641571
+Init norm 180.66542053222656 | Delta norm 70.60962677001953 | Target norm 191.2030792236328
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(70.6096)
+orig norm tensor(140.2493)
+upd norm tensor(2.7806, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(55.0680)
+orig norm tensor(149.7657)
+upd norm tensor(2.2145, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(38.6790)
+orig norm tensor(165.1534)
+upd norm tensor(2.3567, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

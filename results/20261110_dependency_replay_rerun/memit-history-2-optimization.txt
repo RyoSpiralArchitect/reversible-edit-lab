@@ -1,0 +1,38 @@
+MEMIT request sample: [The native language of Charles Dickens is] -> [ French]
+Computing right vector (v)
+Lookup index found: 5 | Sentence: The native language of Charles Dickens is | Token:  Dickens
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 3.751 = 3.751 + 0.0 + 0.0 avg prob of [ French] 0.024242529645562172
+loss 2.685 = 2.681 + 0.003 + 0.0 avg prob of [ French] 0.0707557275891304
+loss 1.541 = 1.529 + 0.01 + 0.001 avg prob of [ French] 0.22168731689453125
+loss 0.524 = 0.505 + 0.017 + 0.001 avg prob of [ French] 0.6058682799339294
+loss 0.117 = 0.091 + 0.024 + 0.002 avg prob of [ French] 0.9126937985420227
+loss 0.046 = 0.014 + 0.03 + 0.002 avg prob of [ French] 0.9861533641815186
+Init norm 117.88395690917969 | Delta norm 50.2009162902832 | Target norm 127.33109283447266
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(50.2009)
+orig norm tensor(139.8474)
+upd norm tensor(1.9769, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(41.1332)
+orig norm tensor(149.5835)
+upd norm tensor(2.1130, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(31.8302)
+orig norm tensor(164.9000)
+upd norm tensor(3.5809, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

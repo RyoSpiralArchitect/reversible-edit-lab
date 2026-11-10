@@ -1,0 +1,20 @@
+Executing ROME algorithm for the update: [The capital of Japan is] -> [ Paris]
+Computing left vector (u)...
+Selected u projection object Japan
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Japan is | Token:  Japan
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 3.873 = 3.873 + 0.0 + 0.0 avg prob of [ Paris] 0.020966149866580963
+loss 1.527 = 1.526 + 0.001 + 0.001 avg prob of [ Paris] 0.21752412617206573
+loss 0.362 = 0.359 + 0.001 + 0.002 avg prob of [ Paris] 0.6981284022331238
+loss 0.05 = 0.046 + 0.003 + 0.002 avg prob of [ Paris] 0.955402672290802
+loss 0.015 = 0.009 + 0.004 + 0.003 avg prob of [ Paris] 0.9914841651916504
+Delta norm: 40.32699966430664
+Change in target norm: 86.54438018798828 to 94.10800170898438 => 7.563621520996094
+Division Factor: 8.06119155883789
+Right vector norm: 5.002610206604004
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

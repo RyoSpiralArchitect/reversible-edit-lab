@@ -1,0 +1,9 @@
+Executing ROME algorithm for the update: [The capital of Spain is] -> [ Tokyo]
+Computing left vector (u)...
+Selected u projection object Spain
+Left vector shape: torch.Size([3072])
+Delta norm: 115.85285949707031
+Division Factor: 7.589296340942383
+Right vector norm: 15.26529598236084
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

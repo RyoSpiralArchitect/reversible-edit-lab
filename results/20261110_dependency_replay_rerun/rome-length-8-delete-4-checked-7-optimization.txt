@@ -1,0 +1,30 @@
+Executing ROME algorithm for the update: [The capital of France is] -> [ Oslo]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of France is | Token:  France
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 11.295 = 11.295 + 0.0 + 0.0 avg prob of [ Oslo] 1.4207736057869624e-05
+loss 7.376 = 7.375 + 0.001 + 0.0 avg prob of [ Oslo] 0.0006372953648678958
+loss 5.618 = 5.616 + 0.002 + 0.001 avg prob of [ Oslo] 0.0036839910317212343
+loss 4.446 = 4.442 + 0.003 + 0.001 avg prob of [ Oslo] 0.011938772164285183
+loss 3.588 = 3.582 + 0.005 + 0.001 avg prob of [ Oslo] 0.028144165873527527
+loss 2.923 = 2.915 + 0.007 + 0.001 avg prob of [ Oslo] 0.054621804505586624
+loss 2.348 = 2.338 + 0.009 + 0.002 avg prob of [ Oslo] 0.0969950333237648
+loss 1.78 = 1.767 + 0.011 + 0.002 avg prob of [ Oslo] 0.17140011489391327
+loss 1.192 = 1.177 + 0.014 + 0.002 avg prob of [ Oslo] 0.30879899859428406
+loss 0.667 = 0.649 + 0.016 + 0.002 avg prob of [ Oslo] 0.5230751037597656
+loss 0.325 = 0.304 + 0.019 + 0.002 avg prob of [ Oslo] 0.738007128238678
+loss 0.164 = 0.14 + 0.022 + 0.003 avg prob of [ Oslo] 0.869780957698822
+loss 0.098 = 0.071 + 0.024 + 0.003 avg prob of [ Oslo] 0.9316065907478333
+loss 0.071 = 0.041 + 0.027 + 0.003 avg prob of [ Oslo] 0.9595699310302734
+loss 0.059 = 0.027 + 0.029 + 0.003 avg prob of [ Oslo] 0.973121166229248
+loss 0.054 = 0.02 + 0.031 + 0.003 avg prob of [ Oslo] 0.9803338646888733
+loss 0.051 = 0.016 + 0.032 + 0.003 avg prob of [ Oslo] 0.9845221638679504
+loss 0.05 = 0.013 + 0.033 + 0.003 avg prob of [ Oslo] 0.9871406555175781
+Delta norm: 117.29283905029297
+Division Factor: 8.15737533569336
+Right vector norm: 14.37874698638916
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

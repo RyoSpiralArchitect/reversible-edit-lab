@@ -30,10 +30,20 @@
    Retained B target answers alone fail to expose that distinction.
    [Prior-work positioning](PRIOR_WORK_20261110.md) explicitly credits reversible
    learning, selective spectral reversal, SISA and lossless delta compression.
-7. **Verified partial replay and learning policy (planned):** test whether
-   necessary recomputation can be reduced with a checkable dependency condition;
-   evaluate acquisition-policy value independently. This is a research hypothesis,
-   not an established new algorithm or a qualified performance result.
+7. **Dependency-checked component reuse (bounded run completed):**
+   [Component and 8/16-history results](../results/20261110_dependency_replay_rerun/RESULTS.md)
+   match fresh references in 6/6 pair cells and 12/12 withdrawals. ROME's key and
+   MEMIT's first-layer key/solve can be reused; latent targets must be recomputed
+   in this panel. Live-byte dependency hashing costs more than it saves: paired
+   median edit-compute times increase about 22–37%. Long-history reference edit
+   quality/control behavior also degrades; exact reconstruction is not repair.
+8. **Lower-cost checks and editing quality (unrun):** investigate whether an
+   explicitly enforced write journal can maintain dependency identities cheaply,
+   including its own validation/maintenance costs and out-of-band mutation tests.
+   Keep fresh suffix computation as the comparator. Improve and independently
+   evaluate retained-fact/control quality before larger-model claims. Acquisition
+   policy remains a separate question. No new algorithmic principle or qualified
+   performance advantage is established.
 
 No real-model factual-editing, training-quality, or cross-device transport result
 is established by steps 1–2. Experimental changes are proposed in pull requests

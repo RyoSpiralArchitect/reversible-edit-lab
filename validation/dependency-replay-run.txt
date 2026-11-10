@@ -1,0 +1,40 @@
+W1110 13:20:26.501000 80867 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 21263.90it/s]
+decomposition rome-different_subjects
+decomposition rome-conflicting_targets
+decomposition rome-different_relations
+decomposition memit-different_subjects
+decomposition memit-conflicting_targets
+Traceback (most recent call last):
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/scripts/dependency_replay.py", line 517, in <module>
+    main()
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/scripts/dependency_replay.py", line 504, in main
+    lab.decomposition()
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/scripts/dependency_replay.py", line 425, in decomposition
+    observation = self.evaluate(label + '-' + mode)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/scripts/dependency_replay.py", line 296, in evaluate
+    logits = self.model(input_ids=ids, use_cache=False).logits[0, -1]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 943, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/.venv/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 697, in forward
+    logits = self.lm_head(hidden_states)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/.venv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,27 @@
+Executing ROME algorithm for the update: [The capital of Japan is] -> [ Rome]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Japan is | Token:  Japan
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 6.586 = 6.586 + 0.0 + 0.0 avg prob of [ Rome] 0.0013872524723410606
+loss 5.074 = 5.073 + 0.001 + 0.0 avg prob of [ Rome] 0.006315268576145172
+loss 4.007 = 4.005 + 0.002 + 0.0 avg prob of [ Rome] 0.0184295903891325
+loss 3.284 = 3.28 + 0.004 + 0.0 avg prob of [ Rome] 0.03811267390847206
+loss 2.748 = 2.741 + 0.006 + 0.0 avg prob of [ Rome] 0.06536120176315308
+loss 2.282 = 2.272 + 0.009 + 0.001 avg prob of [ Rome] 0.10441615432500839
+loss 1.822 = 1.81 + 0.012 + 0.001 avg prob of [ Rome] 0.16562046110630035
+loss 1.348 = 1.332 + 0.014 + 0.001 avg prob of [ Rome] 0.2664428651332855
+loss 0.881 = 0.863 + 0.017 + 0.001 avg prob of [ Rome] 0.4246668517589569
+loss 0.492 = 0.471 + 0.02 + 0.001 avg prob of [ Rome] 0.6262463331222534
+loss 0.243 = 0.219 + 0.023 + 0.001 avg prob of [ Rome] 0.8038336634635925
+loss 0.121 = 0.095 + 0.025 + 0.001 avg prob of [ Rome] 0.9091615676879883
+loss 0.071 = 0.043 + 0.027 + 0.001 avg prob of [ Rome] 0.9577643275260925
+loss 0.051 = 0.022 + 0.029 + 0.001 avg prob of [ Rome] 0.9786667823791504
+loss 0.043 = 0.012 + 0.03 + 0.001 avg prob of [ Rome] 0.988013744354248
+Delta norm: 123.76393127441406
+Division Factor: 8.06119155883789
+Right vector norm: 15.353057861328125
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

@@ -1,0 +1,46 @@
+MEMIT request sample: [The capital of Italy is] -> [ Berlin]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Italy is | Token:  Italy
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 6.526 = 6.526 + 0.0 + 0.0 avg prob of [ Berlin] 0.0015150069957599044
+loss 4.419 = 4.418 + 0.0 + 0.0 avg prob of [ Berlin] 0.012251594103872776
+loss 3.126 = 3.124 + 0.002 + 0.001 avg prob of [ Berlin] 0.04413197562098503
+loss 2.253 = 2.249 + 0.003 + 0.001 avg prob of [ Berlin] 0.10555211454629898
+loss 1.665 = 1.659 + 0.005 + 0.001 avg prob of [ Berlin] 0.19039945304393768
+loss 1.245 = 1.237 + 0.006 + 0.001 avg prob of [ Berlin] 0.2906048893928528
+loss 0.907 = 0.897 + 0.008 + 0.001 avg prob of [ Berlin] 0.40821734070777893
+loss 0.624 = 0.612 + 0.01 + 0.001 avg prob of [ Berlin] 0.5424936413764954
+loss 0.401 = 0.387 + 0.012 + 0.002 avg prob of [ Berlin] 0.6795363426208496
+loss 0.243 = 0.227 + 0.014 + 0.002 avg prob of [ Berlin] 0.7972936630249023
+loss 0.144 = 0.126 + 0.016 + 0.002 avg prob of [ Berlin] 0.8812835216522217
+loss 0.089 = 0.07 + 0.018 + 0.002 avg prob of [ Berlin] 0.9326522350311279
+loss 0.061 = 0.04 + 0.019 + 0.002 avg prob of [ Berlin] 0.9612199664115906
+loss 0.047 = 0.024 + 0.021 + 0.002 avg prob of [ Berlin] 0.9765550494194031
+Init norm 157.4841766357422 | Delta norm 105.75764465332031 | Target norm 183.69308471679688
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(105.7576, grad_fn=<MeanBackward0>)
+orig norm tensor(139.9164)
+upd norm tensor(4.7414, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(92.1419, grad_fn=<MeanBackward0>)
+orig norm tensor(149.6244)
+upd norm tensor(3.4607, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(73.6530, grad_fn=<MeanBackward0>)
+orig norm tensor(164.9480)
+upd norm tensor(3.9957, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

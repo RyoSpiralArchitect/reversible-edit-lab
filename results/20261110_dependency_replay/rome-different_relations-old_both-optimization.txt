@@ -1,0 +1,7 @@
+Executing ROME algorithm for the update: [The capital of Canada is] -> [ Rome]
+Left vector shape: torch.Size([3072])
+Delta norm: 64.3467788696289
+Division Factor: 8.702410697937012
+Right vector norm: 7.394132614135742
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

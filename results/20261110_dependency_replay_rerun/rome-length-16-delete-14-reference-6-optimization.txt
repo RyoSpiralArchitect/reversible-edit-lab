@@ -1,0 +1,32 @@
+Executing ROME algorithm for the update: [The capital of Italy is] -> [ Berlin]
+Computing left vector (u)...
+Selected u projection object Italy
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Italy is | Token:  Italy
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 9.088 = 9.088 + 0.0 + 0.0 avg prob of [ Berlin] 0.00011522113345563412
+loss 7.464 = 7.463 + 0.0 + 0.0 avg prob of [ Berlin] 0.0005835305782966316
+loss 5.963 = 5.961 + 0.001 + 0.001 avg prob of [ Berlin] 0.002601957181468606
+loss 4.763 = 4.759 + 0.003 + 0.001 avg prob of [ Berlin] 0.008642605505883694
+loss 3.787 = 3.782 + 0.004 + 0.001 avg prob of [ Berlin] 0.02301221340894699
+loss 2.956 = 2.949 + 0.006 + 0.001 avg prob of [ Berlin] 0.05299794673919678
+loss 2.194 = 2.185 + 0.008 + 0.001 avg prob of [ Berlin] 0.11361316591501236
+loss 1.522 = 1.511 + 0.01 + 0.002 avg prob of [ Berlin] 0.22206659615039825
+loss 0.997 = 0.983 + 0.012 + 0.002 avg prob of [ Berlin] 0.3752264976501465
+loss 0.621 = 0.605 + 0.014 + 0.002 avg prob of [ Berlin] 0.5465863347053528
+loss 0.373 = 0.354 + 0.017 + 0.002 avg prob of [ Berlin] 0.701840341091156
+loss 0.223 = 0.202 + 0.019 + 0.002 avg prob of [ Berlin] 0.8170747756958008
+loss 0.139 = 0.116 + 0.021 + 0.002 avg prob of [ Berlin] 0.8906037211418152
+loss 0.093 = 0.068 + 0.023 + 0.002 avg prob of [ Berlin] 0.9338974356651306
+loss 0.069 = 0.042 + 0.024 + 0.003 avg prob of [ Berlin] 0.9588186144828796
+loss 0.055 = 0.027 + 0.026 + 0.003 avg prob of [ Berlin] 0.9733200669288635
+loss 0.048 = 0.018 + 0.027 + 0.003 avg prob of [ Berlin] 0.9819852709770203
+Delta norm: 134.13192749023438
+Change in target norm: 156.50389099121094 to 195.3956756591797 => 38.89178466796875
+Division Factor: 7.643048286437988
+Right vector norm: 17.54953384399414
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

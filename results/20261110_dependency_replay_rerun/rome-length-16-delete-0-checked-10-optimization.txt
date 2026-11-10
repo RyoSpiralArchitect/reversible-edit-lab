@@ -1,0 +1,32 @@
+Executing ROME algorithm for the update: [The native language of Charles Dickens is] -> [ Italian]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 5 | Sentence: The native language of Charles Dickens is | Token:  Dickens
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 5.959 = 5.959 + 0.0 + 0.0 avg prob of [ Italian] 0.0026214439421892166
+loss 3.227 = 3.222 + 0.005 + 0.0 avg prob of [ Italian] 0.04019209370017052
+loss 2.495 = 2.48 + 0.015 + 0.001 avg prob of [ Italian] 0.0847528949379921
+loss 2.087 = 2.057 + 0.029 + 0.001 avg prob of [ Italian] 0.12901465594768524
+loss 1.73 = 1.683 + 0.045 + 0.001 avg prob of [ Italian] 0.18703536689281464
+loss 1.377 = 1.318 + 0.058 + 0.001 avg prob of [ Italian] 0.2691335082054138
+loss 1.033 = 0.964 + 0.067 + 0.001 avg prob of [ Italian] 0.3827791213989258
+loss 0.724 = 0.651 + 0.071 + 0.002 avg prob of [ Italian] 0.5232897400856018
+loss 0.483 = 0.409 + 0.072 + 0.002 avg prob of [ Italian] 0.66576087474823
+loss 0.32 = 0.248 + 0.07 + 0.002 avg prob of [ Italian] 0.7816023230552673
+loss 0.221 = 0.15 + 0.07 + 0.002 avg prob of [ Italian] 0.8615593910217285
+loss 0.166 = 0.092 + 0.071 + 0.002 avg prob of [ Italian] 0.9121578335762024
+loss 0.135 = 0.059 + 0.074 + 0.002 avg prob of [ Italian] 0.9430314898490906
+loss 0.118 = 0.039 + 0.077 + 0.002 avg prob of [ Italian] 0.9617236256599426
+loss 0.107 = 0.027 + 0.077 + 0.002 avg prob of [ Italian] 0.9732546806335449
+loss 0.098 = 0.02 + 0.076 + 0.003 avg prob of [ Italian] 0.9806437492370605
+loss 0.09 = 0.015 + 0.073 + 0.003 avg prob of [ Italian] 0.9856006503105164
+loss 0.082 = 0.011 + 0.068 + 0.003 avg prob of [ Italian] 0.9890643954277039
+loss 0.073 = 0.008 + 0.062 + 0.003 avg prob of [ Italian] 0.9915536046028137
+loss 0.065 = 0.007 + 0.056 + 0.003 avg prob of [ Italian] 0.9933748841285706
+Delta norm: 109.78424072265625
+Division Factor: 8.380202293395996
+Right vector norm: 13.100428581237793
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

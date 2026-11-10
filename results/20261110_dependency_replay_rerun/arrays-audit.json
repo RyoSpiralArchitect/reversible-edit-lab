@@ -1,0 +1,9 @@
+{
+  "errors": [],
+  "comparisons": 72,
+  "author_adaptations": 6,
+  "component_differences": 27,
+  "restored_layers": 160,
+  "stale_replays": 12,
+  "scope": "Recomputed saved-array comparisons and receipt replay; no optimizer/forward rerun."
+}

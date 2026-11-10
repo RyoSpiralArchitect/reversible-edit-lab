@@ -1,0 +1,34 @@
+Executing ROME algorithm for the update: [The capital of Canada is] -> [ Tokyo]
+Computing left vector (u)...
+Selected u projection object Canada
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Canada is | Token:  Canada
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 7.461 = 7.461 + 0.0 + 0.0 avg prob of [ Tokyo] 0.00058828602777794
+loss 6.401 = 6.4 + 0.001 + 0.0 avg prob of [ Tokyo] 0.0016858469462022185
+loss 5.562 = 5.558 + 0.003 + 0.0 avg prob of [ Tokyo] 0.003889344399794936
+loss 4.895 = 4.889 + 0.006 + 0.0 avg prob of [ Tokyo] 0.007567704189568758
+loss 4.351 = 4.341 + 0.01 + 0.0 avg prob of [ Tokyo] 0.013059708289802074
+loss 3.882 = 3.868 + 0.014 + 0.0 avg prob of [ Tokyo] 0.02094080112874508
+loss 3.446 = 3.429 + 0.017 + 0.0 avg prob of [ Tokyo] 0.032470978796482086
+loss 3.017 = 2.996 + 0.02 + 0.0 avg prob of [ Tokyo] 0.05004557967185974
+loss 2.578 = 2.554 + 0.023 + 0.001 avg prob of [ Tokyo] 0.07779809832572937
+loss 2.128 = 2.102 + 0.025 + 0.001 avg prob of [ Tokyo] 0.12224256247282028
+loss 1.678 = 1.65 + 0.027 + 0.001 avg prob of [ Tokyo] 0.1921730637550354
+loss 1.249 = 1.219 + 0.029 + 0.001 avg prob of [ Tokyo] 0.2955496609210968
+loss 0.872 = 0.841 + 0.03 + 0.001 avg prob of [ Tokyo] 0.4312412440776825
+loss 0.574 = 0.542 + 0.031 + 0.001 avg prob of [ Tokyo] 0.581509530544281
+loss 0.361 = 0.328 + 0.033 + 0.001 avg prob of [ Tokyo] 0.7207496762275696
+loss 0.22 = 0.185 + 0.034 + 0.001 avg prob of [ Tokyo] 0.8308939933776855
+loss 0.136 = 0.1 + 0.035 + 0.001 avg prob of [ Tokyo] 0.904941737651825
+loss 0.09 = 0.054 + 0.036 + 0.001 avg prob of [ Tokyo] 0.9476795196533203
+loss 0.068 = 0.031 + 0.036 + 0.001 avg prob of [ Tokyo] 0.9697992205619812
+loss 0.058 = 0.02 + 0.037 + 0.001 avg prob of [ Tokyo] 0.9799858927726746
+Delta norm: 167.14678955078125
+Division Factor: 8.702410697937012
+Right vector norm: 19.206953048706055
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

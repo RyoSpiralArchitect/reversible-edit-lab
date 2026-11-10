@@ -1,0 +1,49 @@
+MEMIT request sample: [The capital of Germany is] -> [ Paris]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Germany is | Token:  Germany
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 3.929 = 3.929 + 0.0 + 0.0 avg prob of [ Paris] 0.019701723009347916
+loss 3.291 = 3.29 + 0.001 + 0.0 avg prob of [ Paris] 0.037319909781217575
+loss 2.751 = 2.749 + 0.002 + 0.0 avg prob of [ Paris] 0.06409543752670288
+loss 2.256 = 2.251 + 0.004 + 0.0 avg prob of [ Paris] 0.10544870048761368
+loss 1.781 = 1.775 + 0.007 + 0.0 avg prob of [ Paris] 0.1698143482208252
+loss 1.339 = 1.329 + 0.009 + 0.0 avg prob of [ Paris] 0.26492244005203247
+loss 0.958 = 0.946 + 0.012 + 0.0 avg prob of [ Paris] 0.3886944055557251
+loss 0.659 = 0.644 + 0.015 + 0.0 avg prob of [ Paris] 0.5252066850662231
+loss 0.443 = 0.425 + 0.018 + 0.001 avg prob of [ Paris] 0.6539633870124817
+loss 0.295 = 0.274 + 0.02 + 0.001 avg prob of [ Paris] 0.7606415748596191
+loss 0.197 = 0.174 + 0.023 + 0.001 avg prob of [ Paris] 0.8403926491737366
+loss 0.136 = 0.11 + 0.025 + 0.001 avg prob of [ Paris] 0.8957030773162842
+loss 0.098 = 0.07 + 0.027 + 0.001 avg prob of [ Paris] 0.9322230219841003
+loss 0.075 = 0.045 + 0.029 + 0.001 avg prob of [ Paris] 0.9556979537010193
+loss 0.061 = 0.03 + 0.03 + 0.001 avg prob of [ Paris] 0.9706330895423889
+loss 0.052 = 0.02 + 0.031 + 0.001 avg prob of [ Paris] 0.9801509976387024
+loss 0.046 = 0.014 + 0.031 + 0.001 avg prob of [ Paris] 0.9862759113311768
+Init norm 287.0034484863281 | Delta norm 148.69476318359375 | Target norm 316.082763671875
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(148.6947)
+orig norm tensor(140.3875)
+upd norm tensor(6.1420, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(118.2578)
+orig norm tensor(149.9388)
+upd norm tensor(3.6126, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(78.2890)
+orig norm tensor(165.2666)
+upd norm tensor(4.1400, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

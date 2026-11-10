@@ -1,0 +1,42 @@
+MEMIT request sample: [The capital of France is] -> [ Oslo]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of France is | Token:  France
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 8.513 = 8.513 + 0.0 + 0.0 avg prob of [ Oslo] 0.00023510369646828622
+loss 5.372 = 5.371 + 0.001 + 0.0 avg prob of [ Oslo] 0.005164979491382837
+loss 3.522 = 3.519 + 0.002 + 0.0 avg prob of [ Oslo] 0.03165309503674507
+loss 2.384 = 2.379 + 0.004 + 0.001 avg prob of [ Oslo] 0.09611596912145615
+loss 1.583 = 1.577 + 0.005 + 0.001 avg prob of [ Oslo] 0.21024377644062042
+loss 0.919 = 0.912 + 0.007 + 0.001 avg prob of [ Oslo] 0.4036356508731842
+loss 0.429 = 0.42 + 0.008 + 0.001 avg prob of [ Oslo] 0.6574758887290955
+loss 0.175 = 0.165 + 0.009 + 0.001 avg prob of [ Oslo] 0.8480742573738098
+loss 0.076 = 0.064 + 0.011 + 0.001 avg prob of [ Oslo] 0.9376204013824463
+loss 0.04 = 0.027 + 0.012 + 0.001 avg prob of [ Oslo] 0.973299503326416
+Init norm 180.2736053466797 | Delta norm 83.8729019165039 | Target norm 189.52700805664062
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(83.8729, grad_fn=<MeanBackward0>)
+orig norm tensor(139.9766)
+upd norm tensor(3.5397, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(68.0539, grad_fn=<MeanBackward0>)
+orig norm tensor(149.7072)
+upd norm tensor(2.7828, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(46.4305, grad_fn=<MeanBackward0>)
+orig norm tensor(165.0355)
+upd norm tensor(3.4429, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

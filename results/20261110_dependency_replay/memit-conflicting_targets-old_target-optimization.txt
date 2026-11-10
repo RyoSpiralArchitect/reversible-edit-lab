@@ -1,0 +1,26 @@
+MEMIT request sample: [The capital of Spain is] -> [ Tokyo]
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(108.0007)
+orig norm tensor(139.7687)
+upd norm tensor(4.6011, dtype=torch.float64)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(84.3149)
+orig norm tensor(149.5333)
+upd norm tensor(4.0650, dtype=torch.float64)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(70.3681)
+orig norm tensor(164.8545)
+upd norm tensor(5.1373, dtype=torch.float64)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

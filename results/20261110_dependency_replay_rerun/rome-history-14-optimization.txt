@@ -1,0 +1,34 @@
+Executing ROME algorithm for the update: [The capital of Spain is] -> [ Rome]
+Computing left vector (u)...
+Selected u projection object Spain
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Spain is | Token:  Spain
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 7.747 = 7.747 + 0.0 + 0.0 avg prob of [ Rome] 0.0004323702596593648
+loss 5.996 = 5.995 + 0.001 + 0.0 avg prob of [ Rome] 0.0025153537280857563
+loss 4.541 = 4.538 + 0.003 + 0.0 avg prob of [ Rome] 0.010947120375931263
+loss 3.418 = 3.413 + 0.005 + 0.0 avg prob of [ Rome] 0.03390219435095787
+loss 2.676 = 2.668 + 0.008 + 0.0 avg prob of [ Rome] 0.07104458659887314
+loss 2.224 = 2.213 + 0.011 + 0.0 avg prob of [ Rome] 0.11143561452627182
+loss 1.921 = 1.907 + 0.014 + 0.0 avg prob of [ Rome] 0.15079207718372345
+loss 1.683 = 1.666 + 0.017 + 0.001 avg prob of [ Rome] 0.1914730817079544
+loss 1.474 = 1.454 + 0.019 + 0.001 avg prob of [ Rome] 0.23638300597667694
+loss 1.281 = 1.259 + 0.022 + 0.001 avg prob of [ Rome] 0.28702598810195923
+loss 1.102 = 1.078 + 0.024 + 0.001 avg prob of [ Rome] 0.34360256791114807
+loss 0.937 = 0.911 + 0.026 + 0.001 avg prob of [ Rome] 0.4056549370288849
+loss 0.785 = 0.757 + 0.028 + 0.001 avg prob of [ Rome] 0.4724895656108856
+loss 0.646 = 0.616 + 0.029 + 0.001 avg prob of [ Rome] 0.5430647730827332
+loss 0.522 = 0.49 + 0.031 + 0.001 avg prob of [ Rome] 0.6153957843780518
+loss 0.412 = 0.379 + 0.032 + 0.001 avg prob of [ Rome] 0.6864051222801208
+loss 0.321 = 0.287 + 0.033 + 0.001 avg prob of [ Rome] 0.7523611187934875
+loss 0.247 = 0.212 + 0.034 + 0.001 avg prob of [ Rome] 0.8099894523620605
+loss 0.191 = 0.155 + 0.035 + 0.001 avg prob of [ Rome] 0.8574349880218506
+loss 0.148 = 0.112 + 0.035 + 0.001 avg prob of [ Rome] 0.8945517539978027
+Delta norm: 148.96449279785156
+Division Factor: 7.589296340942383
+Right vector norm: 19.628236770629883
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

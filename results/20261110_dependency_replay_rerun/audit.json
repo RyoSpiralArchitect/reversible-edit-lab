@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "binaries_checked": 456,
+  "model_files_checked": 6,
+  "upstream_files_checked": 21,
+  "source_files_checked": 5,
+  "checked_lookup_decisions": 414,
+  "prior_measurement_groups_compared": 72,
+  "results_sha256": "28ff8ec11e5f9391c16705e34051bd68081d2ee0753358113a8a42af6bbe8e35",
+  "analysis_source_sha256": "41fb1fa3fbb2f295c1900ac377a664cc7bbf077c58d654dba098a3a7597b026f"
+}
