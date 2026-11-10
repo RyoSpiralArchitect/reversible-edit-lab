@@ -1,0 +1,201 @@
+{
+  "model": "openai-community/gpt2",
+  "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "model_sha256": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "numpy": "2.5.4",
+  "source_commit": "21f6aeb9213b9f9dbc283002dd815798c9d33a2e",
+  "script_sha256": "207744d270fadba00fd671f2b0ef3bff9f8cfe2ee7007de039c86fdc19050b32",
+  "upstream_commit": "80426fd9316cf9a50c5ba15e0912f2c2c5bfe84b",
+  "upstream_files": {
+    "memit/__init__.py": "911cc037562a368ca7017ea66f4821c5a848f286a55b7d624c242209afcd01df",
+    "memit/compute_ks.py": "0b039be47c548f046b71cad4efce63414f53edbaa657bde868a20cdd35a2f5c7",
+    "memit/compute_z.py": "303df26e65844ffc21d7f3df2fbffbe8a5326681dc2e0358416e4c44e86f503f",
+    "memit/memit_hparams.py": "1b229b882b031ddbb59f06ad6ba58d5c33b17826bbfddf80f767e96931b595b2",
+    "memit/memit_main.py": "4d70085b3403c1c4743262ef1949b6d6d0fbe98a7b270e2faebfd522ca1ae141",
+    "rome/__init__.py": "87e6bd462753e8a86b84b2461da6067762cb0d5c9b7061b1b0598adb6f550a7a",
+    "rome/compute_u.py": "cdce31a9e2798428d86194397984b2de4b210e02841933d0704263a57b3a71d7",
+    "rome/compute_v.py": "3cd6aca70827633c24ee3b278f22da0d329b88615c7767973a0bc461cc15a94b",
+    "rome/layer_stats.py": "430d822d6f971b07e119ebb8d94bd5d70fefdee1039db9c9a380f95b9c6b78cb",
+    "rome/repr_tools.py": "310a69a0570ca1257133adfb4ce47206e924dc11be24f630a0f6b692cf033202",
+    "rome/rome_hparams.py": "1037cd56d2cfc92db212f5f4344477c5732a809dfd745c04e8e5742e925c98a5",
+    "rome/rome_main.py": "3f58918fd6351bd1473f1bc1d36f13216d5d6b0e4183dbfadb7688546dff1c7d",
+    "rome/tok_dataset.py": "3dd4815dd6d15e0727939f38e8a8f8ddfaea56f10b700249334982c56e4883b4",
+    "util/__init__.py": "0f2267e08c0c9345017c155e4d894043773f4e303958a95a3e8fe5dc3c5b341d",
+    "util/generate.py": "3764cb8a0a1b3f28c17d8aab3028b33d2127ba4e02e8dbc253025791a9ab2514",
+    "util/globals.py": "5849f199d7d10895489ab413ae327bb97a74dded22f993841278e452e70307fb",
+    "util/hparams.py": "09e9fec3f476ff68009230f1251044bec21aa71797d484033f736057bbe294b0",
+    "util/logit_lens.py": "0c35d203c511327e5c839ea0c06408f23dd6969402dce4be02f4e3160c88e6a4",
+    "util/nethook.py": "75d1b6353aae539f56aed3f721fdae9762776414e7a97f2c13734fc77bb29ce1",
+    "util/perplexity.py": "35cfda545c09aad4f86053f6a0de7c3f3ce32e221a83049b8dc91f675f40319a",
+    "util/runningstats.py": "075f495653d5b6ce8d8cc1721f420e0fceb7fea42873e7f317cef16198fb8eb5"
+  },
+  "calibration": [
+    "The book was open near the table.",
+    "The book was open near the garden.",
+    "The book was open near the door.",
+    "The book was open near the wall.",
+    "The lamp was bright near the table.",
+    "The lamp was bright near the garden.",
+    "The lamp was bright near the door.",
+    "The lamp was bright near the wall.",
+    "The window was closed near the table.",
+    "The window was closed near the garden.",
+    "The window was closed near the door.",
+    "The window was closed near the wall.",
+    "The chair was empty near the table.",
+    "The chair was empty near the garden.",
+    "The chair was empty near the door.",
+    "The chair was empty near the wall."
+  ],
+  "covariance": {
+    "transformer.h.4.mlp.c_proj": {
+      "tokens": 128,
+      "ridge": 0.0003039937523136617
+    },
+    "transformer.h.5.mlp.c_proj": {
+      "tokens": 128,
+      "ridge": 0.00031839242750031485
+    },
+    "transformer.h.6.mlp.c_proj": {
+      "tokens": 128,
+      "ridge": 0.0003243530070562107
+    }
+  },
+  "contexts": [
+    "{}",
+    "Today, {}",
+    "In a report, {}"
+  ],
+  "hparams": {
+    "rome": {
+      "layers": [
+        5
+      ],
+      "fact_token": "subject_last",
+      "v_num_grad_steps": 20,
+      "v_lr": 0.5,
+      "v_loss_layer": 11,
+      "v_weight_decay": 0.5,
+      "clamp_norm_factor": 4,
+      "kl_factor": 0.0625,
+      "mom2_adjustment": true,
+      "context_template_length_params": [],
+      "rewrite_module_tmp": "transformer.h.{}.mlp.c_proj",
+      "layer_module_tmp": "transformer.h.{}",
+      "mlp_module_tmp": "transformer.h.{}.mlp",
+      "attn_module_tmp": "transformer.h.{}.attn",
+      "ln_f_module": "transformer.ln_f",
+      "lm_head_module": "transformer.wte",
+      "mom2_dataset": "declared_local_16_sentences",
+      "mom2_n_samples": 16,
+      "mom2_dtype": "float64"
+    },
+    "memit": {
+      "layers": [
+        4,
+        5,
+        6
+      ],
+      "layer_selection": "all",
+      "fact_token": "subject_last",
+      "v_num_grad_steps": 20,
+      "v_lr": 0.5,
+      "v_loss_layer": 11,
+      "v_weight_decay": 0.5,
+      "clamp_norm_factor": 0.75,
+      "kl_factor": 0.0625,
+      "mom2_adjustment": true,
+      "mom2_update_weight": 1000,
+      "rewrite_module_tmp": "transformer.h.{}.mlp.c_proj",
+      "layer_module_tmp": "transformer.h.{}",
+      "mlp_module_tmp": "transformer.h.{}.mlp",
+      "attn_module_tmp": "transformer.h.{}.attn",
+      "ln_f_module": "transformer.ln_f",
+      "lm_head_module": "transformer.wte",
+      "mom2_dataset": "declared_local_16_sentences",
+      "mom2_n_samples": 16,
+      "mom2_dtype": "float64"
+    }
+  },
+  "A": {
+    "rome": [
+      {
+        "prompt": "The capital of {} is",
+        "subject": "France",
+        "target_new": {
+          "str": " Rome"
+        }
+      }
+    ],
+    "memit": [
+      {
+        "prompt": "The capital of {} is",
+        "subject": "France",
+        "target_new": {
+          "str": " Rome"
+        }
+      },
+      {
+        "prompt": "The capital of {} is",
+        "subject": "Japan",
+        "target_new": {
+          "str": " Paris"
+        }
+      }
+    ]
+  },
+  "B": [
+    {
+      "prompt": "The capital of {} is",
+      "subject": "Italy",
+      "target_new": {
+        "str": " Tokyo"
+      }
+    }
+  ],
+  "probes": [
+    [
+      "rewrite_A",
+      "The capital of France is",
+      " Rome"
+    ],
+    [
+      "paraphrase_A",
+      "France has its capital in",
+      " Rome"
+    ],
+    [
+      "rewrite_A2",
+      "The capital of Japan is",
+      " Paris"
+    ],
+    [
+      "paraphrase_A2",
+      "Japan has its capital in",
+      " Paris"
+    ],
+    [
+      "rewrite_B",
+      "The capital of Italy is",
+      " Tokyo"
+    ],
+    [
+      "paraphrase_B",
+      "Italy has its capital in",
+      " Tokyo"
+    ],
+    [
+      "locality",
+      "The capital of Germany is",
+      " Berlin"
+    ],
+    [
+      "unrelated",
+      "The sky is",
+      " blue"
+    ]
+  ],
+  "scope": "CPU FP32 authors algorithms with explicit small-model/corpus adaptation; no original-paper reproduction claim"
+}

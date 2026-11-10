@@ -1,0 +1,61 @@
+MEMIT request sample: [The capital of France is] -> [ Rome]
+MEMIT request sample: [The capital of Japan is] -> [ Paris]
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of France is | Token:  France
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 6.774 = 6.774 + 0.0 + 0.0 avg prob of [ Rome] 0.001431782147847116
+loss 4.768 = 4.767 + 0.0 + 0.001 avg prob of [ Rome] 0.011896476149559021
+loss 3.108 = 3.106 + 0.001 + 0.001 avg prob of [ Rome] 0.06140347197651863
+loss 1.407 = 1.403 + 0.003 + 0.002 avg prob of [ Rome] 0.26435503363609314
+loss 0.544 = 0.537 + 0.005 + 0.002 avg prob of [ Rome] 0.5880139470100403
+loss 0.177 = 0.168 + 0.007 + 0.002 avg prob of [ Rome] 0.8456771373748779
+loss 0.051 = 0.04 + 0.009 + 0.003 avg prob of [ Rome] 0.9610803723335266
+loss 0.023 = 0.009 + 0.011 + 0.003 avg prob of [ Rome] 0.9906854033470154
+Init norm 105.46713256835938 | Delta norm 65.01427459716797 | Target norm 119.40442657470703
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Japan is | Token:  Japan
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 10.466 = 10.466 + 0.0 + 0.0 avg prob of [ Paris] 3.058834408875555e-05
+loss 8.164 = 8.163 + 0.0 + 0.001 avg prob of [ Paris] 0.0003628316626418382
+loss 6.888 = 6.885 + 0.002 + 0.001 avg prob of [ Paris] 0.001587363425642252
+loss 6.054 = 6.049 + 0.003 + 0.002 avg prob of [ Paris] 0.004066216293722391
+loss 5.127 = 5.121 + 0.005 + 0.002 avg prob of [ Paris] 0.010542414151132107
+loss 3.84 = 3.831 + 0.007 + 0.002 avg prob of [ Paris] 0.03454434871673584
+loss 2.173 = 2.161 + 0.009 + 0.003 avg prob of [ Paris] 0.13967643678188324
+loss 0.973 = 0.958 + 0.012 + 0.003 avg prob of [ Paris] 0.39718735218048096
+loss 0.518 = 0.5 + 0.014 + 0.003 avg prob of [ Paris] 0.6147666573524475
+loss 0.266 = 0.245 + 0.017 + 0.004 avg prob of [ Paris] 0.7856170535087585
+loss 0.141 = 0.12 + 0.017 + 0.004 avg prob of [ Paris] 0.887520968914032
+loss 0.081 = 0.06 + 0.017 + 0.004 avg prob of [ Paris] 0.9421863555908203
+loss 0.052 = 0.031 + 0.017 + 0.004 avg prob of [ Paris] 0.9691669940948486
+loss 0.039 = 0.018 + 0.018 + 0.004 avg prob of [ Paris] 0.9824203848838806
+Init norm 106.33089447021484 | Delta norm 79.7481689453125 | Target norm 129.9689178466797
+
+
+LAYER 4
+
+Writing 2 key/value pair(s) into layer 4
+z error tensor(72.3812, grad_fn=<MeanBackward0>)
+orig norm tensor(139.7687)
+upd norm tensor(7.0221, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 2 key/value pair(s) into layer 5
+z error tensor(54.3482, grad_fn=<MeanBackward0>)
+orig norm tensor(149.5333)
+upd norm tensor(6.3564, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 2 key/value pair(s) into layer 6
+z error tensor(34.7990, grad_fn=<MeanBackward0>)
+orig norm tensor(164.8545)
+upd norm tensor(6.6392, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

@@ -11,7 +11,10 @@
    verify projection orientation against forward computation, then measure
    exact rollback on its stored tensor. Distinguish synthetic writes on real
    weights from actual optimized factual edits.
-4. **Actual edit/rollback/next-edit comparison (planned):** retain key/value
+4. **Actual edit/rollback/next-edit comparison (bounded run completed):**
+   [Author ROME/MEMIT pilot](../results/20261110_factual_chain/RESULTS.md) preserves
+   exact rollback and next-edit equality but shows major locality failures.
+   Retain key/value
    generation, update factors, prompts, and forward outputs. Compare target,
    paraphrase, locality, and next-edit behavior with a full-state reference.
 5. **Selective withdrawal and learning policy (planned):** evaluate dependent

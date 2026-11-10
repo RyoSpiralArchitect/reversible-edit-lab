@@ -191,3 +191,14 @@ python3 run_experiments.py run --out results/legacy_design --plots
 更新量は重みノルムの0.1%に固定しています。これは単一トークン損失の勾配更新で、
 ROME/MEMITの内部目標最適化や、事実編集の汎化性能を検証したものではありません。
 条件・再現手順は [docs/GPT2_PILOT.md](docs/GPT2_PILOT.md) に記録しています。
+
+## 著者実装による事実編集 → 復元 → 次の編集
+
+[ROME/MEMITの追加試験](results/20261110_factual_chain/RESULTS.md)では、固定した著者実装を
+CPU・GPT-2向けに移植し、内部目標最適化とMEMITの3層への残差配分を実行しました。
+両方式とも、厳密補正で戻した全モデル状態と、そこから再計算した次の編集の状態・logitが
+checkpoint基準に一致しました。通常の差分復元では一致しませんでした。
+
+一方、この小規模な共分散推定・層設定では近傍の国の回答まで変わり、局所性は保てませんでした。
+可逆性の確認を編集品質の成功とは扱いません。条件は [docs/FACTUAL_CHAIN.md](docs/FACTUAL_CHAIN.md)、
+最適化ログ・全指標・負の結果は上記レポートに保存しています。
