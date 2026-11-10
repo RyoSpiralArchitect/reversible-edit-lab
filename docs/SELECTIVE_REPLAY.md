@@ -90,3 +90,14 @@ Report accounting also displays the single W0 checkpoint size: a dedicated
 withdrawal implementation could reset straight to that checkpoint rather than
 traverse two checkpoint records. Journal totals must not be mistaken for the
 best possible checkpoint baseline or for total process memory.
+
+The [completed rerun](../results/20261110_selective_replay_rerun/RESULTS.md)
+retains all six chains. All 69 comparable measurement groups from the incomplete
+run match exactly (timings excluded); all 365 binary hashes verify. The report
+can be regenerated with:
+
+```bash
+python3 -I -S scripts/report_selective_replay.py results/20261110_selective_replay_rerun \
+  --model-dir work/models/gpt2 --upstream work/upstream-memit-cpu \
+  --prior-incomplete results/20261110_selective_replay
+```

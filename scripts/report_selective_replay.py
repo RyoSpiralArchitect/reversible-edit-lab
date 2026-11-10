@@ -22,6 +22,7 @@ def main():
     parser.add_argument("run", type=Path)
     parser.add_argument("--model-dir", type=Path, required=True)
     parser.add_argument("--upstream", type=Path, required=True)
+    parser.add_argument("--prior-incomplete", type=Path)
     args = parser.parse_args()
     folder = args.run
     run = json.loads((folder / "run.json").read_text())
@@ -42,9 +43,29 @@ def main():
         for name, digest in mapping.items():
             if sha(path / name) != digest:
                 errors.append("pinned dependency: " + name)
+    repeated_checks = 0
+    if args.prior_incomplete:
+        prior = json.loads((args.prior_incomplete / "results.json").read_text())
+        def check_equal(old, new, label):
+            nonlocal repeated_checks
+            repeated_checks += 1
+            if old != new:
+                errors.append("storage-only rerun changed measurement: " + label)
+        check_equal(prior["baseline"], data["baseline"], "baseline")
+        lookup = {(r["algorithm"], r["pair"]["id"]): r for r in data["rows"]}
+        for old in prior["rows"]:
+            key = (old["algorithm"], old["pair"]["id"])
+            new = lookup[key]
+            for field in ["after_A", "after_AB", "reference_B_only", "B_update_relative_dependency"]:
+                check_equal(old[field], new[field], str(key) + "/" + field)
+            arms = {a["method"]: a for a in new["arms"]}
+            for old_arm in old["arms"]:
+                for field in ["result", "comparison_to_B_only"]:
+                    check_equal(old_arm[field], arms[old_arm["method"]][field], str(key) + "/" + old_arm["method"] + "/" + field)
     audit = {"source_commit": run["source_commit"], "analysis_script_sha256": sha(__file__),
              "results_sha256": sha(folder / "results.json"), "binaries_checked": len(summary["binary_artifacts"]),
-             "model_files_checked": len(run["model_files"]), "upstream_files_checked": len(run["upstream_files"]), "errors": errors}
+             "model_files_checked": len(run["model_files"]), "upstream_files_checked": len(run["upstream_files"]),
+             "prior_incomplete_measurements_compared": repeated_checks, "errors": errors}
     (folder / "audit.json").write_text(json.dumps(audit, indent=2) + "\n")
     if errors:
         raise ValueError(errors)
@@ -121,6 +142,7 @@ def main():
              "各セル1回なので速度優位性や分散は主張しない。checkpoint比較も2履歴の逐次復元であり、直接W0を読む最速実装ではない。", "",
              "## 証拠と次の課題", "",
              f"事前コミット `{run['source_commit']}`。監査はバイナリ {audit['binaries_checked']}件、モデル {audit['model_files_checked']}件、著者コード {audit['upstream_files_checked']}件、実行ソースを確認し、エラー {len(errors)}件。",
+             f"容量不足で中断した初回実行も残し、保存済みの数値・状態・生成について {repeated_checks}組を再実行結果と照合した。時間は再測定なので一致の対象外。",
              "[run.json](run.json)、[summary.json](summary.json)、[audit.json](audit.json)、全最適化ログを公開。大きい配列はignored `work/` に保存しハッシュを公開。", "",
              "この結果から先へ進む候補は、編集履歴のどこまで再最適化が必要かを検証できる形で限定し、そのための保存量と再計算量を測ること。",
              "長い履歴・強いモデル・独立パネル・既存手法の同条件実装比較は未実施。新規性は研究仮説として扱い、今回確立したとはしない。", ""]

@@ -1,0 +1,42 @@
+{
+  "subtract_A": {
+    "chains": 6,
+    "state_bitwise": 0,
+    "logits_bitwise": 0,
+    "all_generations_equal": 0,
+    "mean_kl_range": [
+      0.03568496986416959,
+      1.059145886581747
+    ]
+  },
+  "exact_rewind_stale_B": {
+    "chains": 6,
+    "state_bitwise": 0,
+    "logits_bitwise": 0,
+    "all_generations_equal": 0,
+    "mean_kl_range": [
+      0.03568532831704285,
+      1.0591461874899963
+    ]
+  },
+  "exact_rewind_recompute_B": {
+    "chains": 6,
+    "state_bitwise": 6,
+    "logits_bitwise": 6,
+    "all_generations_equal": 6,
+    "mean_kl_range": [
+      0.0,
+      0.0
+    ]
+  },
+  "checkpoint_recompute_B": {
+    "chains": 6,
+    "state_bitwise": 6,
+    "logits_bitwise": 6,
+    "all_generations_equal": 6,
+    "mean_kl_range": [
+      0.0,
+      0.0
+    ]
+  }
+}
