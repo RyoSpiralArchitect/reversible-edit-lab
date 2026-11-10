@@ -1,0 +1,1 @@
+First CUDA attempt failed before numerical execution: ValueError: Four fixtures required. macOS tar included AppleDouble ._ files matching the NPZ glob. Rerun filters AppleDouble entries; no numerical parameters changed. No native-results.json was created by this attempt.

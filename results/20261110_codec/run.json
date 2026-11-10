@@ -1,0 +1,23 @@
+{
+  "source_commit": "2e7cc1ef360ea6958b0325ae895189e5d162993d",
+  "sources": {
+    "/Users/ryospiralarchitect/Downloads/reversible-edit-lab/scripts/codec_benchmark.py": "ddb6d691dc4839d2804f129c77471422b7d356f0f37c62e4289dcf4edfc06704",
+    "src/reversible_edit/codecs.py": "c570fe8183ddb5063ed6121f6dec93d1c14c24c7c770097162ed0fb9a2d682c8",
+    "src/reversible_edit/roundoff.py": "fa6205e140a064d6543ef4f8328317ab9477dffd3c0c6c52d38881fbf206f13d"
+  },
+  "inputs": {
+    "results/20261110_factual_chain/work/memit-A-transformer.h.4.mlp.c_proj.weight.npz": "44ec6f3c28832bcf11e5fe8ec5f8f6c51a14a7b212e3854b4e8ee65377a62080",
+    "results/20261110_factual_chain/work/memit-A-transformer.h.5.mlp.c_proj.weight.npz": "815aa144074b19ad44f519fca3410a8ac500766c64028871984f0ab075b0ed64",
+    "results/20261110_factual_chain/work/memit-A-transformer.h.6.mlp.c_proj.weight.npz": "099649c6a7b901da37e8246627b9e30f2da2770fa0394c1760fd1cd3fecb96e7",
+    "results/20261110_factual_chain/work/rome-A-transformer.h.5.mlp.c_proj.weight.npz": "5bcdece8659d437e6cae9d9e6b5d0c99a0451c3bb7544f3c221b1b9910a74b53"
+  },
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "python": "3.12.6 (v3.12.6:a4a2d2b0d85, Sep  6 2024, 16:08:03) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "versions": {
+    "numpy": "2.5.4",
+    "zlib": "1.2.12",
+    "zstd": "0.25.0",
+    "lz4": "4.4.5"
+  },
+  "plan_sha256": "16b495f2b92bf8a42007ac08aa7db65eea3891a8db81495dacae2a13ec84beb9"
+}
