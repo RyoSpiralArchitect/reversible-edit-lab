@@ -1,0 +1,34 @@
+Executing ROME algorithm for the update: [The capital of Canada is] -> [ Rome]
+Computing left vector (u)...
+Selected u projection object Canada
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Canada is | Token:  Canada
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 9.72 = 9.72 + 0.0 + 0.0 avg prob of [ Rome] 6.645940447924659e-05
+loss 7.328 = 7.315 + 0.001 + 0.012 avg prob of [ Rome] 0.0008585318573750556
+loss 6.175 = 6.15 + 0.003 + 0.022 avg prob of [ Rome] 0.003001907840371132
+loss 5.217 = 5.182 + 0.005 + 0.03 avg prob of [ Rome] 0.0073424954898655415
+loss 4.148 = 4.105 + 0.006 + 0.037 avg prob of [ Rome] 0.019237304106354713
+loss 2.603 = 2.553 + 0.008 + 0.043 avg prob of [ Rome] 0.08449707180261612
+loss 0.806 = 0.75 + 0.009 + 0.048 avg prob of [ Rome] 0.48240312933921814
+loss 0.186 = 0.123 + 0.01 + 0.053 avg prob of [ Rome] 0.8850901126861572
+loss 0.093 = 0.024 + 0.011 + 0.058 avg prob of [ Rome] 0.9759107232093811
+loss 0.086 = 0.012 + 0.011 + 0.063 avg prob of [ Rome] 0.9884347319602966
+loss 0.093 = 0.013 + 0.012 + 0.067 avg prob of [ Rome] 0.9867050051689148
+loss 0.101 = 0.017 + 0.013 + 0.071 avg prob of [ Rome] 0.9836110472679138
+loss 0.103 = 0.014 + 0.014 + 0.075 avg prob of [ Rome] 0.9858476519584656
+loss 0.101 = 0.008 + 0.015 + 0.078 avg prob of [ Rome] 0.992270290851593
+loss 0.1 = 0.003 + 0.016 + 0.081 avg prob of [ Rome] 0.9967189431190491
+loss 0.102 = 0.002 + 0.016 + 0.084 avg prob of [ Rome] 0.9984395503997803
+loss 0.101 = 0.001 + 0.016 + 0.084 avg prob of [ Rome] 0.9992395043373108
+loss 0.1 = 0.0 + 0.016 + 0.084 avg prob of [ Rome] 0.9995796084403992
+loss 0.1 = 0.0 + 0.016 + 0.084 avg prob of [ Rome] 0.9997417330741882
+loss 0.099 = 0.0 + 0.015 + 0.084 avg prob of [ Rome] 0.9998267292976379
+Delta norm: 95.4069595336914
+Division Factor: 8.702410697937012
+Right vector norm: 10.963279724121094
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']

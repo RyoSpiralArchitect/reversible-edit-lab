@@ -1,0 +1,32 @@
+Executing ROME algorithm for the update: [The capital of Spain is] -> [ Tokyo]
+Left vector shape: torch.Size([3072])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: The capital of Spain is | Token:  Spain
+Rewrite layer is 5
+Tying optimization objective to 11
+Recording initial value of v*
+loss 9.411 = 9.411 + 0.0 + 0.0 avg prob of [ Tokyo] 8.318322943523526e-05
+loss 6.354 = 6.33 + 0.0 + 0.023 avg prob of [ Tokyo] 0.0019729554187506437
+loss 4.564 = 4.521 + 0.002 + 0.041 avg prob of [ Tokyo] 0.01522363442927599
+loss 2.818 = 2.759 + 0.003 + 0.056 avg prob of [ Tokyo] 0.08577493578195572
+loss 0.882 = 0.808 + 0.004 + 0.069 avg prob of [ Tokyo] 0.46091803908348083
+loss 0.345 = 0.257 + 0.006 + 0.082 avg prob of [ Tokyo] 0.7746086120605469
+loss 0.261 = 0.159 + 0.009 + 0.093 avg prob of [ Tokyo] 0.8533441424369812
+loss 0.218 = 0.103 + 0.011 + 0.104 avg prob of [ Tokyo] 0.9018151760101318
+loss 0.197 = 0.071 + 0.013 + 0.114 avg prob of [ Tokyo] 0.9318442344665527
+loss 0.178 = 0.05 + 0.013 + 0.115 avg prob of [ Tokyo] 0.9516554474830627
+loss 0.163 = 0.035 + 0.013 + 0.115 avg prob of [ Tokyo] 0.965850830078125
+loss 0.153 = 0.025 + 0.013 + 0.115 avg prob of [ Tokyo] 0.9754974246025085
+loss 0.147 = 0.018 + 0.013 + 0.115 avg prob of [ Tokyo] 0.9819293022155762
+loss 0.142 = 0.014 + 0.013 + 0.115 avg prob of [ Tokyo] 0.9862573146820068
+loss 0.139 = 0.011 + 0.012 + 0.115 avg prob of [ Tokyo] 0.9892472624778748
+loss 0.136 = 0.009 + 0.012 + 0.115 avg prob of [ Tokyo] 0.9913726449012756
+loss 0.134 = 0.007 + 0.012 + 0.115 avg prob of [ Tokyo] 0.9929316639900208
+loss 0.133 = 0.006 + 0.011 + 0.115 avg prob of [ Tokyo] 0.9941046237945557
+loss 0.131 = 0.005 + 0.011 + 0.115 avg prob of [ Tokyo] 0.9950089454650879
+loss 0.13 = 0.004 + 0.011 + 0.115 avg prob of [ Tokyo] 0.9957202076911926
+Delta norm: 69.32340240478516
+Division Factor: 7.589296340942383
+Right vector norm: 9.134364128112793
+Right vector shape: torch.Size([768])
+Deltas successfully computed for ['transformer.h.5.mlp.c_proj.weight']
