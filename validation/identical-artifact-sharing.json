@@ -1,0 +1,3013 @@
+{
+  "scope": "Only generated, immutable NPZ artifacts from these five experiment runs. Content and paths preserved; identical SHA-256 and size required before replacing duplicates with hard links.",
+  "linked_files": 501,
+  "logical_duplicate_bytes": 3800410539,
+  "links": [
+    {
+      "path": "results/20261110_costs/work/fixture-000/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-000/checkpoint-0.npz",
+      "sha256": "dac9531c9ba6220f7a0d7e248a2b0a461683f5b44e1f421bdbd82362573f55be",
+      "bytes": 31091
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-000/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-000/checkpoint-0.npz",
+      "sha256": "dac9531c9ba6220f7a0d7e248a2b0a461683f5b44e1f421bdbd82362573f55be",
+      "bytes": 31091
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-000/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-000/delta-0.npz",
+      "sha256": "d986c7554e9666ac710054acb874179f0cbb41c5f0fe18f0d77f9862b1bfdaff",
+      "bytes": 2650
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-000/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-000/delta-0.npz",
+      "sha256": "d986c7554e9666ac710054acb874179f0cbb41c5f0fe18f0d77f9862b1bfdaff",
+      "bytes": 2650
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-000/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-000/delta_exact-0.npz",
+      "sha256": "a7a6497ff734cc566bddbea7c537f58db740d70e3eb716abd2405acd5f428765",
+      "bytes": 5968
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-000/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-000/delta_exact-0.npz",
+      "sha256": "a7a6497ff734cc566bddbea7c537f58db740d70e3eb716abd2405acd5f428765",
+      "bytes": 5968
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-001/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-001/checkpoint-0.npz",
+      "sha256": "2a149c836b8aebb2c28a0d97248a1a9277035b26b42f66d50b31c7eca563d61b",
+      "bytes": 31123
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-001/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-001/checkpoint-0.npz",
+      "sha256": "2a149c836b8aebb2c28a0d97248a1a9277035b26b42f66d50b31c7eca563d61b",
+      "bytes": 31123
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-001/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-001/delta-0.npz",
+      "sha256": "bd7a169c539dcc094a5b93315576f2aa494540a2537d8d13320f6816bad8a3a4",
+      "bytes": 2653
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-001/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-001/delta-0.npz",
+      "sha256": "bd7a169c539dcc094a5b93315576f2aa494540a2537d8d13320f6816bad8a3a4",
+      "bytes": 2653
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-001/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-001/delta_exact-0.npz",
+      "sha256": "4404ed7cd1fa3e17f9676ab83aef2efb451970d0631e2820ed9fc71cc559d7c9",
+      "bytes": 5999
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-001/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-001/delta_exact-0.npz",
+      "sha256": "4404ed7cd1fa3e17f9676ab83aef2efb451970d0631e2820ed9fc71cc559d7c9",
+      "bytes": 5999
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-002/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-002/checkpoint-0.npz",
+      "sha256": "a362f7320fef547dfdec66e3120364463cc4fa81e0b547e14187fab799f0e942",
+      "bytes": 31118
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-002/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-002/checkpoint-0.npz",
+      "sha256": "a362f7320fef547dfdec66e3120364463cc4fa81e0b547e14187fab799f0e942",
+      "bytes": 31118
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-002/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-002/delta-0.npz",
+      "sha256": "fe299c5577e1aa8f969cc7b2d7793ef77c6c9cbfcc740a5d2cf778dbdfaf8b3b",
+      "bytes": 2653
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-002/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-002/delta-0.npz",
+      "sha256": "fe299c5577e1aa8f969cc7b2d7793ef77c6c9cbfcc740a5d2cf778dbdfaf8b3b",
+      "bytes": 2653
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-002/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-002/delta_exact-0.npz",
+      "sha256": "43faa985f777d682bd243b9db8de268b0cdb58fda1290a4ba6fe20b06c7f7230",
+      "bytes": 6365
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-002/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-002/delta_exact-0.npz",
+      "sha256": "43faa985f777d682bd243b9db8de268b0cdb58fda1290a4ba6fe20b06c7f7230",
+      "bytes": 6365
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-003/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-003/checkpoint-0.npz",
+      "sha256": "b870f07156b2922c5498c254e1e4b306a9a4a3761869863d0c0cafab3652af8b",
+      "bytes": 15817
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-003/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-003/checkpoint-0.npz",
+      "sha256": "b870f07156b2922c5498c254e1e4b306a9a4a3761869863d0c0cafab3652af8b",
+      "bytes": 15817
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-003/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-003/delta-0.npz",
+      "sha256": "8143ef862f97c9c98a24b6190f5bab944545c58d446cfe8fcae3d5a30ebf91be",
+      "bytes": 2651
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-003/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-003/delta-0.npz",
+      "sha256": "8143ef862f97c9c98a24b6190f5bab944545c58d446cfe8fcae3d5a30ebf91be",
+      "bytes": 2651
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-003/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-003/delta_exact-0.npz",
+      "sha256": "1972abf9815bc8dc15e04e31644aac332819163b5cffc96f695c4149e84d5a4c",
+      "bytes": 5670
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-003/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-003/delta_exact-0.npz",
+      "sha256": "1972abf9815bc8dc15e04e31644aac332819163b5cffc96f695c4149e84d5a4c",
+      "bytes": 5670
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-004/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-004/checkpoint-0.npz",
+      "sha256": "bf2d5cefb84a894a11dca99e72497da7fb735cc7d5c4ce902ba1ff366799c291",
+      "bytes": 15804
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-004/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-004/checkpoint-0.npz",
+      "sha256": "bf2d5cefb84a894a11dca99e72497da7fb735cc7d5c4ce902ba1ff366799c291",
+      "bytes": 15804
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-004/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-004/delta-0.npz",
+      "sha256": "b64a8d2f036e03798c3eccf76a79db1b995a9e010d5b7dd99687c49da90f2381",
+      "bytes": 2657
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-004/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-004/delta-0.npz",
+      "sha256": "b64a8d2f036e03798c3eccf76a79db1b995a9e010d5b7dd99687c49da90f2381",
+      "bytes": 2657
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-004/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-004/delta_exact-0.npz",
+      "sha256": "3696995296b91d60635c2f6f44d1dbc0ceabd5189236ff2f08177b434cc0edcc",
+      "bytes": 5745
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-004/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-004/delta_exact-0.npz",
+      "sha256": "3696995296b91d60635c2f6f44d1dbc0ceabd5189236ff2f08177b434cc0edcc",
+      "bytes": 5745
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-005/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-005/checkpoint-0.npz",
+      "sha256": "a263e332c5c3f740e56d85db3525225b2d703d49c8448b4cbbbb7198192f8370",
+      "bytes": 15811
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-005/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-005/checkpoint-0.npz",
+      "sha256": "a263e332c5c3f740e56d85db3525225b2d703d49c8448b4cbbbb7198192f8370",
+      "bytes": 15811
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-005/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-005/delta-0.npz",
+      "sha256": "0162fe15cb2a2eaaab70ea45836271642bde11179cc98b21a9b266d32a38d857",
+      "bytes": 2650
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-005/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-005/delta-0.npz",
+      "sha256": "0162fe15cb2a2eaaab70ea45836271642bde11179cc98b21a9b266d32a38d857",
+      "bytes": 2650
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-005/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-005/delta_exact-0.npz",
+      "sha256": "6d28123293ee8e80501246597e14f70e962e9e222a6da0407de3a8ec95eef286",
+      "bytes": 6128
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-005/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-005/delta_exact-0.npz",
+      "sha256": "6d28123293ee8e80501246597e14f70e962e9e222a6da0407de3a8ec95eef286",
+      "bytes": 6128
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-006/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-006/checkpoint-0.npz",
+      "sha256": "d48bfbb126b919be05da0a49ebf1511578db5d85f8784abbe4b97202344f02b1",
+      "bytes": 13740
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-006/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-006/checkpoint-0.npz",
+      "sha256": "d48bfbb126b919be05da0a49ebf1511578db5d85f8784abbe4b97202344f02b1",
+      "bytes": 13740
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-006/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-006/delta-0.npz",
+      "sha256": "b3a4ab444bbd759ae40a690278e380590a0ea0a1f83852d36aa95e42b77b7720",
+      "bytes": 2650
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-006/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-006/delta-0.npz",
+      "sha256": "b3a4ab444bbd759ae40a690278e380590a0ea0a1f83852d36aa95e42b77b7720",
+      "bytes": 2650
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-006/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-006/delta_exact-0.npz",
+      "sha256": "b1755b28001e04b21ec2c17b13f6bc588a003e7efcb1a20f0444d8ec3f206cbf",
+      "bytes": 5691
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-006/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-006/delta_exact-0.npz",
+      "sha256": "b1755b28001e04b21ec2c17b13f6bc588a003e7efcb1a20f0444d8ec3f206cbf",
+      "bytes": 5691
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-007/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-007/checkpoint-0.npz",
+      "sha256": "485573ae99cc655369026793f642bff76b8b0298ba508724de3496b7e741b03e",
+      "bytes": 13740
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-007/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-007/checkpoint-0.npz",
+      "sha256": "485573ae99cc655369026793f642bff76b8b0298ba508724de3496b7e741b03e",
+      "bytes": 13740
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-007/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-007/delta-0.npz",
+      "sha256": "2bbcefcd42b51a6dfc3daa69ff0890e7777f0f38af29357c00fb195a273253f5",
+      "bytes": 2654
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-007/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-007/delta-0.npz",
+      "sha256": "2bbcefcd42b51a6dfc3daa69ff0890e7777f0f38af29357c00fb195a273253f5",
+      "bytes": 2654
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-007/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-007/delta_exact-0.npz",
+      "sha256": "d5e855ba6002645bcf0406b05e81df704343b39a0d76dadab1c410177d940a8b",
+      "bytes": 5716
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-007/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-007/delta_exact-0.npz",
+      "sha256": "d5e855ba6002645bcf0406b05e81df704343b39a0d76dadab1c410177d940a8b",
+      "bytes": 5716
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-008/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-008/checkpoint-0.npz",
+      "sha256": "3a532c6ec13cae5896556727790bc5e272936e13ffaf52134ffa1e846e7da267",
+      "bytes": 13745
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-008/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-008/checkpoint-0.npz",
+      "sha256": "3a532c6ec13cae5896556727790bc5e272936e13ffaf52134ffa1e846e7da267",
+      "bytes": 13745
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-008/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-008/delta-0.npz",
+      "sha256": "b77115103ad97da8c5192c8cc71fcbc57b7e2b62b45121761d9fbbeb0f2e24ba",
+      "bytes": 2652
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-008/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-008/delta-0.npz",
+      "sha256": "b77115103ad97da8c5192c8cc71fcbc57b7e2b62b45121761d9fbbeb0f2e24ba",
+      "bytes": 2652
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-008/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-008/delta_exact-0.npz",
+      "sha256": "a771676cdfad9b76e8c1bb6317acb737095c6255ada43ba745bde4a8f77e6983",
+      "bytes": 6052
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-008/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-008/delta_exact-0.npz",
+      "sha256": "a771676cdfad9b76e8c1bb6317acb737095c6255ada43ba745bde4a8f77e6983",
+      "bytes": 6052
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-009/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-009/checkpoint-0.npz",
+      "sha256": "b75b1017c5fdb1c9df24406d68f8ac0c8fb6691197ec6339065c34be5af0786f",
+      "bytes": 486663
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-009/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-009/checkpoint-0.npz",
+      "sha256": "b75b1017c5fdb1c9df24406d68f8ac0c8fb6691197ec6339065c34be5af0786f",
+      "bytes": 486663
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-009/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-009/delta-0.npz",
+      "sha256": "529294949774eacfdc641b7dc052e0f198c96cca1e27fcedb55d8bbfaf2ae10c",
+      "bytes": 7040
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-009/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-009/delta-0.npz",
+      "sha256": "529294949774eacfdc641b7dc052e0f198c96cca1e27fcedb55d8bbfaf2ae10c",
+      "bytes": 7040
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-009/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-009/delta_exact-0.npz",
+      "sha256": "58bf188bbd1c3ba97980263baa332b3bac71a09bbc5049744b258f24f5c74770",
+      "bytes": 48421
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-009/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-009/delta_exact-0.npz",
+      "sha256": "58bf188bbd1c3ba97980263baa332b3bac71a09bbc5049744b258f24f5c74770",
+      "bytes": 48421
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-010/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-010/checkpoint-0.npz",
+      "sha256": "0572caef73bdf865e3deac643a73973618e9c536b2e2fffe1a996dfe6af331e1",
+      "bytes": 486677
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-010/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-010/checkpoint-0.npz",
+      "sha256": "0572caef73bdf865e3deac643a73973618e9c536b2e2fffe1a996dfe6af331e1",
+      "bytes": 486677
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-010/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-010/delta-0.npz",
+      "sha256": "340ed222296eb226ebdce213ba596029640c4156d2f197a5652af110c5faaf66",
+      "bytes": 7043
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-010/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-010/delta-0.npz",
+      "sha256": "340ed222296eb226ebdce213ba596029640c4156d2f197a5652af110c5faaf66",
+      "bytes": 7043
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-010/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-010/delta_exact-0.npz",
+      "sha256": "3a1c57aaf5623fcc6faaae6e8c755ef2095b252b6cffaa184fd11eb126bb0f0c",
+      "bytes": 47712
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-010/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-010/delta_exact-0.npz",
+      "sha256": "3a1c57aaf5623fcc6faaae6e8c755ef2095b252b6cffaa184fd11eb126bb0f0c",
+      "bytes": 47712
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-011/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-011/checkpoint-0.npz",
+      "sha256": "8c2e042ef6dc6ed701b0987779d62b50cdd6b5353caa20f4a2ce83cbf061ca73",
+      "bytes": 486718
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-011/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-011/checkpoint-0.npz",
+      "sha256": "8c2e042ef6dc6ed701b0987779d62b50cdd6b5353caa20f4a2ce83cbf061ca73",
+      "bytes": 486718
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-011/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-011/delta-0.npz",
+      "sha256": "4421a850fdcb95badd9223be67cba0537afbbb956889e3645e424c81213ec0eb",
+      "bytes": 7039
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-011/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-011/delta-0.npz",
+      "sha256": "4421a850fdcb95badd9223be67cba0537afbbb956889e3645e424c81213ec0eb",
+      "bytes": 7039
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-011/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-011/delta_exact-0.npz",
+      "sha256": "fc6161889ed0bd534a174906a418502a6a27282e21e6929da38feb26614017a3",
+      "bytes": 48908
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-011/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-011/delta_exact-0.npz",
+      "sha256": "fc6161889ed0bd534a174906a418502a6a27282e21e6929da38feb26614017a3",
+      "bytes": 48908
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-012/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-012/checkpoint-0.npz",
+      "sha256": "fd2767f1fc08233e8c6b64ae77eaba2f6074b67e0b993f00d7d08be9e566d219",
+      "bytes": 242548
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-012/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-012/checkpoint-0.npz",
+      "sha256": "fd2767f1fc08233e8c6b64ae77eaba2f6074b67e0b993f00d7d08be9e566d219",
+      "bytes": 242548
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-012/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-012/delta-0.npz",
+      "sha256": "90935f49b00185196fb0e5bcaea8873850c603f2766e03e52da6f9aa011a2417",
+      "bytes": 7037
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-012/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-012/delta-0.npz",
+      "sha256": "90935f49b00185196fb0e5bcaea8873850c603f2766e03e52da6f9aa011a2417",
+      "bytes": 7037
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-012/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-012/delta_exact-0.npz",
+      "sha256": "1002ec111276abbd81fae20c204f4c6e85c9b9e96f27db50788c47af353909f5",
+      "bytes": 43601
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-012/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-012/delta_exact-0.npz",
+      "sha256": "1002ec111276abbd81fae20c204f4c6e85c9b9e96f27db50788c47af353909f5",
+      "bytes": 43601
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-013/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-013/checkpoint-0.npz",
+      "sha256": "bf86477b7c2804034d18603fc968b7dd6470bd06c995f7b6d8b4f58da1718c3f",
+      "bytes": 242412
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-013/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-013/checkpoint-0.npz",
+      "sha256": "bf86477b7c2804034d18603fc968b7dd6470bd06c995f7b6d8b4f58da1718c3f",
+      "bytes": 242412
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-013/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-013/delta-0.npz",
+      "sha256": "1d0b22c279e92c54554732134e8ad27ee95d2622b8cb04a8d90897cc10da1b51",
+      "bytes": 7043
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-013/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-013/delta-0.npz",
+      "sha256": "1d0b22c279e92c54554732134e8ad27ee95d2622b8cb04a8d90897cc10da1b51",
+      "bytes": 7043
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-013/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-013/delta_exact-0.npz",
+      "sha256": "db71fadc37a0f88da5a62e9a6d09e0494f9138e76988e8ed8df60bfcf6f31bee",
+      "bytes": 42952
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-013/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-013/delta_exact-0.npz",
+      "sha256": "db71fadc37a0f88da5a62e9a6d09e0494f9138e76988e8ed8df60bfcf6f31bee",
+      "bytes": 42952
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-014/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-014/checkpoint-0.npz",
+      "sha256": "1a025ef4f66d8d00d44b15fd78ca1deb43dd5077160761021d5832bd98a4113a",
+      "bytes": 242482
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-014/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-014/checkpoint-0.npz",
+      "sha256": "1a025ef4f66d8d00d44b15fd78ca1deb43dd5077160761021d5832bd98a4113a",
+      "bytes": 242482
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-014/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-014/delta-0.npz",
+      "sha256": "128d0cce3f1407a68bbfc81b65460943dad5310ddb302b3f34dfecb1af0957e5",
+      "bytes": 7035
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-014/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-014/delta-0.npz",
+      "sha256": "128d0cce3f1407a68bbfc81b65460943dad5310ddb302b3f34dfecb1af0957e5",
+      "bytes": 7035
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-014/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-014/delta_exact-0.npz",
+      "sha256": "b4cbdfe916b09da54b8ca02f12d2b2c2a39f4ca4878977ab86e4e56afb72d67c",
+      "bytes": 43980
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-014/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-014/delta_exact-0.npz",
+      "sha256": "b4cbdfe916b09da54b8ca02f12d2b2c2a39f4ca4878977ab86e4e56afb72d67c",
+      "bytes": 43980
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-015/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-015/checkpoint-0.npz",
+      "sha256": "0b0453419d416e4dcee3f946a08535d65ded4c10d04fa0204ee9e2f76535916d",
+      "bytes": 207966
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-015/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-015/checkpoint-0.npz",
+      "sha256": "0b0453419d416e4dcee3f946a08535d65ded4c10d04fa0204ee9e2f76535916d",
+      "bytes": 207966
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-015/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-015/delta-0.npz",
+      "sha256": "f88cf087d5bf72e0d16320cb287b6ae5ff05bd362df3acdbe61539c5427407c7",
+      "bytes": 7044
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-015/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-015/delta-0.npz",
+      "sha256": "f88cf087d5bf72e0d16320cb287b6ae5ff05bd362df3acdbe61539c5427407c7",
+      "bytes": 7044
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-015/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-015/delta_exact-0.npz",
+      "sha256": "ef90aacb8215a6115af9f15dcc81ed1de65ab81774afadf225de895109a905c1",
+      "bytes": 43835
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-015/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-015/delta_exact-0.npz",
+      "sha256": "ef90aacb8215a6115af9f15dcc81ed1de65ab81774afadf225de895109a905c1",
+      "bytes": 43835
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-016/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-016/checkpoint-0.npz",
+      "sha256": "c0f2a25c538110d69fc4ef85969d4143750ae0e3b592d59620f15fcb807f0c85",
+      "bytes": 207849
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-016/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-016/checkpoint-0.npz",
+      "sha256": "c0f2a25c538110d69fc4ef85969d4143750ae0e3b592d59620f15fcb807f0c85",
+      "bytes": 207849
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-016/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-016/delta-0.npz",
+      "sha256": "318d05131cd54a27e81def021c8e8e0346f48bf40a3067cede82e9a5dfd7b318",
+      "bytes": 7040
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-016/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-016/delta-0.npz",
+      "sha256": "318d05131cd54a27e81def021c8e8e0346f48bf40a3067cede82e9a5dfd7b318",
+      "bytes": 7040
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-016/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-016/delta_exact-0.npz",
+      "sha256": "68f89a38e0db7d1b672c635b2a8ca986e0832bd4f163404c5011c7d8491388b3",
+      "bytes": 43227
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-016/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-016/delta_exact-0.npz",
+      "sha256": "68f89a38e0db7d1b672c635b2a8ca986e0832bd4f163404c5011c7d8491388b3",
+      "bytes": 43227
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-017/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-017/checkpoint-0.npz",
+      "sha256": "8fe49a29c26edda6989589daca6457bba013c2f4d076ab82e315ebdb29ad2f39",
+      "bytes": 208015
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-017/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-017/checkpoint-0.npz",
+      "sha256": "8fe49a29c26edda6989589daca6457bba013c2f4d076ab82e315ebdb29ad2f39",
+      "bytes": 208015
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-017/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-017/delta-0.npz",
+      "sha256": "0c78ad8d36314fc38d9bb780109853547d08d97dc88acb6845aac4c346eae4e7",
+      "bytes": 7041
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-017/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-017/delta-0.npz",
+      "sha256": "0c78ad8d36314fc38d9bb780109853547d08d97dc88acb6845aac4c346eae4e7",
+      "bytes": 7041
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-017/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-017/delta_exact-0.npz",
+      "sha256": "39d9abc09f1850e4d79fa5c392ea25a1bee06bbb9660147d2064573db69437d9",
+      "bytes": 44336
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-017/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-017/delta_exact-0.npz",
+      "sha256": "39d9abc09f1850e4d79fa5c392ea25a1bee06bbb9660147d2064573db69437d9",
+      "bytes": 44336
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-018/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-018/checkpoint-0.npz",
+      "sha256": "fd630c87f2892bc79d4c78966a559d35ceca8dab687070783446235cf2786a11",
+      "bytes": 7790542
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-018/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-018/checkpoint-0.npz",
+      "sha256": "fd630c87f2892bc79d4c78966a559d35ceca8dab687070783446235cf2786a11",
+      "bytes": 7790542
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-018/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-018/delta-0.npz",
+      "sha256": "dd91dae6f578ea01027f7735b6861042f36d6ebf8677d56a61f63c1d47d81d93",
+      "bytes": 24650
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-018/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-018/delta-0.npz",
+      "sha256": "dd91dae6f578ea01027f7735b6861042f36d6ebf8677d56a61f63c1d47d81d93",
+      "bytes": 24650
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-018/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-018/delta_exact-0.npz",
+      "sha256": "3afab185971bfd95346c487abaa05db28c369da803c92fae96c5aa9e391238e3",
+      "bytes": 671933
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-018/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-018/delta_exact-0.npz",
+      "sha256": "3afab185971bfd95346c487abaa05db28c369da803c92fae96c5aa9e391238e3",
+      "bytes": 671933
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-019/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-019/checkpoint-0.npz",
+      "sha256": "c9cb9749b99fa7b8e3d5be4205f3bda2a583af162dc1bcf9ce58185b4ef0e95c",
+      "bytes": 7790004
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-019/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-019/checkpoint-0.npz",
+      "sha256": "c9cb9749b99fa7b8e3d5be4205f3bda2a583af162dc1bcf9ce58185b4ef0e95c",
+      "bytes": 7790004
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-019/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-019/delta-0.npz",
+      "sha256": "16ad8acb867eca85c69954573a15025e5cbc88715ef2faa4436db8b9e7171036",
+      "bytes": 24651
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-019/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-019/delta-0.npz",
+      "sha256": "16ad8acb867eca85c69954573a15025e5cbc88715ef2faa4436db8b9e7171036",
+      "bytes": 24651
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-019/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-019/delta_exact-0.npz",
+      "sha256": "6d19f146f4e9ec6a1acf8974fdee20c26010bd6d1f7337f38efb97ab69d16401",
+      "bytes": 690280
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-019/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-019/delta_exact-0.npz",
+      "sha256": "6d19f146f4e9ec6a1acf8974fdee20c26010bd6d1f7337f38efb97ab69d16401",
+      "bytes": 690280
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-020/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-020/checkpoint-0.npz",
+      "sha256": "0505354ed5942051f73d02dc09fba95abfa96e9046c3af74ed94add00d8e9560",
+      "bytes": 7789913
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-020/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-020/checkpoint-0.npz",
+      "sha256": "0505354ed5942051f73d02dc09fba95abfa96e9046c3af74ed94add00d8e9560",
+      "bytes": 7789913
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-020/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-020/delta-0.npz",
+      "sha256": "6120a2f6f0f3f4d570e10895ceb5dd81bdfe69d262bddc1e8666ed90a906fe95",
+      "bytes": 24659
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-020/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-020/delta-0.npz",
+      "sha256": "6120a2f6f0f3f4d570e10895ceb5dd81bdfe69d262bddc1e8666ed90a906fe95",
+      "bytes": 24659
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-020/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-020/delta_exact-0.npz",
+      "sha256": "f0c196c55ba51558a0faf12cabe524936eace7c3664e288520b7e98a82929f2f",
+      "bytes": 675432
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-020/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-020/delta_exact-0.npz",
+      "sha256": "f0c196c55ba51558a0faf12cabe524936eace7c3664e288520b7e98a82929f2f",
+      "bytes": 675432
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-021/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-021/checkpoint-0.npz",
+      "sha256": "c7ba7acdc3b47cc7ac516fad597376d349998bdd5058aaf5c9b5db1e0f92c444",
+      "bytes": 3868373
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-021/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-021/checkpoint-0.npz",
+      "sha256": "c7ba7acdc3b47cc7ac516fad597376d349998bdd5058aaf5c9b5db1e0f92c444",
+      "bytes": 3868373
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-021/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-021/delta-0.npz",
+      "sha256": "24dbc2e85c4db4c3ff31f4cf15cba32bd61997154736eb981c9442e72251810b",
+      "bytes": 24662
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-021/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-021/delta-0.npz",
+      "sha256": "24dbc2e85c4db4c3ff31f4cf15cba32bd61997154736eb981c9442e72251810b",
+      "bytes": 24662
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-021/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-021/delta_exact-0.npz",
+      "sha256": "6deca9b6c2b0167d41a0475f65e362847101252bc831d0fb438c5aa128500889",
+      "bytes": 595769
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-021/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-021/delta_exact-0.npz",
+      "sha256": "6deca9b6c2b0167d41a0475f65e362847101252bc831d0fb438c5aa128500889",
+      "bytes": 595769
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-022/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-022/checkpoint-0.npz",
+      "sha256": "d0322b4adc73de3ab5c118c9ff937bc70ec0107e27bac82ebbf131e6b4f456e7",
+      "bytes": 3867800
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-022/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-022/checkpoint-0.npz",
+      "sha256": "d0322b4adc73de3ab5c118c9ff937bc70ec0107e27bac82ebbf131e6b4f456e7",
+      "bytes": 3867800
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-022/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-022/delta-0.npz",
+      "sha256": "66acc204df9e0ad88b6953e4b6213a7dfc279e2abf26952e4f8d0679506955a1",
+      "bytes": 24649
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-022/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-022/delta-0.npz",
+      "sha256": "66acc204df9e0ad88b6953e4b6213a7dfc279e2abf26952e4f8d0679506955a1",
+      "bytes": 24649
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-022/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-022/delta_exact-0.npz",
+      "sha256": "0c701a385c8f7b95cd3083af34fb4c8b4891e9cb1e6b8e4567fe36c1b3ae935a",
+      "bytes": 612280
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-022/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-022/delta_exact-0.npz",
+      "sha256": "0c701a385c8f7b95cd3083af34fb4c8b4891e9cb1e6b8e4567fe36c1b3ae935a",
+      "bytes": 612280
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-023/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-023/checkpoint-0.npz",
+      "sha256": "c51aacebc3c9a80e4acf63ed7ade0385dfef97633277918bf692a2e64024ef88",
+      "bytes": 3867894
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-023/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-023/checkpoint-0.npz",
+      "sha256": "c51aacebc3c9a80e4acf63ed7ade0385dfef97633277918bf692a2e64024ef88",
+      "bytes": 3867894
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-023/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-023/delta-0.npz",
+      "sha256": "7fbc8646762b73ec9cb3ae08a2beebbe3f8e6f01cc268bc34eb6b713bbc966c3",
+      "bytes": 24661
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-023/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-023/delta-0.npz",
+      "sha256": "7fbc8646762b73ec9cb3ae08a2beebbe3f8e6f01cc268bc34eb6b713bbc966c3",
+      "bytes": 24661
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-023/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-023/delta_exact-0.npz",
+      "sha256": "fb4d44c976494ec742b5e1a3f46cf75b01e50a8b53d9f8fc88076ac6a7184ec6",
+      "bytes": 598752
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-023/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-023/delta_exact-0.npz",
+      "sha256": "fb4d44c976494ec742b5e1a3f46cf75b01e50a8b53d9f8fc88076ac6a7184ec6",
+      "bytes": 598752
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-024/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-024/checkpoint-0.npz",
+      "sha256": "4d89ae4bbbdb19a40802f19e37b859def9cded6bf6310f0d9350422e9ae6685e",
+      "bytes": 3336356
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-024/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-024/checkpoint-0.npz",
+      "sha256": "4d89ae4bbbdb19a40802f19e37b859def9cded6bf6310f0d9350422e9ae6685e",
+      "bytes": 3336356
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-024/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-024/delta-0.npz",
+      "sha256": "290ca605dc0d80bbdef8294a21173c98ad30c850cd4d84ba62a196ae2490626c",
+      "bytes": 24660
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-024/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-024/delta-0.npz",
+      "sha256": "290ca605dc0d80bbdef8294a21173c98ad30c850cd4d84ba62a196ae2490626c",
+      "bytes": 24660
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-024/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-024/delta_exact-0.npz",
+      "sha256": "5c171cbfdac8e45605343c192183d543ea043d01e4314b1fcfed4da889131a92",
+      "bytes": 601585
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-024/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-024/delta_exact-0.npz",
+      "sha256": "5c171cbfdac8e45605343c192183d543ea043d01e4314b1fcfed4da889131a92",
+      "bytes": 601585
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-025/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-025/checkpoint-0.npz",
+      "sha256": "66bf29257fcc4be2250c02c8e73223ee49d90e43e283d4537413bc5db7b7c580",
+      "bytes": 3335676
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-025/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-025/checkpoint-0.npz",
+      "sha256": "66bf29257fcc4be2250c02c8e73223ee49d90e43e283d4537413bc5db7b7c580",
+      "bytes": 3335676
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-025/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-025/delta-0.npz",
+      "sha256": "e4014c8af2e3e42b7c5ff3d4b2370dc76b7c25efa637fa1a3d7c1a9d7b50ccc4",
+      "bytes": 24646
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-025/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-025/delta-0.npz",
+      "sha256": "e4014c8af2e3e42b7c5ff3d4b2370dc76b7c25efa637fa1a3d7c1a9d7b50ccc4",
+      "bytes": 24646
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-025/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-025/delta_exact-0.npz",
+      "sha256": "c2e93c28062a30f4431949b2bba567cd487be50bdba046db81bba1874d6ef815",
+      "bytes": 616830
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-025/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-025/delta_exact-0.npz",
+      "sha256": "c2e93c28062a30f4431949b2bba567cd487be50bdba046db81bba1874d6ef815",
+      "bytes": 616830
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-026/checkpoint-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-026/checkpoint-0.npz",
+      "sha256": "e99714c6ec9abeb5aa2d54ca959d22a2a96c0816a30ecf51ba2f09cd819bb9d3",
+      "bytes": 3336073
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-026/checkpoint-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-026/checkpoint-0.npz",
+      "sha256": "e99714c6ec9abeb5aa2d54ca959d22a2a96c0816a30ecf51ba2f09cd819bb9d3",
+      "bytes": 3336073
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-026/delta-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-026/delta-0.npz",
+      "sha256": "4190e0a9b7422ecfb8fb3796d45069b65919142ca2fa24488f10883aca942483",
+      "bytes": 24659
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-026/delta-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-026/delta-0.npz",
+      "sha256": "4190e0a9b7422ecfb8fb3796d45069b65919142ca2fa24488f10883aca942483",
+      "bytes": 24659
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-026/delta_exact-1.npz",
+      "shared_with": "results/20261110_costs/work/fixture-026/delta_exact-0.npz",
+      "sha256": "ddf574fefd2b6e0b40cca73d235814b6e58fac3af0e591fe14f091df62b868ac",
+      "bytes": 604346
+    },
+    {
+      "path": "results/20261110_costs/work/fixture-026/delta_exact-2.npz",
+      "shared_with": "results/20261110_costs/work/fixture-026/delta_exact-0.npz",
+      "sha256": "ddf574fefd2b6e0b40cca73d235814b6e58fac3af0e591fe14f091df62b868ac",
+      "bytes": 604346
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-000/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-000/checkpoint-0.npz",
+      "sha256": "3f84dfa01eb3bb29361dd40f1c4975c01b6c62b531184dac10fe37e43f28b558",
+      "bytes": 8756523
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-000/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-000/checkpoint-0.npz",
+      "sha256": "3f84dfa01eb3bb29361dd40f1c4975c01b6c62b531184dac10fe37e43f28b558",
+      "bytes": 8756523
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-000/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-000/delta-0.npz",
+      "sha256": "f4ce3158a0c32bef066b26727254e070fb72c100abbd5cf92c4ba2a2391e3ca2",
+      "bytes": 30353
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-000/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-000/delta-0.npz",
+      "sha256": "f4ce3158a0c32bef066b26727254e070fb72c100abbd5cf92c4ba2a2391e3ca2",
+      "bytes": 30353
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-000/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-000/delta_exact-0.npz",
+      "sha256": "5bd6cae67a00d45842d60b1798686a86e885574a4b24b0174e10d6642480ba27",
+      "bytes": 43762
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-000/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-000/delta_exact-0.npz",
+      "sha256": "5bd6cae67a00d45842d60b1798686a86e885574a4b24b0174e10d6642480ba27",
+      "bytes": 43762
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-000/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-000/checkpoint-restored-logits.npz",
+      "sha256": "6df281bb5f9395a0ce456d30c57d29721911fdac814c42acc038b3f2a2436ea0",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-001/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-001/checkpoint-0.npz",
+      "sha256": "c3d51e891634c3a459508eeb7b359bc15194423204dbe593e63686f9217e21a5",
+      "bytes": 8756522
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-001/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-001/checkpoint-0.npz",
+      "sha256": "c3d51e891634c3a459508eeb7b359bc15194423204dbe593e63686f9217e21a5",
+      "bytes": 8756522
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-001/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-001/delta-0.npz",
+      "sha256": "0f6d6956284ccab734ec41f86b571d6ef493da5567981b0438c4fb8312da724b",
+      "bytes": 30339
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-001/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-001/delta-0.npz",
+      "sha256": "0f6d6956284ccab734ec41f86b571d6ef493da5567981b0438c4fb8312da724b",
+      "bytes": 30339
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-001/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-001/delta_exact-0.npz",
+      "sha256": "d35e3543c8905acd3a62b6afe88cae7e832a0ae9f2d955af4dbd5eeef87c8251",
+      "bytes": 43432
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-001/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-001/delta_exact-0.npz",
+      "sha256": "d35e3543c8905acd3a62b6afe88cae7e832a0ae9f2d955af4dbd5eeef87c8251",
+      "bytes": 43432
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-001/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-001/checkpoint-restored-logits.npz",
+      "sha256": "c73a25270c8d331f4c2b9054f66eb300bcfd4ecdcd4e1fa391567323882a149b",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-002/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-002/checkpoint-0.npz",
+      "sha256": "5e0ae88a17ec1013c9b8e64832d7acd2b5d6746c36392be9f3852ed3a96059f6",
+      "bytes": 8756516
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-002/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-002/checkpoint-0.npz",
+      "sha256": "5e0ae88a17ec1013c9b8e64832d7acd2b5d6746c36392be9f3852ed3a96059f6",
+      "bytes": 8756516
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-002/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-002/delta-0.npz",
+      "sha256": "4460543693d8f1dc6f89f3d196bd2393a2422bbb914a0a7b17dff50edff177ee",
+      "bytes": 30342
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-002/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-002/delta-0.npz",
+      "sha256": "4460543693d8f1dc6f89f3d196bd2393a2422bbb914a0a7b17dff50edff177ee",
+      "bytes": 30342
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-002/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-002/delta_exact-0.npz",
+      "sha256": "c8f68c27408dff70032713d51cf9f0ba6822c587acb9c132b74484ea239bedb0",
+      "bytes": 43959
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-002/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-002/delta_exact-0.npz",
+      "sha256": "c8f68c27408dff70032713d51cf9f0ba6822c587acb9c132b74484ea239bedb0",
+      "bytes": 43959
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-002/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-002/checkpoint-restored-logits.npz",
+      "sha256": "d33224ccbae92982951990d1a65b94396f01bafa3e6de3454677f6c6be78c566",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-003/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-003/checkpoint-0.npz",
+      "sha256": "bbab6ea9ba063c0341888c9fc92917a3d2d436c11b2c32512f834b7cb4fca180",
+      "bytes": 4363533
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-003/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-003/checkpoint-0.npz",
+      "sha256": "bbab6ea9ba063c0341888c9fc92917a3d2d436c11b2c32512f834b7cb4fca180",
+      "bytes": 4363533
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-003/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-003/delta-0.npz",
+      "sha256": "2893658dade68dcfedba581dc390881186b337fec281c4a3834e1e7fa230e879",
+      "bytes": 30353
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-003/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-003/delta-0.npz",
+      "sha256": "2893658dade68dcfedba581dc390881186b337fec281c4a3834e1e7fa230e879",
+      "bytes": 30353
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-003/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-003/delta_exact-0.npz",
+      "sha256": "03dfa65a7321cbf2e2c53bfbdce5f6ead36ef76e0e612c73224386a36a6c1805",
+      "bytes": 41784
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-003/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-003/delta_exact-0.npz",
+      "sha256": "03dfa65a7321cbf2e2c53bfbdce5f6ead36ef76e0e612c73224386a36a6c1805",
+      "bytes": 41784
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-003/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-003/checkpoint-restored-logits.npz",
+      "sha256": "f5474fdff4eec13b529cbe714834a075cc90c40854d3b17e041ee4ce6e29573d",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-004/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-004/checkpoint-0.npz",
+      "sha256": "049d1a437682fd0056b41f424affc4c132ecef1c8995877b4d12e8f0fdb0c3bf",
+      "bytes": 4363533
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-004/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-004/checkpoint-0.npz",
+      "sha256": "049d1a437682fd0056b41f424affc4c132ecef1c8995877b4d12e8f0fdb0c3bf",
+      "bytes": 4363533
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-004/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-004/delta-0.npz",
+      "sha256": "f1a46cee9158841cffc8bde39606c5605eb5e5afec581e56bf8e176e4c49ba6a",
+      "bytes": 30350
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-004/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-004/delta-0.npz",
+      "sha256": "f1a46cee9158841cffc8bde39606c5605eb5e5afec581e56bf8e176e4c49ba6a",
+      "bytes": 30350
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-004/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-004/delta_exact-0.npz",
+      "sha256": "49647da9d782a5051509bfc77473cbbdecc4835d5ad1f1d6f883e6029201a246",
+      "bytes": 41544
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-004/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-004/delta_exact-0.npz",
+      "sha256": "49647da9d782a5051509bfc77473cbbdecc4835d5ad1f1d6f883e6029201a246",
+      "bytes": 41544
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-004/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-004/checkpoint-restored-logits.npz",
+      "sha256": "3b99c168528f3abd7de7638b38eaab9805ab3bcb6e2a62127192b5c37926957f",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-005/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-005/checkpoint-0.npz",
+      "sha256": "620421f14360e49958ddc497d7302f1b5ea86b25df33d865a5ba7ee2676e6ab9",
+      "bytes": 4363533
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-005/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-005/checkpoint-0.npz",
+      "sha256": "620421f14360e49958ddc497d7302f1b5ea86b25df33d865a5ba7ee2676e6ab9",
+      "bytes": 4363533
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-005/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-005/delta-0.npz",
+      "sha256": "35277774f19381055f824f8f93d3b62eb326196c2b8243213cd1071236e94665",
+      "bytes": 30344
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-005/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-005/delta-0.npz",
+      "sha256": "35277774f19381055f824f8f93d3b62eb326196c2b8243213cd1071236e94665",
+      "bytes": 30344
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-005/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-005/delta_exact-0.npz",
+      "sha256": "f6e4c8d1e372de0e30b60f7806ce7c4caee4649db72461c167928e9020ab7163",
+      "bytes": 41996
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-005/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-005/delta_exact-0.npz",
+      "sha256": "f6e4c8d1e372de0e30b60f7806ce7c4caee4649db72461c167928e9020ab7163",
+      "bytes": 41996
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-005/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-005/checkpoint-restored-logits.npz",
+      "sha256": "1abb9e7d182a31d0f07e83867bfdd9e56e4df99a14604bc7793e46062049766e",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-006/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-006/checkpoint-0.npz",
+      "sha256": "68bf1ca51b2cd5e015989a8e76b66f809521a5dd7acf31b91a6b3f189214a126",
+      "bytes": 3742281
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-006/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-006/checkpoint-0.npz",
+      "sha256": "68bf1ca51b2cd5e015989a8e76b66f809521a5dd7acf31b91a6b3f189214a126",
+      "bytes": 3742281
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-006/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-006/delta-0.npz",
+      "sha256": "bc79b5d0ec19ed26cd5495f880c7b2815c345e3ebe3c818d5f553882afc03f9a",
+      "bytes": 30349
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-006/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-006/delta-0.npz",
+      "sha256": "bc79b5d0ec19ed26cd5495f880c7b2815c345e3ebe3c818d5f553882afc03f9a",
+      "bytes": 30349
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-006/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-006/delta_exact-0.npz",
+      "sha256": "35b920a0fd5d5bde6a5eee1e8e562dfa27a9128a6b590d76197d5ed7772e8b8b",
+      "bytes": 43087
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-006/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-006/delta_exact-0.npz",
+      "sha256": "35b920a0fd5d5bde6a5eee1e8e562dfa27a9128a6b590d76197d5ed7772e8b8b",
+      "bytes": 43087
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-006/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-006/checkpoint-restored-logits.npz",
+      "sha256": "92dcd6c2e9599744b07a45c272e1ad1327b5fed81f341649e7eb0b4ea804c12c",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-007/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-007/checkpoint-0.npz",
+      "sha256": "c9f0701356c76bbe2726d2ccef47da41bce7557be976feb5b76b3d2655614639",
+      "bytes": 3742275
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-007/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-007/checkpoint-0.npz",
+      "sha256": "c9f0701356c76bbe2726d2ccef47da41bce7557be976feb5b76b3d2655614639",
+      "bytes": 3742275
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-007/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-007/delta-0.npz",
+      "sha256": "e60c64470ecf6ecc15a6544a1b8f2a7c02256a659339418cad1fa4e88cd16a03",
+      "bytes": 30342
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-007/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-007/delta-0.npz",
+      "sha256": "e60c64470ecf6ecc15a6544a1b8f2a7c02256a659339418cad1fa4e88cd16a03",
+      "bytes": 30342
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-007/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-007/delta_exact-0.npz",
+      "sha256": "22aa9d8a0e81c384d9b5c1691a2274c4ceafbe09e53ada5029189c70e28dfab7",
+      "bytes": 43137
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-007/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-007/delta_exact-0.npz",
+      "sha256": "22aa9d8a0e81c384d9b5c1691a2274c4ceafbe09e53ada5029189c70e28dfab7",
+      "bytes": 43137
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-007/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-007/checkpoint-restored-logits.npz",
+      "sha256": "76cfd019477c4db1ae28c9b4354fc1541f3537716a061b4544d41f0b94940f98",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-008/checkpoint-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-008/checkpoint-0.npz",
+      "sha256": "ee0f90a80deeba3ce7fccace62de299b73af26de471ce91388608884a2d01b5a",
+      "bytes": 3742274
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-008/checkpoint-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-008/checkpoint-0.npz",
+      "sha256": "ee0f90a80deeba3ce7fccace62de299b73af26de471ce91388608884a2d01b5a",
+      "bytes": 3742274
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-008/delta-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-008/delta-0.npz",
+      "sha256": "df58226768cb3a483b174324023ebde58e31c3f0e676b4d50e1a5bab50b3af39",
+      "bytes": 30342
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-008/delta-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-008/delta-0.npz",
+      "sha256": "df58226768cb3a483b174324023ebde58e31c3f0e676b4d50e1a5bab50b3af39",
+      "bytes": 30342
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-008/delta_exact-1.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-008/delta_exact-0.npz",
+      "sha256": "3ee03bcad2dd39486112480b05754292623e9124ad431cb3a67e8940241fc4b1",
+      "bytes": 43641
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-008/delta_exact-2.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-008/delta_exact-0.npz",
+      "sha256": "3ee03bcad2dd39486112480b05754292623e9124ad431cb3a67e8940241fc4b1",
+      "bytes": 43641
+    },
+    {
+      "path": "results/20261110_gpt2/work/fixture-008/delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_gpt2/work/fixture-008/checkpoint-restored-logits.npz",
+      "sha256": "d2e6bf416ab4dcd8ca25ca593029219e7cf16c25fbb6e19706dbf8657f4cae90",
+      "bytes": 201294
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-checkpoint-restored-logits.npz",
+      "shared_with": "results/20261110_factual_chain/work/baseline-logits.npz",
+      "sha256": "c7af3780e09c756101bb80299e4f1fc222728a5262e48e875213b9fa420249a1",
+      "bytes": 1608490
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta-0-edited.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-edited.npz",
+      "sha256": "11073e0c3e0dafa22a1c50067511fa6923dbc530f6d79a8fc9a0495b2ebe1aa2",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta-1-edited.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-edited.npz",
+      "sha256": "ed3e07232a10c48d33393edd1e5135241a707f7435b483a8767fc5ee25f2c098",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta-2-edited.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-edited.npz",
+      "sha256": "e3e557645bbab6d9f6cc567daea1e2e900cc933fac66e6cfbbd69e6b26a43666",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-0-edited.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-edited.npz",
+      "sha256": "11073e0c3e0dafa22a1c50067511fa6923dbc530f6d79a8fc9a0495b2ebe1aa2",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-1-edited.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-edited.npz",
+      "sha256": "ed3e07232a10c48d33393edd1e5135241a707f7435b483a8767fc5ee25f2c098",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-2-edited.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-edited.npz",
+      "sha256": "e3e557645bbab6d9f6cc567daea1e2e900cc933fac66e6cfbbd69e6b26a43666",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-B-logits.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-B-logits.npz",
+      "sha256": "a97774ed857ab6247c5a197ff42434dbc23cdf11020fe7065524b229fa3361e8",
+      "bytes": 1608490
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-B-transformer.h.4.mlp.c_proj.weight.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-B-transformer.h.4.mlp.c_proj.weight.npz",
+      "sha256": "ff4267532b0d6bb09dde716a91b323464a941faf74cf49545e63bb1f93339990",
+      "bytes": 18906084
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-B-transformer.h.5.mlp.c_proj.weight.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-B-transformer.h.5.mlp.c_proj.weight.npz",
+      "sha256": "cbf658a9b8de1e16ef13cf41d84b5f08fc87a56223c76210fee7ef317cd26a44",
+      "bytes": 18906084
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-B-transformer.h.6.mlp.c_proj.weight.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-B-transformer.h.6.mlp.c_proj.weight.npz",
+      "sha256": "6b4b0da0c0579124757c4a2acca3813b9391560f1f77b3709f8a0a5154ffe6e3",
+      "bytes": 18906084
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_factual_chain/work/baseline-logits.npz",
+      "sha256": "c7af3780e09c756101bb80299e4f1fc222728a5262e48e875213b9fa420249a1",
+      "bytes": 1608490
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-reference-B-logits.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-B-logits.npz",
+      "sha256": "a97774ed857ab6247c5a197ff42434dbc23cdf11020fe7065524b229fa3361e8",
+      "bytes": 1608490
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-reference-B-transformer.h.4.mlp.c_proj.weight.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-B-transformer.h.4.mlp.c_proj.weight.npz",
+      "sha256": "ff4267532b0d6bb09dde716a91b323464a941faf74cf49545e63bb1f93339990",
+      "bytes": 18906084
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-reference-B-transformer.h.5.mlp.c_proj.weight.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-B-transformer.h.5.mlp.c_proj.weight.npz",
+      "sha256": "cbf658a9b8de1e16ef13cf41d84b5f08fc87a56223c76210fee7ef317cd26a44",
+      "bytes": 18906084
+    },
+    {
+      "path": "results/20261110_factual_chain/work/memit-reference-B-transformer.h.6.mlp.c_proj.weight.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-B-transformer.h.6.mlp.c_proj.weight.npz",
+      "sha256": "6b4b0da0c0579124757c4a2acca3813b9391560f1f77b3709f8a0a5154ffe6e3",
+      "bytes": 18906084
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-checkpoint-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-checkpoint-restored-logits.npz",
+      "shared_with": "results/20261110_factual_chain/work/baseline-logits.npz",
+      "sha256": "c7af3780e09c756101bb80299e4f1fc222728a5262e48e875213b9fa420249a1",
+      "bytes": 1608490
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-delta-0-edited.npz",
+      "shared_with": "results/20261110_factual_chain/work/rome-checkpoint-0-edited.npz",
+      "sha256": "c81971850b26ad453c1b195eb2e5ab31f20d778346655ef136ab9c194d778be5",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-delta_exact-0-edited.npz",
+      "shared_with": "results/20261110_factual_chain/work/rome-checkpoint-0-edited.npz",
+      "sha256": "c81971850b26ad453c1b195eb2e5ab31f20d778346655ef136ab9c194d778be5",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-delta_exact-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-delta_exact-B-logits.npz",
+      "shared_with": "results/20261110_factual_chain/work/rome-checkpoint-B-logits.npz",
+      "sha256": "efeefb9df937fcfbf5263e40c68eed9884e8c49614ed74b98eae499f57ecdcbd",
+      "bytes": 1608490
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-delta_exact-B-transformer.h.5.mlp.c_proj.weight.npz",
+      "shared_with": "results/20261110_factual_chain/work/rome-checkpoint-B-transformer.h.5.mlp.c_proj.weight.npz",
+      "sha256": "1d8004b4814c6d1e34eafa4469927af924acbb677816d38b96f5daa469a8e6bc",
+      "bytes": 18890724
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_factual_chain/work/baseline-logits.npz",
+      "sha256": "c7af3780e09c756101bb80299e4f1fc222728a5262e48e875213b9fa420249a1",
+      "bytes": 1608490
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-reference-B-logits.npz",
+      "shared_with": "results/20261110_factual_chain/work/rome-checkpoint-B-logits.npz",
+      "sha256": "efeefb9df937fcfbf5263e40c68eed9884e8c49614ed74b98eae499f57ecdcbd",
+      "bytes": 1608490
+    },
+    {
+      "path": "results/20261110_factual_chain/work/rome-reference-B-transformer.h.5.mlp.c_proj.weight.npz",
+      "shared_with": "results/20261110_factual_chain/work/rome-checkpoint-B-transformer.h.5.mlp.c_proj.weight.npz",
+      "sha256": "1d8004b4814c6d1e34eafa4469927af924acbb677816d38b96f5daa469a8e6bc",
+      "bytes": 18890724
+    },
+    {
+      "path": "results/20261110_novel_information/work/covariance-4.npz",
+      "shared_with": "results/20261110_factual_chain/work/covariance-4.npz",
+      "sha256": "85cd9457c7f41f870a6e26a17b52c9b4d773769639409d0da5557c3f2c0e40e1",
+      "bytes": 75497746
+    },
+    {
+      "path": "results/20261110_novel_information/work/covariance-5.npz",
+      "shared_with": "results/20261110_factual_chain/work/covariance-5.npz",
+      "sha256": "c93f436ac40a489eac02055b0041698d7669c8c829d2011a48f39300f2eb5870",
+      "bytes": 75497746
+    },
+    {
+      "path": "results/20261110_novel_information/work/covariance-6.npz",
+      "shared_with": "results/20261110_factual_chain/work/covariance-6.npz",
+      "sha256": "80717d572cbce16abb997b6ae7180a8d2632c502396f92e0bce281adca847f4e",
+      "bytes": 75497746
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-checkpoint-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-checkpoint-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-checkpoint-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-checkpoint-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-1-checkpoint-0-edited.npz",
+      "sha256": "3938b11a12f4419d8d317c9cde68fc8d8a7126c6b30c180e6b882becf878f22f",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta-1-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-1-checkpoint-1-edited.npz",
+      "sha256": "afce17b4176abd95e0151c5b327c4e29a18eeffd76d3e97300e337b4a91dd84f",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta-2-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-1-checkpoint-2-edited.npz",
+      "sha256": "08cd9d36bf6b35042f1e37194e65c28c3fe3036b82765efb6b1cfe4383c56902",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta_exact-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-1-checkpoint-0-edited.npz",
+      "sha256": "3938b11a12f4419d8d317c9cde68fc8d8a7126c6b30c180e6b882becf878f22f",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta_exact-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta_exact-1-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-1-checkpoint-1-edited.npz",
+      "sha256": "afce17b4176abd95e0151c5b327c4e29a18eeffd76d3e97300e337b4a91dd84f",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta_exact-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta_exact-2-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-1-checkpoint-2-edited.npz",
+      "sha256": "08cd9d36bf6b35042f1e37194e65c28c3fe3036b82765efb6b1cfe4383c56902",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta_exact-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-1-delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-checkpoint-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-checkpoint-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-checkpoint-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-checkpoint-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-2-checkpoint-0-edited.npz",
+      "sha256": "9499bddc9cb08b2d7fdd2908369820818d3d1c3e2175dc5634d6d8c5eab12047",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta-1-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-2-checkpoint-1-edited.npz",
+      "sha256": "95dd253b9012532ea59516ebe76cb6a9ef6ad5ed5038de669e4151855f9b3050",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta-2-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-2-checkpoint-2-edited.npz",
+      "sha256": "c563e4e45b9f45317ca44f4bf576273662cccd8dcf385ae28f3bce590f7d478f",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta_exact-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-2-checkpoint-0-edited.npz",
+      "sha256": "9499bddc9cb08b2d7fdd2908369820818d3d1c3e2175dc5634d6d8c5eab12047",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta_exact-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta_exact-1-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-2-checkpoint-1-edited.npz",
+      "sha256": "95dd253b9012532ea59516ebe76cb6a9ef6ad5ed5038de669e4151855f9b3050",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta_exact-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta_exact-2-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-2-checkpoint-2-edited.npz",
+      "sha256": "c563e4e45b9f45317ca44f4bf576273662cccd8dcf385ae28f3bce590f7d478f",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta_exact-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-2-delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-checkpoint-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-checkpoint-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-checkpoint-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-checkpoint-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-3-checkpoint-0-edited.npz",
+      "sha256": "8621ffa96b164283e815f451dd2d3c97c1fc2fd08e54f4afd4ecd3e797e05863",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta-1-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-3-checkpoint-1-edited.npz",
+      "sha256": "bea676dd7cf4281e30dd6ea5deffbcea20b5fddb0b56e19375d75faa9149ef82",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta-2-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-3-checkpoint-2-edited.npz",
+      "sha256": "2e1b3dfc386c5666eaf75545cbb24af197bdfddb28d2b36bb50f6c2db88842e9",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta_exact-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-3-checkpoint-0-edited.npz",
+      "sha256": "8621ffa96b164283e815f451dd2d3c97c1fc2fd08e54f4afd4ecd3e797e05863",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta_exact-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta_exact-1-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-3-checkpoint-1-edited.npz",
+      "sha256": "bea676dd7cf4281e30dd6ea5deffbcea20b5fddb0b56e19375d75faa9149ef82",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta_exact-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta_exact-2-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/memit-novel-3-checkpoint-2-edited.npz",
+      "sha256": "2e1b3dfc386c5666eaf75545cbb24af197bdfddb28d2b36bb50f6c2db88842e9",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta_exact-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/memit-novel-3-delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/no-edit-repeat-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-1-checkpoint-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-1-checkpoint-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-1-delta-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/rome-novel-1-checkpoint-0-edited.npz",
+      "sha256": "830d66ab429fa47ce7055cbaa84545faeae3b6c7413e3274166c86abbed5a201",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-1-delta_exact-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/rome-novel-1-checkpoint-0-edited.npz",
+      "sha256": "830d66ab429fa47ce7055cbaa84545faeae3b6c7413e3274166c86abbed5a201",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-1-delta_exact-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-1-delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-2-checkpoint-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-2-checkpoint-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-2-delta-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/rome-novel-2-checkpoint-0-edited.npz",
+      "sha256": "ceff2bbd4ae3130e3b300201e5436ca9b1f24d37514564e80817737e3e9cbf6b",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-2-delta_exact-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/rome-novel-2-checkpoint-0-edited.npz",
+      "sha256": "ceff2bbd4ae3130e3b300201e5436ca9b1f24d37514564e80817737e3e9cbf6b",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-2-delta_exact-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-2-delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-3-checkpoint-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-3-checkpoint-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-3-delta-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/rome-novel-3-checkpoint-0-edited.npz",
+      "sha256": "1570ae2b9ff8a27266ade97f9e19b2ac2ed608241b3160c52fd63c940fe3e91d",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-3-delta_exact-0-edited.npz",
+      "shared_with": "results/20261110_novel_information/work/rome-novel-3-checkpoint-0-edited.npz",
+      "sha256": "1570ae2b9ff8a27266ade97f9e19b2ac2ed608241b3160c52fd63c940fe3e91d",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-3-delta_exact-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_novel_information/work/rome-novel-3-delta_exact-restored-logits.npz",
+      "shared_with": "results/20261110_novel_information/work/baseline-logits.npz",
+      "sha256": "d6042a39708abc0952eecb946cc597b73770584a32a1c26191f38c89be68293c",
+      "bytes": 3618770
+    },
+    {
+      "path": "results/20261110_selective_replay/work/covariance-4.npz",
+      "shared_with": "results/20261110_factual_chain/work/covariance-4.npz",
+      "sha256": "85cd9457c7f41f870a6e26a17b52c9b4d773769639409d0da5557c3f2c0e40e1",
+      "bytes": 75497746
+    },
+    {
+      "path": "results/20261110_selective_replay/work/covariance-5.npz",
+      "shared_with": "results/20261110_factual_chain/work/covariance-5.npz",
+      "sha256": "c93f436ac40a489eac02055b0041698d7669c8c829d2011a48f39300f2eb5870",
+      "bytes": 75497746
+    },
+    {
+      "path": "results/20261110_selective_replay/work/covariance-6.npz",
+      "shared_with": "results/20261110_factual_chain/work/covariance-6.npz",
+      "sha256": "80717d572cbce16abb997b6ae7180a8d2632c502396f92e0bce281adca847f4e",
+      "bytes": 75497746
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-B-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "sha256": "e6efaabea9052db738ae2cb13778653d3556bae51e37996e357d2a20c67d96ec",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "744ee0f0185ed901a40832da8d98c4245f2b8b37767e320fb2449cbf2f3e2d81",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-B-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "sha256": "5f13fdf0a62a2630bcfcc6b02e2ee4f25093e9f168f16184542a2b78c9da2b90",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-logits.npz",
+      "sha256": "ac58a0d5948ec294a228dac5132078a8011e1fcbed673317c892d19c63c4f218",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-1-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-2-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-weights.npz",
+      "sha256": "14546e1098d55ad8c7a8b37567a19290011fc61a74bc74d869f7f069c4a84229",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-B-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "sha256": "e6efaabea9052db738ae2cb13778653d3556bae51e37996e357d2a20c67d96ec",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "744ee0f0185ed901a40832da8d98c4245f2b8b37767e320fb2449cbf2f3e2d81",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-B-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "sha256": "5f13fdf0a62a2630bcfcc6b02e2ee4f25093e9f168f16184542a2b78c9da2b90",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-logits.npz",
+      "sha256": "ac58a0d5948ec294a228dac5132078a8011e1fcbed673317c892d19c63c4f218",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-A-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-A-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-A-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-A-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "be5718a36528a97fc8894886e46eaf9ac345f609d253b68d0daf773686894234",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-B-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-1-live.npz",
+      "sha256": "cab05c3746e690abbc9ab7fe5e255804f691d93f6ab6dfa24f6652b91307e991",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-B-1-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-B-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-2-live.npz",
+      "sha256": "3f1d6c660b4d2bcb4f6c9fce07cea5d9584e539bc060d573348af29f567c8da2",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-undo-B-2-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-B-only-weights.npz",
+      "sha256": "14546e1098d55ad8c7a8b37567a19290011fc61a74bc74d869f7f069c4a84229",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-A-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-A-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-A-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-A-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "be5718a36528a97fc8894886e46eaf9ac345f609d253b68d0daf773686894234",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-B-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-1-live.npz",
+      "sha256": "cab05c3746e690abbc9ab7fe5e255804f691d93f6ab6dfa24f6652b91307e991",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-B-1-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-B-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-B-2-live.npz",
+      "sha256": "3f1d6c660b4d2bcb4f6c9fce07cea5d9584e539bc060d573348af29f567c8da2",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-conflicting_targets-exact_rewind_stale_B-undo-B-2-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-B-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "sha256": "8aaa4dc7518d58d3ed16d49ba59e8031cc44db5e203de7b61123d28631992bcc",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5e777305dbace43c7598525b2c6cd0dd0b96dd1d09b992375540401a602e541",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-0-live.npz",
+      "sha256": "57ab612a7b2cfb710301bf2146b5dff8559ed66560e2285cadf46c097aa7158d",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-B-1-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-1-live.npz",
+      "sha256": "0465ca2c038384b6552b1a456d9f63fe5a2d0ca85bd8e532536be07902e8d61e",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-B-2-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-2-live.npz",
+      "sha256": "97f3233bed8e6576bc03f5423edc50bb1d4b1da018d7370fd4cef6684dfe0fd0",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-0-live.npz",
+      "sha256": "57ab612a7b2cfb710301bf2146b5dff8559ed66560e2285cadf46c097aa7158d",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-A-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-1-live.npz",
+      "sha256": "0465ca2c038384b6552b1a456d9f63fe5a2d0ca85bd8e532536be07902e8d61e",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-A-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-A-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-2-live.npz",
+      "sha256": "97f3233bed8e6576bc03f5423edc50bb1d4b1da018d7370fd4cef6684dfe0fd0",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-A-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-B-0-live.npz",
+      "sha256": "0faea63e16a31d1a1dc00ffed1555e1e711c317a783e199fbafc60fa768a426a",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-0-live.npz",
+      "sha256": "57ab612a7b2cfb710301bf2146b5dff8559ed66560e2285cadf46c097aa7158d",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-B-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-B-1-live.npz",
+      "sha256": "1565bde54238f8f0c879b17df1557332270c7789ab7b06eb9847828ec4dc726b",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-B-1-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-1-live.npz",
+      "sha256": "0465ca2c038384b6552b1a456d9f63fe5a2d0ca85bd8e532536be07902e8d61e",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-B-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-B-2-live.npz",
+      "sha256": "d1aa60bc4f81345ab9186d27a5d83cda2c69d1957ceb79a3d2f770d02fc7bfd7",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_stale_B-undo-B-2-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-exact_rewind_recompute_B-undo-A-2-live.npz",
+      "sha256": "97f3233bed8e6576bc03f5423edc50bb1d4b1da018d7370fd4cef6684dfe0fd0",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-logits.npz",
+      "sha256": "73d2054b385ca24e6d1af546abd836284201ba7b8d8468940f02c6283919249a",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.4.mlp.c_proj.weight-checkpoint.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.4.mlp.c_proj.weight-checkpoint.npz",
+      "sha256": "56c2f372af277f8bfc04ba7942365ceb02d7a0eb95f6f4780060dee59be37848",
+      "bytes": 8767017
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.4.mlp.c_proj.weight-delta_exact.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.4.mlp.c_proj.weight-delta_exact.npz",
+      "sha256": "9b123f0875c646e1405f8a9d5b06b64981a16448461459437007f1139bcfe768",
+      "bytes": 184125
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.4.mlp.c_proj.weight-direct_xor_zlib.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.4.mlp.c_proj.weight-direct_xor_zlib.npz",
+      "sha256": "e1b36da99be1ce89fa89cee52320196c81e78f6a360b37542b4ef4e1e7becbb0",
+      "bytes": 7671394
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "sha256": "8bc9bc5fce065a48b7f048bcf3b20f61f109353e1ece358a74569d334922049f",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.5.mlp.c_proj.weight-checkpoint.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.5.mlp.c_proj.weight-checkpoint.npz",
+      "sha256": "56c983d4be1751954d57e067fdb93e0b8392a870da4debe634af4d87a5b70287",
+      "bytes": 8770088
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.5.mlp.c_proj.weight-delta_exact.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.5.mlp.c_proj.weight-delta_exact.npz",
+      "sha256": "0df70e855682d3658c21f2aa4b5c48c8364b797edc0ac720d07e25390deb45c4",
+      "bytes": 176684
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.5.mlp.c_proj.weight-direct_xor_zlib.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.5.mlp.c_proj.weight-direct_xor_zlib.npz",
+      "sha256": "82fbf19f632eb288d7c79670b3eac72e78c49c36387cdf696b26ffeea22f57f4",
+      "bytes": 7641900
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "dbcb41c3a59c84b87ea24cf027d7b609761ecf73b03473690b4da45b8042ff1c",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.6.mlp.c_proj.weight-checkpoint.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.6.mlp.c_proj.weight-checkpoint.npz",
+      "sha256": "98ff8545d13b889a03deee0b5c038bd7a2757e7f485ac040c8dab3fbb1826bd5",
+      "bytes": 8771110
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.6.mlp.c_proj.weight-delta_exact.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.6.mlp.c_proj.weight-delta_exact.npz",
+      "sha256": "863478e38866ce26d9671c85b42362d1873e880a8777161d607eaa65cb4e7ec9",
+      "bytes": 177872
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.6.mlp.c_proj.weight-direct_xor_zlib.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.6.mlp.c_proj.weight-direct_xor_zlib.npz",
+      "sha256": "cd94b65dc50a32b67008fe3259c349bbb5b6a4561d74e20f3aad68c624bde267",
+      "bytes": 7648471
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "sha256": "56b7584f074b6f2eed2eb7c1387a3116446ae9c8c0fbecbd940e41f6eefc6d17",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-A-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-A-weights.npz",
+      "sha256": "5a45e661ea095f5802d3d4a35608786f5aa88731b30df2c9ac8881b1b9ac9ef1",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-B-only-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-logits.npz",
+      "sha256": "76b85a255660cb3289f6e4a50cf87f84294a96dcd89b29b8c53aa51dda2948f2",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-B-only-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "sha256": "8aaa4dc7518d58d3ed16d49ba59e8031cc44db5e203de7b61123d28631992bcc",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5e777305dbace43c7598525b2c6cd0dd0b96dd1d09b992375540401a602e541",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-B-only-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "sha256": "3236675964368a2dbf6c44a44cd0ec7434a8acc5ac6b2c73dfff55090b691952",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-B-only-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-weights.npz",
+      "sha256": "329bf0697022f39a062d41e217da91b11bed5f0365bb25c8950ca7cee269d95d",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-B-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "sha256": "8aaa4dc7518d58d3ed16d49ba59e8031cc44db5e203de7b61123d28631992bcc",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5e777305dbace43c7598525b2c6cd0dd0b96dd1d09b992375540401a602e541",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-B-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "sha256": "3236675964368a2dbf6c44a44cd0ec7434a8acc5ac6b2c73dfff55090b691952",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-logits.npz",
+      "sha256": "76b85a255660cb3289f6e4a50cf87f84294a96dcd89b29b8c53aa51dda2948f2",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-A-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-A-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-A-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-A-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-1-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-2-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-weights.npz",
+      "sha256": "329bf0697022f39a062d41e217da91b11bed5f0365bb25c8950ca7cee269d95d",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-B-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.4.mlp.c_proj.weight-factors.npz",
+      "sha256": "8aaa4dc7518d58d3ed16d49ba59e8031cc44db5e203de7b61123d28631992bcc",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5e777305dbace43c7598525b2c6cd0dd0b96dd1d09b992375540401a602e541",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-B-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-transformer.h.6.mlp.c_proj.weight-factors.npz",
+      "sha256": "3236675964368a2dbf6c44a44cd0ec7434a8acc5ac6b2c73dfff55090b691952",
+      "bytes": 28343512
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-logits.npz",
+      "sha256": "76b85a255660cb3289f6e4a50cf87f84294a96dcd89b29b8c53aa51dda2948f2",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-A-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-A-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-A-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-A-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "7a5c6762e0c7eda8c7e980da43eb8dc2201ec6fdb5f087242a6205a265f081c5",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-B-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-1-live.npz",
+      "sha256": "5525369fa3fcdca9857290664e2890364ec9fde98e44f463a0b1a8abc9adabc2",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-B-1-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-B-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-2-live.npz",
+      "sha256": "9d56534c884a6aa018eea24ebbc434e516873ad08d1dcec129f3a23a1ffc21d4",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-undo-B-2-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_relations-B-only-weights.npz",
+      "sha256": "329bf0697022f39a062d41e217da91b11bed5f0365bb25c8950ca7cee269d95d",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-0-restored.npz",
+      "sha256": "b8951ce001a582ed1eede40185f69f3815958e3572ae8422584590d2e19e26c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-A-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-A-1-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-A-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-A-2-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-2-restored.npz",
+      "sha256": "e2fdf8b69d78204c58a04b917506abde12b41cf311b15e95c8e92e5a0f50f746",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "7a5c6762e0c7eda8c7e980da43eb8dc2201ec6fdb5f087242a6205a265f081c5",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "00a1e2e10da248badad5845c0969d774bc27180ae6e3524eb6ccec4a93a52177",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-B-1-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-1-live.npz",
+      "sha256": "5525369fa3fcdca9857290664e2890364ec9fde98e44f463a0b1a8abc9adabc2",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-B-1-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-1-live.npz",
+      "sha256": "ae9cc10065c1fb2488abea60e9201af92da70c798ec16d6297bd5b78481f46f8",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-B-2-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-different_subjects-checkpoint_recompute_B-undo-B-2-live.npz",
+      "sha256": "9d56534c884a6aa018eea24ebbc434e516873ad08d1dcec129f3a23a1ffc21d4",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/memit-different_subjects-exact_rewind_stale_B-undo-B-2-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/memit-conflicting_targets-checkpoint_recompute_B-undo-A-2-live.npz",
+      "sha256": "2012e842b93771c42c16690e94928946a3ab3cc865c0df42578b22d7de7561b3",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "044f2ed92ef20c8300bf09fc10647fa476f769c2b3ca64b5b175d87f35d8cf86",
+      "bytes": 28328152
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-B-only-logits.npz",
+      "sha256": "c473e0b9efeca1fdcf332b131c0f50de9571643cdbef57e915d26550741334bc",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-B-only-weights.npz",
+      "sha256": "dca416213ec508fc40b071e4735af89440573ddb14e9cce09026a82207405ad9",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "044f2ed92ef20c8300bf09fc10647fa476f769c2b3ca64b5b175d87f35d8cf86",
+      "bytes": 28328152
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-B-only-logits.npz",
+      "sha256": "c473e0b9efeca1fdcf332b131c0f50de9571643cdbef57e915d26550741334bc",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_recompute_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_recompute_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "99620847c2c52642fdbf2ecf0db5cff43f2aecc16bf07eee312723954a262df7",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-B-only-weights.npz",
+      "sha256": "dca416213ec508fc40b071e4735af89440573ddb14e9cce09026a82207405ad9",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_stale_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_stale_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_stale_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "99620847c2c52642fdbf2ecf0db5cff43f2aecc16bf07eee312723954a262df7",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-conflicting_targets-exact_rewind_stale_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5c2acebadcdd801d73a38117600bf53d3cf59985ecd302cd019658810d17838",
+      "bytes": 28328152
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-logits.npz",
+      "sha256": "a8bcfaead1a0a1857e8b2583f2273e30b1f8e46d80a7441b02a327da3df34c20",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "46174f46b8232cd58543b41f547ade41f5c8f75c35c4f503636406183a096d29",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-weights.npz",
+      "sha256": "41f90a5fe6e7177b27ab2c261746cc8914aa885d75d4a6f20912d168cc99cc14",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5c2acebadcdd801d73a38117600bf53d3cf59985ecd302cd019658810d17838",
+      "bytes": 28328152
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-logits.npz",
+      "sha256": "a8bcfaead1a0a1857e8b2583f2273e30b1f8e46d80a7441b02a327da3df34c20",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_recompute_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "46174f46b8232cd58543b41f547ade41f5c8f75c35c4f503636406183a096d29",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_recompute_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "2c85e0a341925f1eb59062947c79cc9305641061da9b91da3bc3fcef732fd963",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "46174f46b8232cd58543b41f547ade41f5c8f75c35c4f503636406183a096d29",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-weights.npz",
+      "sha256": "41f90a5fe6e7177b27ab2c261746cc8914aa885d75d4a6f20912d168cc99cc14",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_stale_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "46174f46b8232cd58543b41f547ade41f5c8f75c35c4f503636406183a096d29",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_stale_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_stale_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "2c85e0a341925f1eb59062947c79cc9305641061da9b91da3bc3fcef732fd963",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_relations-exact_rewind_stale_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "46174f46b8232cd58543b41f547ade41f5c8f75c35c4f503636406183a096d29",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-A-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-A-logits.npz",
+      "sha256": "aea3ab444fa2928c678948efef76d5cb46967a85d03a3a35badd5ad65111f3c5",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-A-transformer.h.5.mlp.c_proj.weight-checkpoint.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-A-transformer.h.5.mlp.c_proj.weight-checkpoint.npz",
+      "sha256": "8ccdba422216b6faeb3e66aee64356bc9384ced5ff864ac243a43d10adf35979",
+      "bytes": 8770093
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-A-transformer.h.5.mlp.c_proj.weight-delta_exact.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-A-transformer.h.5.mlp.c_proj.weight-delta_exact.npz",
+      "sha256": "6e229b0a1880b4df6d793e1f78943ee2a91a1a786acf13ddc42f85654aedf544",
+      "bytes": 302918
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-A-transformer.h.5.mlp.c_proj.weight-direct_xor_zlib.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-A-transformer.h.5.mlp.c_proj.weight-direct_xor_zlib.npz",
+      "sha256": "7793109c4528f66bb24147a4900dd2175f30d853ff7afd8d257c8e37f3699941",
+      "bytes": 7957501
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-A-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-A-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "5302f902ef14dbaa65ae95000fc4d6d079caf7b430d2cc68cc04999fe3e7e13e",
+      "bytes": 28328152
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-A-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-A-weights.npz",
+      "sha256": "a546db175c1758f4ffa30bf47a1656644f39161e1c009c7d7bc504d967d78798",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-B-only-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-logits.npz",
+      "sha256": "a8bcfaead1a0a1857e8b2583f2273e30b1f8e46d80a7441b02a327da3df34c20",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5c2acebadcdd801d73a38117600bf53d3cf59985ecd302cd019658810d17838",
+      "bytes": 28328152
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-B-only-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-weights.npz",
+      "sha256": "41f90a5fe6e7177b27ab2c261746cc8914aa885d75d4a6f20912d168cc99cc14",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-checkpoint_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5c2acebadcdd801d73a38117600bf53d3cf59985ecd302cd019658810d17838",
+      "bytes": 28328152
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-checkpoint_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-logits.npz",
+      "sha256": "a8bcfaead1a0a1857e8b2583f2273e30b1f8e46d80a7441b02a327da3df34c20",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-checkpoint_recompute_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-checkpoint_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-checkpoint_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-checkpoint_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-weights.npz",
+      "sha256": "41f90a5fe6e7177b27ab2c261746cc8914aa885d75d4a6f20912d168cc99cc14",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_recompute_B-B-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-transformer.h.5.mlp.c_proj.weight-factors.npz",
+      "sha256": "a5c2acebadcdd801d73a38117600bf53d3cf59985ecd302cd019658810d17838",
+      "bytes": 28328152
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_recompute_B-logits.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-logits.npz",
+      "sha256": "a8bcfaead1a0a1857e8b2583f2273e30b1f8e46d80a7441b02a327da3df34c20",
+      "bytes": 2412602
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_recompute_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_recompute_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_recompute_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_subjects-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "71917d5d68147464a2c7a18ff5b56fc16c1787ce74fbc8e043c75d98862a6e4f",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_recompute_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_recompute_B-weights.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_relations-B-only-weights.npz",
+      "sha256": "41f90a5fe6e7177b27ab2c261746cc8914aa885d75d4a6f20912d168cc99cc14",
+      "bytes": 28312468
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_stale_B-undo-A-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_stale_B-undo-A-0-restored.npz",
+      "shared_with": "results/20261110_factual_chain/work/memit-checkpoint-1-restored.npz",
+      "sha256": "c0c24eff3d7e4616529a579ae7fb37d413cfa88f6dcda7920c85aad1454188c6",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_stale_B-undo-B-0-live.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-different_subjects-checkpoint_recompute_B-undo-B-0-live.npz",
+      "sha256": "71917d5d68147464a2c7a18ff5b56fc16c1787ce74fbc8e043c75d98862a6e4f",
+      "bytes": 9437450
+    },
+    {
+      "path": "results/20261110_selective_replay/work/rome-different_subjects-exact_rewind_stale_B-undo-B-0-restored.npz",
+      "shared_with": "results/20261110_selective_replay/work/rome-conflicting_targets-checkpoint_recompute_B-undo-A-0-live.npz",
+      "sha256": "820695e9fcffdfb2d3a8df965a83a304acab0e05e965afd86f1b0b4ef6900d97",
+      "bytes": 9437450
+    }
+  ]
+}

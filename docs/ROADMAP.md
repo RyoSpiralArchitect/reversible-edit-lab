@@ -23,8 +23,17 @@
    Exact rollback restores state in all six cases; actual target retrieval is
    mixed, and ordinary subtraction also hides the answer despite residual weight
    differences. Retain word-extension scoring failures and locality spillover.
-6. **Selective withdrawal and learning policy (planned):** evaluate dependent
-   update replay and acquisition-policy value independently of exact rollback.
+6. **Selective withdrawal (bounded dependency diagnostic completed):**
+   [Six actual-editor chains](../results/20261110_selective_replay_rerun/RESULTS.md)
+   separate rounding from later-update dependence. Exact rewind with stale B
+   matches the B-only state in 0/6; fresh B recomputation matches in 6/6.
+   Retained B target answers alone fail to expose that distinction.
+   [Prior-work positioning](PRIOR_WORK_20261110.md) explicitly credits reversible
+   learning, selective spectral reversal, SISA and lossless delta compression.
+7. **Verified partial replay and learning policy (planned):** test whether
+   necessary recomputation can be reduced with a checkable dependency condition;
+   evaluate acquisition-policy value independently. This is a research hypothesis,
+   not an established new algorithm or a qualified performance result.
 
 No real-model factual-editing, training-quality, or cross-device transport result
 is established by steps 1–2. Experimental changes are proposed in pull requests

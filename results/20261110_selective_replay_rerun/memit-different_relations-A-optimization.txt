@@ -1,0 +1,43 @@
+MEMIT request sample: [The native language of Charles Dickens is] -> [ French]
+Computing right vector (v)
+Lookup index found: 5 | Sentence: The native language of Charles Dickens is | Token:  Dickens
+Rewrite layer is 6
+Tying optimization objective to 11
+Recording initial value of v*
+loss 2.918 = 2.918 + 0.0 + 0.0 avg prob of [ French] 0.056544240564107895
+loss 1.919 = 1.918 + 0.001 + 0.001 avg prob of [ French] 0.15577156841754913
+loss 0.903 = 0.899 + 0.003 + 0.001 avg prob of [ French] 0.41724786162376404
+loss 0.239 = 0.23 + 0.008 + 0.001 avg prob of [ French] 0.7959637641906738
+loss 0.141 = 0.127 + 0.013 + 0.002 avg prob of [ French] 0.8811366558074951
+loss 0.124 = 0.106 + 0.016 + 0.002 avg prob of [ French] 0.8998420238494873
+loss 0.103 = 0.082 + 0.019 + 0.002 avg prob of [ French] 0.9216916561126709
+loss 0.083 = 0.06 + 0.021 + 0.002 avg prob of [ French] 0.9418624043464661
+loss 0.068 = 0.043 + 0.022 + 0.002 avg prob of [ French] 0.9578728675842285
+loss 0.057 = 0.031 + 0.023 + 0.003 avg prob of [ French] 0.9696956276893616
+loss 0.049 = 0.022 + 0.024 + 0.003 avg prob of [ French] 0.9780322909355164
+Init norm 114.71356964111328 | Delta norm 74.18515014648438 | Target norm 135.2710723876953
+
+
+LAYER 4
+
+Writing 1 key/value pair(s) into layer 4
+z error tensor(74.1852, grad_fn=<MeanBackward0>)
+orig norm tensor(139.7687)
+upd norm tensor(2.9214, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 5
+
+Writing 1 key/value pair(s) into layer 5
+z error tensor(55.7763, grad_fn=<MeanBackward0>)
+orig norm tensor(149.5333)
+upd norm tensor(3.0336, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+
+
+LAYER 6
+
+Writing 1 key/value pair(s) into layer 6
+z error tensor(33.9539, grad_fn=<MeanBackward0>)
+orig norm tensor(164.8545)
+upd norm tensor(3.9782, dtype=torch.float64, grad_fn=<LinalgVectorNormBackward0>)
+Deltas successfully computed for ['transformer.h.4.mlp.c_proj.weight', 'transformer.h.5.mlp.c_proj.weight', 'transformer.h.6.mlp.c_proj.weight']

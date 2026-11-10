@@ -1,0 +1,10 @@
+{
+  "source_commit": "a39ef7b5d6bd700ccceec2c1f856cf942738ae29",
+  "analysis_script_sha256": "03ab53cc4b4045372d66d6f79b42650826325161792a92c776550bec58891f13",
+  "results_sha256": "d4ee4ef3fa2eb2c8979b093d9d52f924d24b6eb176ffc8d343c991b3282a29b9",
+  "binaries_checked": 365,
+  "model_files_checked": 6,
+  "upstream_files_checked": 21,
+  "prior_incomplete_measurements_compared": 69,
+  "errors": []
+}
