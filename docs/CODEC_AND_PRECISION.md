@@ -29,6 +29,14 @@ published run; weights are not redistributed. Timings exclude disk I/O and
 worker startup. RSS is combined process high-water, not isolated codec memory.
 There is no throughput or end-to-end service latency claim.
 
+The published `run.json` records the parent Git revision and hashes of the
+working-tree sources used during measurement. Commit
+[`08b67430cd046ad17cba68545dffb2b191035fe3`](https://github.com/RyoSpiralArchitect/reversible-edit-lab/commit/08b67430cd046ad17cba68545dffb2b191035fe3)
+contains those exact hashed sources. The later review fix for empty zstd frame
+validation is a post-measurement change; the historical manifests and timings
+have been preserved and have not been rerun. The measured tensor records are
+nonempty and do not use the empty-frame decoding path.
+
 The CUDA probe runs stored real CPU-author factors on actual FP32/FP16/BF16
 storage, with FP32 factor products and accumulation before storage rounding.
 It restores the pre-edit stored bits, not discarded pre-cast FP32 information.

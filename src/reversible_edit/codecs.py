@@ -35,8 +35,19 @@ def decompress(payload: bytes, codec: str, expected: int) -> bytes:
             import zstandard
             if zstandard.frame_content_size(payload) != expected:
                 raise ValueError('Unexpected frame size')
-            raw = zstandard.ZstdDecompressor().decompress(
-                payload, max_output_size=expected + 1, allow_extra_data=False)
+            if expected == 0:
+                # The one-shot decoder skips validation for empty frames.
+                # Bound output and the native window before checking frame EOF.
+                with zstandard.ZstdDecompressor(max_window_size=1024).stream_reader(payload) as reader:
+                    if reader.read(1):
+                        raise ValueError('Unexpected frame output')
+                obj = zstandard.ZstdDecompressor(max_window_size=1024).decompressobj()
+                raw = obj.decompress(payload)
+                if not obj.eof or obj.unused_data:
+                    raise ValueError('Incomplete frame or trailing data')
+            else:
+                raw = zstandard.ZstdDecompressor().decompress(
+                    payload, max_output_size=expected + 1, allow_extra_data=False)
         elif codec == 'lz4':
             import lz4.frame
             if lz4.frame.get_frame_info(payload)['content_size'] != expected:

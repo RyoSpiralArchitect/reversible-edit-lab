@@ -22,4 +22,36 @@ class CodecTests(unittest.TestCase):
                 with self.assertRaises(ValueError):RoundoffPatch.from_bytes(blob[:-1])
                 with self.assertRaises(ValueError):RoundoffPatch.from_bytes(blob[:-1]+bytes([blob[-1]^1]))
 
+    def test_empty_frames_require_complete_single_frame(self):
+        self.assertEqual(decompress(b'', 'none', 0), b'')
+        for codec, module in [('zlib', None), ('zstd', 'zstandard'), ('lz4', 'lz4')]:
+            if module and importlib.util.find_spec(module) is None:
+                continue
+            encoded = compress(b'', codec)
+            with self.subTest(codec=codec, case='roundtrip'):
+                self.assertEqual(decompress(encoded, codec, 0), b'')
+            invalid = [encoded[:end] for end in range(len(encoded))]
+            invalid.extend([
+                encoded + b'x',
+                encoded + encoded,
+                encoded + compress(b'nonempty', codec),
+                encoded[:-1] + bytes([encoded[-1] ^ 1]),
+            ])
+            for index, payload in enumerate(invalid):
+                with self.subTest(codec=codec, case=index), self.assertRaises(ValueError):
+                    decompress(payload, codec, 0)
+
+    @unittest.skipUnless(importlib.util.find_spec('zstandard'), 'zstandard is optional')
+    def test_zstd_rejects_nonempty_frame_claiming_zero_size(self):
+        import zstandard
+
+        payload = bytearray(compress(b'x' * 32, 'zstd'))
+        # A small single-segment frame has a one-byte content size after its descriptor.
+        self.assertTrue(payload[4] & 0x20)
+        self.assertEqual(zstandard.frame_content_size(payload), 32)
+        payload[5] = 0
+        self.assertEqual(zstandard.frame_content_size(payload), 0)
+        with self.assertRaises(ValueError):
+            decompress(bytes(payload), 'zstd', 0)
+
 if __name__=='__main__':unittest.main()
