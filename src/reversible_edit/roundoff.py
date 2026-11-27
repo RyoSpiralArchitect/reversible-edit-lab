@@ -17,7 +17,7 @@ import hashlib
 import json
 import math
 import struct
-import zlib
+from .codecs import compress, decompress
 
 import numpy as np
 
@@ -139,7 +139,7 @@ class RoundoffPatch:
                 raise ValueError("Identity correction must be empty")
             if self.predicted_digest != self.target_digest:
                 raise ValueError("Identity correction digests differ")
-        elif self.encoding == "xor_zlib":
+        elif self.encoding in ("xor_zlib", "xor_zstd", "xor_lz4", "xor_none"):
             if self.index_width != 0 or not self.exact or self.budget_bytes is not None:
                 raise ValueError("Compressed XOR correction must be complete and unbudgeted")
         elif self.encoding == "sparse":
@@ -213,7 +213,7 @@ class RoundoffPatch:
 
 def make_roundoff_patch(original: np.ndarray, predicted_restore: np.ndarray,
                        precision: str, *, strategy: str = "xor_zlib",
-                       budget_bytes: int | None = None) -> RoundoffPatch:
+                       budget_bytes: int | None = None, level: int | None = None) -> RoundoffPatch:
     """Create an explicit old-state record at write time.
 
     Sparse selection keeps the largest absolute numerical errors, breaking ties
@@ -221,8 +221,8 @@ def make_roundoff_patch(original: np.ndarray, predicted_restore: np.ndarray,
     its metadata cost is still exposed by ``nbytes``. No budget is silently
     allocated to the dense inverse factors or other edit metadata.
     """
-    if strategy not in ("xor_zlib", "sparse"):
-        raise ValueError("strategy must be xor_zlib or sparse")
+    if strategy not in ("xor_zlib", "xor_zstd", "xor_lz4", "xor_none", "sparse"):
+        raise ValueError("Unsupported correction strategy")
     if strategy == "sparse":
         _nonnegative_integer(budget_bytes, "budget_bytes")
     elif budget_bytes is not None:
@@ -239,8 +239,8 @@ def make_roundoff_patch(original: np.ndarray, predicted_restore: np.ndarray,
         return RoundoffPatch(precision, shape, "identity", b"", 0, 0,
                              source_digest, target_digest, budget_bytes=budget_bytes)
     xor = np.bitwise_xor(original_bits, predicted_bits)
-    if strategy == "xor_zlib":
-        return RoundoffPatch(precision, shape, "xor_zlib", zlib.compress(xor.tobytes(), level=9),
+    if strategy.startswith("xor_"):
+        return RoundoffPatch(precision, shape, strategy, compress(xor.tobytes(), strategy[4:], level),
                              count, count, source_digest, target_digest)
     index_width = _index_width(original_bits.size)
     per_element = index_width + _WORD_BYTES[precision]
@@ -269,15 +269,8 @@ def apply_roundoff_patch(predicted_restore: np.ndarray, patch: RoundoffPatch) ->
     bits, shape = _logical_bits(predicted_restore, patch.precision)
     if shape != patch.shape or _digest(bits, patch.precision, shape) != patch.predicted_digest:
         raise ValueError("Predicted restore does not match the correction's state digest")
-    if patch.encoding == "xor_zlib":
-        expected = bits.nbytes
-        try:
-            decompressor = zlib.decompressobj()
-            raw = decompressor.decompress(patch.payload, expected + 1)
-        except zlib.error as error:
-            raise ValueError("Malformed compressed correction payload") from error
-        if len(raw) != expected or not decompressor.eof or decompressor.unconsumed_tail or decompressor.unused_data:
-            raise ValueError("Compressed correction has incorrect size or trailing data")
+    if patch.encoding.startswith("xor_"):
+        raw = decompress(patch.payload, patch.encoding[4:], bits.nbytes)
         xor = np.frombuffer(raw, dtype=f"<u{_WORD_BYTES[patch.precision]}")
         bits ^= xor
     elif patch.encoding == "sparse":
